@@ -1,0 +1,1 @@
+Run valid Linux shell commands. Ensure correct syntax, explicit paths, and valid operations. Commands can be strings or arrays. Validate file/directory existence before execution. Complex tasks may need multiple invocations. Examples: 'ls -1 /path/to/dir' or ['cp', 'source', 'destination'].

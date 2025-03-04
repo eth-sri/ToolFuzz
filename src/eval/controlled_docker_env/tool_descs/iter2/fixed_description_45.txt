@@ -1,0 +1,1 @@
+Execute Linux shell commands with explicit absolute paths. Avoid shorthand paths like '~'. Ensure commands are complete and structured. Validate paths and filesystem states by invoking the tool multiple times if necessary. Example: {'commands': 'ls /full/path/to/directory'}.

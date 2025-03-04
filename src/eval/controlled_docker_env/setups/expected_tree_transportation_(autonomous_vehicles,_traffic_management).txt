@@ -1,0 +1,67 @@
+├── 01_Research
+│   ├── Autonomous_Vehicles
+│   │   ├── AV_Research_Paper_1.pdf
+│   │   └── AV_Research_Paper_2.pdf
+│   └── Traffic_Management
+│       ├── TM_Research_Paper_1.pdf
+│       └── TM_Research_Paper_2.pdf
+├── 02_Projects
+│   ├── Autonomous_Vehicles
+│   │   ├── Project_A
+│   │   │   ├── Design
+│   │   │   │   ├── AV_Design_Document.docx
+│   │   │   │   └── AV_Design_Sketch.jpg
+│   │   │   ├── Implementation
+│   │   │   │   ├── AV_Code.zip
+│   │   │   │   └── AV_Test_Results.xlsx
+│   │   │   └── Reports
+│   │   │       ├── AV_Monthly_Report.pdf
+│   │   │       └── AV_Final_Report.pdf
+│   │   └── Project_B
+│   │       ├── Design
+│   │       │   ├── AV_Design_Document.docx
+│   │       │   └── AV_Design_Sketch.jpg
+│   │       ├── Implementation
+│   │       │   ├── AV_Code.zip
+│   │       │   └── AV_Test_Results.xlsx
+│   │       └── Reports
+│   │           ├── AV_Monthly_Report.pdf
+│   │           └── AV_Final_Report.pdf
+│   └── Traffic_Management
+│       ├── Project_A
+│       │   ├── Design
+│       │   │   ├── TM_Design_Document.docx
+│       │   │   └── TM_Design_Sketch.jpg
+│       │   ├── Implementation
+│       │   │   ├── TM_Code.zip
+│       │   │   └── TM_Test_Results.xlsx
+│       │   └── Reports
+│       │       ├── TM_Monthly_Report.pdf
+│       │       └── TM_Final_Report.pdf
+│       └── Project_B
+│           ├── Design
+│           │   ├── TM_Design_Document.docx
+│           │   └── TM_Design_Sketch.jpg
+│           ├── Implementation
+│           │   ├── TM_Code.zip
+│           │   └── TM_Test_Results.xlsx
+│           └── Reports
+│               ├── TM_Monthly_Report.pdf
+│               └── TM_Final_Report.pdf
+├── 03_Documents
+│   ├── Meeting_Notes
+│   │   ├── Meeting_Notes_1.docx
+│   │   └── Meeting_Notes_2.docx
+│   ├── Proposals
+│   │   ├── Proposal_1.docx
+│   │   └── Proposal_2.docx
+│   └── Specifications
+│       ├── Specification_1.docx
+│       └── Specification_2.docx
+└── 04_Resources
+    ├── Autonomous_Vehicles
+    │   ├── AV_Resource_1.pdf
+    │   └── AV_Resource_2.pdf
+    └── Traffic_Management
+        ├── TM_Resource_1.pdf
+        └── TM_Resource_2.pdf

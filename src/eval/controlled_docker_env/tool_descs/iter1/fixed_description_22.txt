@@ -1,0 +1,1 @@
+Execute valid shell commands on this Linux machine. Use full paths and valid syntax. Validate paths and ensure directories exist before executing. Commands should be tested incrementally to verify their effect on the file system. Example: {'commands': 'ls /path/to/directory'}.

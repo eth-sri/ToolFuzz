@@ -1,0 +1,1 @@
+Find and move all version 2 images to a 'Version2_Images' folder

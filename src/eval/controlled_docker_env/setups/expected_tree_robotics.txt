@@ -1,0 +1,62 @@
+├── 01_Research
+│   ├── 01_Papers
+│   │   ├── paper1.pdf
+│   │   └── paper2.pdf
+│   ├── 02_Patents
+│   │   ├── patent1.pdf
+│   │   └── patent2.pdf
+│   └── 03_References
+│       ├── reference1.pdf
+│       └── reference2.pdf
+├── 02_Design
+│   ├── 01_Concepts
+│   │   ├── concept1.jpg
+│   │   └── concept2.jpg
+│   ├── 02_CAD_Models
+│   │   ├── model1.dwg
+│   │   └── model2.dwg
+│   └── 03_Simulations
+│       ├── simulation1.mp4
+│       └── simulation2.mp4
+├── 03_Prototyping
+│   ├── 01_Prototype_Versions
+│   │   ├── prototype_v1
+│   │   │   ├── assembly_instructions.pdf
+│   │   │   ├── parts_list.xlsx
+│   │   │   └── test_results.pdf
+│   │   └── prototype_v2
+│   │       ├── assembly_instructions.pdf
+│   │       ├── parts_list.xlsx
+│   │       └── test_results.pdf
+│   └── 02_Tests
+│       ├── test1.mp4
+│       └── test2.mp4
+├── 04_Production
+│   ├── 01_Manufacturing_Plans
+│   │   ├── plan1.pdf
+│   │   └── plan2.pdf
+│   ├── 02_Assembly_Guides
+│   │   ├── guide1.pdf
+│   │   └── guide2.pdf
+│   └── 03_Quality_Control
+│       ├── qc_report1.pdf
+│       └── qc_report2.pdf
+├── 05_Documentation
+│   ├── 01_User_Manuals
+│   │   ├── manual1.pdf
+│   │   └── manual2.pdf
+│   ├── 02_Technical_Specs
+│   │   ├── spec1.pdf
+│   │   └── spec2.pdf
+│   └── 03_Maintenance_Guides
+│       ├── guide1.pdf
+│       └── guide2.pdf
+└── 06_Support
+    ├── 01_FAQs
+    │   └── faq.pdf
+    ├── 02_Troubleshooting_Guides
+    │   ├── guide1.pdf
+    │   └── guide2.pdf
+    └── 03_Software_Updates
+        ├── update1.zip
+        └── update2.zip

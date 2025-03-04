@@ -1,0 +1,21 @@
+environments:
+- ground_truth_directory: 
+    ./ground_truths/setup_social_media_and_digital_marketing/social_media_and_digital_marketing_1
+  prompt_file: ./prompts/social_media_and_digital_marketing/prompt1.txt
+  setup_file: ./setups/setup_social_media_and_digital_marketing.sh
+- ground_truth_directory: 
+    ./ground_truths/setup_social_media_and_digital_marketing/social_media_and_digital_marketing_4
+  prompt_file: ./prompts/social_media_and_digital_marketing/prompt4.txt
+  setup_file: ./setups/setup_social_media_and_digital_marketing.sh
+- ground_truth_directory: 
+    ./ground_truths/setup_social_media_and_digital_marketing/social_media_and_digital_marketing_0
+  prompt_file: ./prompts/social_media_and_digital_marketing/prompt0.txt
+  setup_file: ./setups/setup_social_media_and_digital_marketing.sh
+- ground_truth_directory: 
+    ./ground_truths/setup_social_media_and_digital_marketing/social_media_and_digital_marketing_3
+  prompt_file: ./prompts/social_media_and_digital_marketing/prompt3.txt
+  setup_file: ./setups/setup_social_media_and_digital_marketing.sh
+- ground_truth_directory: 
+    ./ground_truths/setup_social_media_and_digital_marketing/social_media_and_digital_marketing_2
+  prompt_file: ./prompts/social_media_and_digital_marketing/prompt2.txt
+  setup_file: ./setups/setup_social_media_and_digital_marketing.sh

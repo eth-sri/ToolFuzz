@@ -1,0 +1,21 @@
+environments:
+- ground_truth_directory: 
+    ./ground_truths/setup_graphic_design_and_animation/graphic_design_and_animation_1
+  prompt_file: ./prompts/graphic_design_and_animation/prompt1.txt
+  setup_file: ./setups/setup_graphic_design_and_animation.sh
+- ground_truth_directory: 
+    ./ground_truths/setup_graphic_design_and_animation/graphic_design_and_animation_4
+  prompt_file: ./prompts/graphic_design_and_animation/prompt4.txt
+  setup_file: ./setups/setup_graphic_design_and_animation.sh
+- ground_truth_directory: 
+    ./ground_truths/setup_graphic_design_and_animation/graphic_design_and_animation_0
+  prompt_file: ./prompts/graphic_design_and_animation/prompt0.txt
+  setup_file: ./setups/setup_graphic_design_and_animation.sh
+- ground_truth_directory: 
+    ./ground_truths/setup_graphic_design_and_animation/graphic_design_and_animation_3
+  prompt_file: ./prompts/graphic_design_and_animation/prompt3.txt
+  setup_file: ./setups/setup_graphic_design_and_animation.sh
+- ground_truth_directory: 
+    ./ground_truths/setup_graphic_design_and_animation/graphic_design_and_animation_2
+  prompt_file: ./prompts/graphic_design_and_animation/prompt2.txt
+  setup_file: ./setups/setup_graphic_design_and_animation.sh

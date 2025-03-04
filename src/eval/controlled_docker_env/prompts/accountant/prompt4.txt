@@ -1,0 +1,1 @@
+Can you identify and delete any invoice templates marked as 'basic' in the templates folder?

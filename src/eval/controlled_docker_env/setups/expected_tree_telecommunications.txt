@@ -1,0 +1,55 @@
+├── 01_Projects
+│   ├── 01_Project_A
+│   │   ├── 01_Design
+│   │   │   ├── network_design_v1.pdf
+│   │   │   └── network_design_v2.pdf
+│   │   ├── 02_Implementation
+│   │   │   ├── network_implementation_plan_v1.docx
+│   │   │   └── network_implementation_report_v1.docx
+│   │   ├── 03_Testing
+│   │   │   ├── network_testing_plan_v1.docx
+│   │   │   └── network_testing_report_v1.docx
+│   │   └── 04_Documentation
+│   │       ├── network_documentation_v1.docx
+│   │       └── network_documentation_v2.docx
+│   └── 02_Project_B
+│       ├── 01_Design
+│       │   ├── network_design_v1.pdf
+│       │   └── network_design_v2.pdf
+│       ├── 02_Implementation
+│       │   ├── network_implementation_plan_v1.docx
+│       │   └── network_implementation_report_v1.docx
+│       ├── 03_Testing
+│       │   ├── network_testing_plan_v1.docx
+│       │   └── network_testing_report_v1.docx
+│       └── 04_Documentation
+│           ├── network_documentation_v1.docx
+│           └── network_documentation_v2.docx
+├── 02_Templates
+│   ├── network_design_template.docx
+│   ├── network_implementation_plan_template.docx
+│   ├── network_testing_plan_template.docx
+│   └── network_documentation_template.docx
+├── 03_Standards
+│   ├── IEEE_Standards
+│   │   └── ieee_standard_802.11.pdf
+│   └── ITU_Standards
+│       └── itu_standard_X.690.pdf
+├── 04_Training
+│   ├── 01_Materials
+│   │   ├── network_design_training.pptx
+│   │   ├── network_implementation_training.pptx
+│   │   ├── network_testing_training.pptx
+│   │   └── network_documentation_training.pptx
+│   └── 02_Certifications
+│       ├── CCNA
+│       │   └── ccna_certification.pdf
+│       └── CCNP
+│           └── ccnp_certification.pdf
+└── 05_Resources
+    ├── 01_Manuals
+    │   ├── router_manual.pdf
+    │   └── switch_manual.pdf
+    └── 02_Tools
+        ├── network_diagram_tool.exe
+        └── network_simulation_tool.exe

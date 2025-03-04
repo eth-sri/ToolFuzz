@@ -1,0 +1,1 @@
+Copy the basic booking template to the archive templates folder

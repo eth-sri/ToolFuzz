@@ -1,0 +1,1 @@
+Run valid shell commands using absolute paths on this Linux machine. Commands must use precise syntax and specify complete file paths. Validate inputs for existing files and directories. Supported operations include file manipulation, directory listing, and disk usage checks. Invoke the tool multiple times to ensure file system state validation.

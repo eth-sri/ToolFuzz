@@ -1,0 +1,1 @@
+Execute valid shell commands on this Linux machine. Input must be a list of shell commands (JSON deserialized). Use absolute paths, distinguish files from directories, and ensure command syntax is correct. Invoke multiple times for validation.

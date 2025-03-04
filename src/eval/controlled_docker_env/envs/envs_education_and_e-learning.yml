@@ -1,0 +1,16 @@
+environments:
+- ground_truth_directory: ./ground_truths/setup_education_and_e-learning/education_and_e-learning_1
+  prompt_file: ./prompts/education_and_e-learning/prompt1.txt
+  setup_file: ./setups/setup_education_and_e-learning.sh
+- ground_truth_directory: ./ground_truths/setup_education_and_e-learning/education_and_e-learning_4
+  prompt_file: ./prompts/education_and_e-learning/prompt4.txt
+  setup_file: ./setups/setup_education_and_e-learning.sh
+- ground_truth_directory: ./ground_truths/setup_education_and_e-learning/education_and_e-learning_0
+  prompt_file: ./prompts/education_and_e-learning/prompt0.txt
+  setup_file: ./setups/setup_education_and_e-learning.sh
+- ground_truth_directory: ./ground_truths/setup_education_and_e-learning/education_and_e-learning_3
+  prompt_file: ./prompts/education_and_e-learning/prompt3.txt
+  setup_file: ./setups/setup_education_and_e-learning.sh
+- ground_truth_directory: ./ground_truths/setup_education_and_e-learning/education_and_e-learning_2
+  prompt_file: ./prompts/education_and_e-learning/prompt2.txt
+  setup_file: ./setups/setup_education_and_e-learning.sh

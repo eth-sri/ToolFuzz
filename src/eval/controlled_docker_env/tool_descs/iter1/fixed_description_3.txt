@@ -1,0 +1,1 @@
+Run shell commands on a Linux machine. Input a valid command as a string or array. Use precise file paths and distinguish files from directories. Confirm filesystem state before executing commands. Examples: 'ls /path/to/directory' or 'cp /source/file /destination/'. Invoke the tool multiple times if needed for validation.

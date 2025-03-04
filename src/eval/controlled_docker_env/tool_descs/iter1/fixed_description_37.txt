@@ -1,0 +1,1 @@
+Execute valid Linux shell commands with correct syntax and full file paths. Ensure input is a string or array of strings, formatted with json.loads. Run iteratively for filesystem validation. Examples: 'ls -al /path' or 'find /path -name "*.pdf"'.

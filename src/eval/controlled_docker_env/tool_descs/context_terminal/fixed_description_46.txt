@@ -1,0 +1,1 @@
+terminal: Execute shell commands on this Linux machine. Use valid, absolute paths and proper syntax. Commands must be strings or arrays of strings. Validate paths and command syntax. Invoke tool multiple times to ensure file system consistency. Example: {'commands': ['ls /path/to/directory']}

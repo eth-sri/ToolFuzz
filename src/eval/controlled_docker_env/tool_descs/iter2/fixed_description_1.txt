@@ -1,0 +1,1 @@
+Run shell commands using absolute paths. Ensure paths are correctly formatted, with spaces escaped. Commands must be syntactically valid and specific. Avoid using relative paths or ambiguous references. Tool can be invoked multiple times for thorough validation.

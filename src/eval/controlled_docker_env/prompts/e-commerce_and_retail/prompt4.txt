@@ -1,0 +1,1 @@
+Delete the review templates from the templates folder

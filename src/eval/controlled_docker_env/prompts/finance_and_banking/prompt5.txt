@@ -1,0 +1,1 @@
+Delete the 'standard_loan_agreement_template.docx' from the templates folder.

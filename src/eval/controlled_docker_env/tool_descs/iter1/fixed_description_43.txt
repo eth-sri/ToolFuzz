@@ -1,0 +1,1 @@
+Run valid shell commands on a Linux machine, ensuring correct syntax and existing paths. Commands should be tested individually for accuracy. Use absolute paths and validate file existence before execution. Invoke the tool multiple times to verify file system changes.

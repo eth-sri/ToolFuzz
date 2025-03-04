@@ -1,0 +1,1 @@
+Execute Linux shell commands with absolute paths and precise syntax. Specify full directory paths; avoid wildcards. Validate results iteratively for accurate file system state. E.g., 'ls /full/path/to/directory' or 'find /full/path -type f -name "*.pdf"'.

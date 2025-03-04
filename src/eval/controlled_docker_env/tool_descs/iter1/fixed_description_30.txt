@@ -1,0 +1,1 @@
+Run shell commands on this Linux machine. Use absolute paths and correct file or directory references. Validate paths exist before execution. Commands can be chained for complex tasks. Example: {'commands': ['ls /path/to/dir', 'cp source dest']}. Tool can be invoked multiple times to ensure file system accuracy.

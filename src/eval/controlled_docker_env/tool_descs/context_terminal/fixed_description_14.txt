@@ -1,0 +1,1 @@
+Execute valid shell commands on this Linux machine. Use absolute paths, avoid spaces and special characters. Ensure path existence. Commands should be valid shell syntax. For complex tasks, use multiple commands. Validate the file system state before and after execution.

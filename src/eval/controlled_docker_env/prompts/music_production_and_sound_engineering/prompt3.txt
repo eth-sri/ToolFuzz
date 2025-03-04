@@ -1,0 +1,1 @@
+Move the album cover to the Assets folder

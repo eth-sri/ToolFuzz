@@ -1,0 +1,21 @@
+environments:
+- ground_truth_directory: 
+    ./ground_truths/setup_human_resources_and_recruitment/human_resources_and_recruitment_1
+  prompt_file: ./prompts/human_resources_and_recruitment/prompt1.txt
+  setup_file: ./setups/setup_human_resources_and_recruitment.sh
+- ground_truth_directory: 
+    ./ground_truths/setup_human_resources_and_recruitment/human_resources_and_recruitment_4
+  prompt_file: ./prompts/human_resources_and_recruitment/prompt4.txt
+  setup_file: ./setups/setup_human_resources_and_recruitment.sh
+- ground_truth_directory: 
+    ./ground_truths/setup_human_resources_and_recruitment/human_resources_and_recruitment_0
+  prompt_file: ./prompts/human_resources_and_recruitment/prompt0.txt
+  setup_file: ./setups/setup_human_resources_and_recruitment.sh
+- ground_truth_directory: 
+    ./ground_truths/setup_human_resources_and_recruitment/human_resources_and_recruitment_3
+  prompt_file: ./prompts/human_resources_and_recruitment/prompt3.txt
+  setup_file: ./setups/setup_human_resources_and_recruitment.sh
+- ground_truth_directory: 
+    ./ground_truths/setup_human_resources_and_recruitment/human_resources_and_recruitment_2
+  prompt_file: ./prompts/human_resources_and_recruitment/prompt2.txt
+  setup_file: ./setups/setup_human_resources_and_recruitment.sh

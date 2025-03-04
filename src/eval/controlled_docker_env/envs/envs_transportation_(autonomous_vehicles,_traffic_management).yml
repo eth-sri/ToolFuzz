@@ -1,0 +1,21 @@
+environments:
+- ground_truth_directory: 
+    ./ground_truths/setup_transportation_(autonomous_vehicles,_traffic_management)/transportation_(autonomous_vehicles,_traffic_management)_1
+  prompt_file: ./prompts/transportation_(autonomous_vehicles,_traffic_management)/prompt1.txt
+  setup_file: ./setups/setup_transportation_(autonomous_vehicles,_traffic_management).sh
+- ground_truth_directory: 
+    ./ground_truths/setup_transportation_(autonomous_vehicles,_traffic_management)/transportation_(autonomous_vehicles,_traffic_management)_4
+  prompt_file: ./prompts/transportation_(autonomous_vehicles,_traffic_management)/prompt4.txt
+  setup_file: ./setups/setup_transportation_(autonomous_vehicles,_traffic_management).sh
+- ground_truth_directory: 
+    ./ground_truths/setup_transportation_(autonomous_vehicles,_traffic_management)/transportation_(autonomous_vehicles,_traffic_management)_0
+  prompt_file: ./prompts/transportation_(autonomous_vehicles,_traffic_management)/prompt0.txt
+  setup_file: ./setups/setup_transportation_(autonomous_vehicles,_traffic_management).sh
+- ground_truth_directory: 
+    ./ground_truths/setup_transportation_(autonomous_vehicles,_traffic_management)/transportation_(autonomous_vehicles,_traffic_management)_3
+  prompt_file: ./prompts/transportation_(autonomous_vehicles,_traffic_management)/prompt3.txt
+  setup_file: ./setups/setup_transportation_(autonomous_vehicles,_traffic_management).sh
+- ground_truth_directory: 
+    ./ground_truths/setup_transportation_(autonomous_vehicles,_traffic_management)/transportation_(autonomous_vehicles,_traffic_management)_2
+  prompt_file: ./prompts/transportation_(autonomous_vehicles,_traffic_management)/prompt2.txt
+  setup_file: ./setups/setup_transportation_(autonomous_vehicles,_traffic_management).sh

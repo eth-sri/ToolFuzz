@@ -1,0 +1,19 @@
+environments:
+- ground_truth_directory: ./ground_truths/setup_psychology_and_neuroscience/psychology_and_neuroscience_5
+  prompt_file: ./prompts/psychology_and_neuroscience/prompt5.txt
+  setup_file: ./setups/setup_psychology_and_neuroscience.sh
+- ground_truth_directory: ./ground_truths/setup_psychology_and_neuroscience/psychology_and_neuroscience_1
+  prompt_file: ./prompts/psychology_and_neuroscience/prompt1.txt
+  setup_file: ./setups/setup_psychology_and_neuroscience.sh
+- ground_truth_directory: ./ground_truths/setup_psychology_and_neuroscience/psychology_and_neuroscience_4
+  prompt_file: ./prompts/psychology_and_neuroscience/prompt4.txt
+  setup_file: ./setups/setup_psychology_and_neuroscience.sh
+- ground_truth_directory: ./ground_truths/setup_psychology_and_neuroscience/psychology_and_neuroscience_0
+  prompt_file: ./prompts/psychology_and_neuroscience/prompt0.txt
+  setup_file: ./setups/setup_psychology_and_neuroscience.sh
+- ground_truth_directory: ./ground_truths/setup_psychology_and_neuroscience/psychology_and_neuroscience_3
+  prompt_file: ./prompts/psychology_and_neuroscience/prompt3.txt
+  setup_file: ./setups/setup_psychology_and_neuroscience.sh
+- ground_truth_directory: ./ground_truths/setup_psychology_and_neuroscience/psychology_and_neuroscience_2
+  prompt_file: ./prompts/psychology_and_neuroscience/prompt2.txt
+  setup_file: ./setups/setup_psychology_and_neuroscience.sh

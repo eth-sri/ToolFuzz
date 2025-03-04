@@ -1,0 +1,1 @@
+Execute shell commands on a Linux machine. Input must be a JSON list of commands using absolute paths. Ensure command syntax is correct and fully specified. For accurate results, verify file paths and system states across multiple invocations.

@@ -1,0 +1,1 @@
+Delete the network simulation tool from the Tools folder

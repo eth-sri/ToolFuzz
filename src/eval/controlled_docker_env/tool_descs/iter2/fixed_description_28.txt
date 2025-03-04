@@ -1,0 +1,1 @@
+Execute specified shell commands using absolute paths on this Linux machine. Use explicit, complete paths and precise command syntax. Validate outcomes by invoking the tool multiple times if necessary. Example: {'commands': ['ls -l /absolute/path/to/file']}

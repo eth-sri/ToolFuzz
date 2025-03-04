@@ -1,0 +1,1 @@
+Copy the weather analysis report from 2023 to the Precision Farming Tools folder

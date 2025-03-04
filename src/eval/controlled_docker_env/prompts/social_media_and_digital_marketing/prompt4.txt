@@ -1,0 +1,1 @@
+Move all '.jpg' files from the 'Graphics' folder to the 'Stock_Images' folder

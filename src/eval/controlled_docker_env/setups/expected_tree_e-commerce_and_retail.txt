@@ -1,0 +1,116 @@
+├── archive
+│   ├── products
+│   │   ├── archived_product_A_2021.zip
+│   │   └── archived_product_B_2021.zip
+│   ├── sales
+│   │   ├── archived_annual_sales_2021.pdf
+│   │   └── archived_monthly_sales_2021.pdf
+│   └── templates
+│       ├── old_product_description_template.docx
+│       └── old_sales_report_template.xlsx
+├── products
+│   ├── product_A
+│   │   ├── 2023
+│   │   │   ├── product_description.pdf
+│   │   │   ├── product_images
+│   │   │   │   ├── image_001.jpg
+│   │   │   │   └── image_002.jpg
+│   │   │   ├── product_reviews
+│   │   │   │   ├── review_001.txt
+│   │   │   │   └── review_002.txt
+│   │   │   └── sales
+│   │   │       ├── Q1
+│   │   │       │   ├── sales_report.pdf
+│   │   │       │   └── sales_receipt.pdf
+│   │   │       ├── Q2
+│   │   │       │   ├── sales_report.pdf
+│   │   │       │   └── sales_receipt.pdf
+│   │   │       ├── Q3
+│   │   │       │   ├── sales_report.pdf
+│   │   │       │   └── sales_receipt.pdf
+│   │   │       └── Q4
+│   │   │           ├── sales_report.pdf
+│   │   │           └── sales_receipt.pdf
+│   │   └── 2024
+│   │       ├── product_description.pdf
+│   │       ├── product_images
+│   │       │   ├── image_001.jpg
+│   │       │   └── image_002.jpg
+│   │       ├── product_reviews
+│   │       │   ├── review_001.txt
+│   │       │   └── review_002.txt
+│   │       └── sales
+│   │           ├── Q1
+│   │           │   ├── sales_report.pdf
+│   │           │   └── sales_receipt.pdf
+│   │           ├── Q2
+│   │           │   ├── sales_report.pdf
+│   │           │   └── sales_receipt.pdf
+│   │           ├── Q3
+│   │           │   ├── sales_report.pdf
+│   │           │   └── sales_receipt.pdf
+│   │           └── Q4
+│   │               ├── sales_report.pdf
+│   │               └── sales_receipt.pdf
+│   └── product_B
+│       ├── 2023
+│       │   ├── product_description.pdf
+│       │   ├── product_images
+│       │   │   ├── image_001.jpg
+│       │   │   └── image_002.jpg
+│       │   ├── product_reviews
+│       │   │   ├── review_001.txt
+│       │   │   └── review_002.txt
+│       │   └── sales
+│       │       ├── Q1
+│       │       │   ├── sales_report.pdf
+│       │       │   └── sales_receipt.pdf
+│       │       ├── Q2
+│       │       │   ├── sales_report.pdf
+│       │       │   └── sales_receipt.pdf
+│       │       ├── Q3
+│       │       │   ├── sales_report.pdf
+│       │       │   └── sales_receipt.pdf
+│       │       └── Q4
+│       │           ├── sales_report.pdf
+│       │           └── sales_receipt.pdf
+│       └── 2024
+│           ├── product_description.pdf
+│           ├── product_images
+│           │   ├── image_001.jpg
+│           │   └── image_002.jpg
+│           ├── product_reviews
+│           │   ├── review_001.txt
+│           │   └── review_002.txt
+│           └── sales
+│               ├── Q1
+│               │   ├── sales_report.pdf
+│               │   └── sales_receipt.pdf
+│               ├── Q2
+│               │   ├── sales_report.pdf
+│               │   └── sales_receipt.pdf
+│               ├── Q3
+│               │   ├── sales_report.pdf
+│               │   └── sales_receipt.pdf
+│               └── Q4
+│                   ├── sales_report.pdf
+│                   └── sales_receipt.pdf
+├── reports
+│   ├── annual_reports
+│   │   └── annual_sales_report_2023.pdf
+│   ├── monthly_reports
+│   │   ├── february_2023_sales.pdf
+│   │   └── january_2023_sales.pdf
+│   └── quarterly_reports
+│       ├── Q1_sales_report_2023.pdf
+│       └── Q2_sales_report_2023.pdf
+└── templates
+   ├── product_description_templates
+   │   ├── advanced_product_description_template.docx
+   │   └── basic_product_description_template.docx
+   ├── sales_report_templates
+   │   ├── monthly_sales_report_template.xlsx
+   │   └── quarterly_sales_report_template.xlsx
+   └── review_templates
+       ├── customer_review_template.docx
+       └── professional_review_template.docx

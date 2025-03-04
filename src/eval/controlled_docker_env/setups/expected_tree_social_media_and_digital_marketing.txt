@@ -1,0 +1,49 @@
+├── 01_Strategy
+│   ├── 01_Market_Research
+│   │   ├── competitor_analysis.pdf
+│   │   └── target_audience_analysis.pdf
+│   ├── 02_Content_Strategy
+│   │   ├── content_calendar.xlsx
+│   │   └── content_plan.docx
+│   └── 03_Social_Media_Strategy
+│       ├── platform_strategy.pdf
+│       └── posting_schedule.xlsx
+├── 02_Creation
+│   ├── 01_Graphics
+│   │   ├── instagram_post.psd
+│   │   └── facebook_cover.jpg
+│   ├── 02_Videos
+│   │   ├── youtube_video.mp4
+│   │   └── instagram_story.mp4
+│   └── 03_Copywriting
+│       ├── blog_post.docx
+│       └── social_media_captions.docx
+├── 03_Analytics
+│   ├── 01_Performance_Reports
+│   │   ├── monthly_report.pdf
+│   │   └── annual_report.pdf
+│   └── 02_Audience_Insights
+│       ├── audience_demographics.pdf
+│       └── audience_interests.pdf
+├── 04_Campaigns
+│   ├── 01_Paid_Advertising
+│   │   ├── facebook_ads
+│   │   │   ├── ad_copy.docx
+│   │   │   └── ad_graphics.psd
+│   │   └── google_ads
+│   │       ├── ad_copy.docx
+│   │       └── ad_keywords.xlsx
+│   └── 02_Organic_Promotion
+│       ├── influencer_partnerships
+│       │   ├── influencer_contract.pdf
+│       │   └── influencer_brief.docx
+│       └── social_media_contests
+│           ├── contest_rules.pdf
+│           └── contest_graphics.psd
+└── 05_Assets
+    ├── 01_Branding
+    │   ├── logo.ai
+    │   └── brand_guidelines.pdf
+    └── 02_Stock_Images
+        ├── image1.jpg
+        └── image2.jpg

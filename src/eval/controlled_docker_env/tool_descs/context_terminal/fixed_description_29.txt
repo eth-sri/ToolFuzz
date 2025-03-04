@@ -1,0 +1,1 @@
+Execute Linux shell commands with precise syntax. Use absolute paths, escape spaces (e.g., 'ls /path/to/my\ folder'), and verify file states. For complex tasks, invoke commands in logical steps. Validate command structure and context to prevent errors. Examples: 'mv /source/path/file /destination/path/' or 'ls -1 /directory/'.

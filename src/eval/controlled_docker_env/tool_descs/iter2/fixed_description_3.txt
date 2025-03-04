@@ -1,0 +1,1 @@
+Execute precise shell commands on this Linux system. Provide complete, absolute file paths and valid command syntax. Avoid shorthand paths or ambiguous queries. Validate paths and file existence before executing. The tool allows multiple invocations for checking filesystem state. Example: {'commands': ['ls /full/path/to/directory']}.

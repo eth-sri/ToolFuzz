@@ -1,0 +1,1 @@
+Run shell commands with absolute paths and proper syntax. Avoid placeholders and relative paths. Validate command arguments and syntax. Use absolute paths for all files and directories. Example: {'commands': 'ls /absolute/path/to/directory'}. Invoke multiple times for state validation.

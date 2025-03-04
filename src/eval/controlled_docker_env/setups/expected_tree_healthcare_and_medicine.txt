@@ -1,0 +1,79 @@
+├── 01_Patient_Records
+│   ├── 01_Patient_A
+│   │   ├── 2021
+│   │   │   ├── Consultation_Notes
+│   │   │   │   ├── consultation_note_001.pdf
+│   │   │   │   └── consultation_note_002.pdf
+│   │   │   ├── Lab_Results
+│   │   │   │   ├── lab_result_001.pdf
+│   │   │   │   └── lab_result_002.pdf
+│   │   │   ├── Prescriptions
+│   │   │   │   ├── prescription_001.pdf
+│   │   │   │   └── prescription_002.pdf
+│   │   │   └── X_Rays
+│   │   │       ├── x_ray_001.jpg
+│   │   │       └── x_ray_002.jpg
+│   │   └── 2022
+│   │       ├── Consultation_Notes
+│   │       │   ├── consultation_note_001.pdf
+│   │       │   └── consultation_note_002.pdf
+│   │       ├── Lab_Results
+│   │       │   ├── lab_result_001.pdf
+│   │       │   └── lab_result_002.pdf
+│   │       ├── Prescriptions
+│   │       │   ├── prescription_001.pdf
+│   │       │   └── prescription_002.pdf
+│   │       └── X_Rays
+│   │           ├── x_ray_001.jpg
+│   │           └── x_ray_002.jpg
+│   └── 02_Patient_B
+│       ├── 2021
+│       │   ├── Consultation_Notes
+│       │   │   ├── consultation_note_001.pdf
+│       │   │   └── consultation_note_002.pdf
+│       │   ├── Lab_Results
+│       │   │   ├── lab_result_001.pdf
+│       │   │   └── lab_result_002.pdf
+│       │   ├── Prescriptions
+│       │   │   ├── prescription_001.pdf
+│       │   │   └── prescription_002.pdf
+│       │   └── X_Rays
+│       │       ├── x_ray_001.jpg
+│       │       └── x_ray_002.jpg
+│       └── 2022
+│           ├── Consultation_Notes
+│           │   ├── consultation_note_001.pdf
+│           │   └── consultation_note_002.pdf
+│           ├── Lab_Results
+│           │   ├── lab_result_001.pdf
+│           │   └── lab_result_002.pdf
+│           ├── Prescriptions
+│           │   ├── prescription_001.pdf
+│           │   └── prescription_002.pdf
+│           └── X_Rays
+│               ├── x_ray_001.jpg
+│               └── x_ray_002.jpg
+├── 02_Medical_Research
+│   ├── 01_Research_Papers
+│   │   ├── research_paper_001.pdf
+│   │   └── research_paper_002.pdf
+│   └── 02_Research_Data
+│       ├── research_data_001.csv
+│       └── research_data_002.csv
+├── 03_Clinical_Guidelines
+│   ├── 01_Disease_Management
+│   │   ├── diabetes_management.pdf
+│   │   └── hypertension_management.pdf
+│   └── 02_Surgical_Procedures
+│       ├── appendectomy_procedure.pdf
+│       └── cholecystectomy_procedure.pdf
+└── 04_Administrative
+    ├── 01_Staff_Rosters
+    │   ├── staff_roster_2021.xlsx
+    │   └── staff_roster_2022.xlsx
+    ├── 02_Meeting_Minutes
+    │   ├── meeting_minutes_2021.pdf
+    │   └── meeting_minutes_2022.pdf
+    └── 03_Policies_and_Procedures
+        ├── infection_control_policy.pdf
+        └── patient_privacy_policy.pdf

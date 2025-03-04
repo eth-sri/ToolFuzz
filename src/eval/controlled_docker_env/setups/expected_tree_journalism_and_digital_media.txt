@@ -1,0 +1,51 @@
+├── 01_Research
+│   ├── 01_Sources
+│   │   ├── source1.pdf
+│   │   └── source2.pdf
+│   ├── 02_Interviews
+│   │   ├── interview1.mp3
+│   │   └── interview2.mp3
+│   └── 03_Notes
+│       ├── notes1.docx
+│       └── notes2.docx
+├── 02_Writing
+│   ├── 01_Drafts
+│   │   ├── draft1.docx
+│   │   └── draft2.docx
+│   └── 02_Final_Articles
+│       ├── final_article1.docx
+│       └── final_article2.docx
+├── 03_Multimedia
+│   ├── 01_Photos
+│   │   ├── photo1.jpg
+│   │   └── photo2.jpg
+│   ├── 02_Videos
+│   │   ├── video1.mp4
+│   │   └── video2.mp4
+│   └── 03_Graphics
+│       ├── graphic1.png
+│       └── graphic2.png
+├── 04_Social_Media
+│   ├── 01_Tweets
+│   │   ├── tweet1.txt
+│   │   └── tweet2.txt
+│   ├── 02_Facebook_Posts
+│   │   ├── post1.txt
+│   │   └── post2.txt
+│   └── 03_Instagram_Posts
+│       ├── post1.jpg
+│       └── post2.jpg
+├── 05_Archive
+│   ├── 01_Old_Articles
+│   │   ├── old_article1.pdf
+│   │   └── old_article2.pdf
+│   ├── 02_Old_Photos
+│   │   ├── old_photo1.jpg
+│   │   └── old_photo2.jpg
+│   └── 03_Old_Videos
+│       ├── old_video1.mp4
+│       └── old_video2.mp4
+└── 06_Templates
+    ├── 01_Article_Template.docx
+    ├── 02_Interview_Template.docx
+    └── 03_Social_Media_Post_Template.docx

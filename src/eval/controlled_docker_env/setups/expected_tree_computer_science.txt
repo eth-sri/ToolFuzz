@@ -1,0 +1,51 @@
+├── 01_Projects
+│   ├── 01_ProjectA
+│   │   ├── 01_Code
+│   │   │   ├── main.py
+│   │   │   ├── utils.py
+│   │   │   └── tests
+│   │   │       ├── test_main.py
+│   │   │       └── test_utils.py
+│   │   ├── 02_Documentation
+│   │   │   └── README.md
+│   │   └── 03_Data
+│   │       ├── input
+│   │       │   └── data.csv
+│   │       └── output
+│   │           └── results.csv
+│   └── 02_ProjectB
+│       ├── 01_Code
+│       │   ├── main.py
+│       │   ├── utils.py
+│       │   └── tests
+│       │       ├── test_main.py
+│       │       └── test_utils.py
+│       ├── 02_Documentation
+│       │   └── README.md
+│       └── 03_Data
+│           ├── input
+│           │   └── data.csv
+│           └── output
+│               └── results.csv
+├── 02_Research
+│   ├── 01_Papers
+│   │   ├── paper1.pdf
+│   │   └── paper2.pdf
+│   └── 02_Notes
+│       └── research_notes.txt
+├── 03_Tools
+│   ├── 01_Scripts
+│   │   ├── data_cleaning.py
+│   │   └── data_visualization.py
+│   └── 02_Libraries
+│       ├── library1
+│       │   └── lib1.py
+│       └── library2
+│           └── lib2.py
+└── 04_Tutorials
+    ├── 01_Python
+    │   ├── python_basics.md
+    │   └── python_advanced.md
+    └── 02_Machine_Learning
+        ├── ml_basics.md
+        └── ml_advanced.md

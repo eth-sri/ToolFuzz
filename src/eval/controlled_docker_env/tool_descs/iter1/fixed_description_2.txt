@@ -1,0 +1,1 @@
+Terminal: Execute shell commands on this Linux machine. Use precise paths and specify if targeting files or directories. Validate commands with test runs. Example: 'ls /path/to/directory' or 'mv /source/file /destination/'. Tool can be invoked multiple times for accurate file system validation.

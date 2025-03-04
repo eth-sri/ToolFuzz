@@ -1,0 +1,52 @@
+[
+    {
+        "task": "Add a comment to an existing issue in the GitHub repository.",
+        "user_prompt": "I want to add a comment to issue number 42 in the repository to provide additional information.",
+        "code_snippet": "repo.add_comment(issue_number=42, comment='Here is some additional information about the issue.'); assert len(repo.list_comments(42)) == 1"
+    },
+    {
+        "task": "Add a comment to a specific issue in the GitHub repository.",
+        "user_prompt": "Please add a comment to issue number 42 in the repository stating 'This issue is being reviewed.'",
+        "code_snippet": "repo.add_comment(issue_number=42, comment='This issue is being reviewed.')\nassert len(repo.list_comments(42)) == 1"
+    },
+    {
+        "task": "Add a comment to a specific issue on a GitHub repository.",
+        "user_prompt": "I want to add a comment to issue number 42 in my GitHub repository. Please ensure that a comment is successfully added.",
+        "code_snippet": "repo.add_comment(issue_number=42, comment='This is a test comment.')\nassert len(repo.list_comments(issue_number=42)) == 1"
+    },
+    {
+        "task": "Add a comment to a specific issue in the GitHub repository.",
+        "user_prompt": "I need to add a comment to issue #42 in my GitHub repository. Can you help me with that?",
+        "code_snippet": "issue_number = 42\nrepo.add_comment(issue_number, 'This is a test comment.')\nassert len(repo.list_comments(issue_number)) == 1"
+    },
+    {
+        "task": "Fetch a list of all files in the 'src' directory of the GitHub repository.",
+        "user_prompt": "Please fetch a list of all files in the 'src' directory of our GitHub repository.",
+        "code_snippet": "files = tool.fetch_files_in_directory('src')\nassert isinstance(files, list) and all(isinstance(file, str) for file in files)"
+    },
+    {
+        "task": "Check if a specific file exists in the repository's 'src' directory.",
+        "user_prompt": "Please use the tool to fetch a list of all files in the 'src' directory and check if 'main.py' is present.",
+        "code_snippet": "files_in_src = tool.fetch_files('src')\nassert 'main.py' in files_in_src"
+    },
+    {
+        "task": "Add a comment to the issue number 5 in the GitHub repository",
+        "user_prompt": "I need to add a comment to the issue number 5 in my GitHub repository. Please help me with this task.",
+        "code_snippet": "repo.add_comment(issue_number=5, comment='This is a test comment.')\nassert len(repo.list_comments(issue_number=5)) == 1"
+    },
+    {
+        "task": "Add a new comment to an issue",
+        "user_prompt": "I would like to add a comment to issue number 5 in my GitHub repository. Please help me with this task.",
+        "code_snippet": "repo.add_comment(issue_number=5, comment='This is a new comment.')\nassert len(repo.list_comments(issue_number=5)) > 0"
+    },
+    {
+        "task": "Add a comment to a specific issue in the GitHub repository.",
+        "user_prompt": "Add a comment to issue number 42 stating that the bug is being investigated.",
+        "code_snippet": "repo.add_comment(42, 'The bug is being investigated.'); assert len(repo.list_comments(42)) == 1"
+    },
+    {
+        "task": "Add a comment to a specific issue in the GitHub repository.",
+        "user_prompt": "I need to add a comment to issue number 42 in my GitHub repository, mentioning that the bug has been fixed.",
+        "code_snippet": "issue_number = 42\ncomment_text = 'The bug has been fixed.'\nrepo.add_comment(issue_number, comment_text)\nassert len(repo.list_comments(issue_number)) > 0"
+    }
+]

@@ -1,0 +1,1 @@
+Run shell commands on this Linux machine using absolute paths only. Ensure commands are correctly formatted and validate paths. For example, 'find /absolute/path -type f'. Use multiple invocations for better validation of the file system state.

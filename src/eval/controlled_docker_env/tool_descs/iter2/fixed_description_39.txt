@@ -1,0 +1,1 @@
+Run precise shell commands on this Linux machine. Use absolute paths and explicit directory/file names. Avoid ambiguous references. Validate paths before execution. Supports multiple invocations for filesystem state checking. Examples: 'mv /path/to/source /path/to/destination', 'find /absolute/path -name '*.pdf''.

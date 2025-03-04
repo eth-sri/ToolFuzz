@@ -1,0 +1,1 @@
+Execute shell commands on Linux using absolute paths and valid file extensions. Ensure correct command syntax and verify paths exist. Commands must be JSON deserialized strings or arrays. Invoke multiple times for validation.

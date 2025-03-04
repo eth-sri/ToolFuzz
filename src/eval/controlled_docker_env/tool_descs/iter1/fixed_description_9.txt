@@ -1,0 +1,1 @@
+Execute valid shell commands on this Linux machine. Use absolute paths, differentiate between files and directories, and ensure correct syntax. Validate command effects on the file system state. Example: {'commands': 'ls /home/user/docs'}.

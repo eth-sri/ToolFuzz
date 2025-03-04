@@ -1,0 +1,1 @@
+Execute shell commands on this Linux machine. Ensure paths are correctly formatted, especially for names with spaces. Validate file existence before operations. Use absolute paths for accuracy. You can invoke the tool multiple times to validate file system state. Examples: {'commands': ['ls ProjectA/documentation']}, {'commands': ['cat "Field Data/soil_sample.csv"']}

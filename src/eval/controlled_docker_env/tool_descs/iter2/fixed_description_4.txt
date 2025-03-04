@@ -1,0 +1,1 @@
+Run shell commands on this Linux machine using absolute paths and valid syntax. Ensure paths are quoted if they contain spaces. Validate commands before execution. Commands can be executed multiple times to check filesystem changes. Examples: {'commands': 'ls -d /home/user/Documents/*/'} or {'commands': 'du -sh /home/user/Downloads'}.

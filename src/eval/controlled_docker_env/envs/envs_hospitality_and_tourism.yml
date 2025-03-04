@@ -1,0 +1,16 @@
+environments:
+- ground_truth_directory: ./ground_truths/setup_hospitality_and_tourism/hospitality_and_tourism_1
+  prompt_file: ./prompts/hospitality_and_tourism/prompt1.txt
+  setup_file: ./setups/setup_hospitality_and_tourism.sh
+- ground_truth_directory: ./ground_truths/setup_hospitality_and_tourism/hospitality_and_tourism_4
+  prompt_file: ./prompts/hospitality_and_tourism/prompt4.txt
+  setup_file: ./setups/setup_hospitality_and_tourism.sh
+- ground_truth_directory: ./ground_truths/setup_hospitality_and_tourism/hospitality_and_tourism_0
+  prompt_file: ./prompts/hospitality_and_tourism/prompt0.txt
+  setup_file: ./setups/setup_hospitality_and_tourism.sh
+- ground_truth_directory: ./ground_truths/setup_hospitality_and_tourism/hospitality_and_tourism_3
+  prompt_file: ./prompts/hospitality_and_tourism/prompt3.txt
+  setup_file: ./setups/setup_hospitality_and_tourism.sh
+- ground_truth_directory: ./ground_truths/setup_hospitality_and_tourism/hospitality_and_tourism_2
+  prompt_file: ./prompts/hospitality_and_tourism/prompt2.txt
+  setup_file: ./setups/setup_hospitality_and_tourism.sh

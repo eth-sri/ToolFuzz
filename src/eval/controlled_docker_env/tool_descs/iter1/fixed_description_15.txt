@@ -1,0 +1,1 @@
+Run shell commands on a Linux machine. Use absolute paths and correct syntax. Ensure command intent aligns with file/directory structures. Validate commands before execution. Can be invoked repeatedly for system state verification. Examples: 'ls /path/to/directory', 'chmod 755 /path/to/file'.

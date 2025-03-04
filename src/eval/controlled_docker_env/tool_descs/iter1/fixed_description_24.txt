@@ -1,0 +1,1 @@
+Execute shell commands with precise syntax on this Linux machine. Ensure file paths are complete and commands are syntactically correct. Validate paths and command structures. Use multiple invocations for accurate file system checks. Examples: 'zip -r path/to.zip path/to/files/*', 'find /path -type f -name "*.pdf"'.

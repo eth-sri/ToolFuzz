@@ -1,0 +1,1 @@
+Execute shell commands with absolute paths on this Linux machine. Use valid syntax for commands like 'mv', 'ls', 'find'. Ensure paths exist and are correct. Commands should be clear and specific. For complex tasks, consider multiple command invocations.

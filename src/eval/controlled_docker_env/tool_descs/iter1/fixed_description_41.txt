@@ -1,0 +1,1 @@
+Run valid shell commands on this Linux machine. Ensure paths are absolute and accurately specify files or directories. Check path existence and invoke the tool multiple times for consistent state validation. Examples: 'ls /path/to/directory', 'stat /path/to/file'.

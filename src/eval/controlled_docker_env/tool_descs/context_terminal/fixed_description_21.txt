@@ -1,0 +1,1 @@
+This tool executes shell commands on a Linux machine. Input must be JSON-formatted strings or arrays specifying valid shell commands with clear paths. Validate paths and commands before execution. Commands must strictly follow shell syntax. Example: {'commands': 'ls /valid/path'}. Multiple invocations allowed for state validation.

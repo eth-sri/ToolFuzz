@@ -1,0 +1,1 @@
+Run shell commands on this Linux machine. Use absolute paths, validate command syntax, and ensure file/directory names are accurate. Commands can be invoked multiple times for validation. Examples: 'ls /path/to/directory', 'find /path -name "*.pdf"'.

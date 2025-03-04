@@ -1,0 +1,1 @@
+terminal: Execute shell commands on Linux. Commands should be in string format, using correct path syntax and quoting spaces. Validate paths and file existence. Split complex tasks into multiple commands for clarity. Example: {'commands': ['ls /path/to/directory', 'cat /path/to/file']}

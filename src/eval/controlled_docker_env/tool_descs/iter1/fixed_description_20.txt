@@ -1,0 +1,1 @@
+Run specific shell commands on this Linux machine. Ensure commands have full paths and specific filenames. Verify syntax and paths beforehand. Can be invoked multiple times for better validation of file system state. Examples: 'ls /path/to/directory', 'cp /source/file /destination/'.

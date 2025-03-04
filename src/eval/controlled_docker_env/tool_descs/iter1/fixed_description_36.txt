@@ -1,0 +1,1 @@
+Run valid shell commands on this Linux system by providing a JSON list of commands. Ensure correct syntax and paths. Use clear prompts, validate paths, and check file types in advance. Invoke the tool multiple times for accurate file system validation.

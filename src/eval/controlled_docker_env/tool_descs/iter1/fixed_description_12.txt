@@ -1,0 +1,1 @@
+Run Linux shell commands. Input must be a valid command string or array. Ensure file/directory paths exist, and use precise syntax (e.g., sizes in MB). Validate paths and rerun commands for state confirmation. Avoid complex nested structures.

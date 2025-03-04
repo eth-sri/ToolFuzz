@@ -1,0 +1,1 @@
+Terminal: Execute validated shell commands on this Linux machine. Input commands as a JSON array or string. Ensure correct syntax, valid file paths, and commands. Validate paths before use. Multiple invocations allowed for state checks. Examples: {'commands': 'ls /valid/path'}, {'commands': ['mv source dest']}

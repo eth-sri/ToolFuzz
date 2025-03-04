@@ -1,0 +1,5 @@
+./envs/envs_agriculture_and_precision_farming.yml
+./envs/envs_biotechnology.yml
+./envs/envs_computer_science.yml
+./envs/envs_construction_and_architecture.yml
+./envs/envs_cybersecurity.yml

@@ -1,0 +1,1 @@
+terminal: Execute precise shell commands on this Linux machine. Use absolute paths or clear relative paths. Ensure command syntax aligns with shell conventions. Avoid vague references; specify exact paths. Example: 'find /path/to/directory -type f -name "*.pdf"'. Multiple executions can ensure filesystem accuracy.

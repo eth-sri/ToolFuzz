@@ -1,0 +1,1 @@
+Execute shell commands with absolute paths and precise syntax. Ensure all paths are fully specified and commands are correctly formatted. Validate file system state by invoking the tool multiple times if needed. Example: 'Find all PDF files in /full/path/to/directory'.

@@ -1,0 +1,1 @@
+Delete the database1 from the resources folder

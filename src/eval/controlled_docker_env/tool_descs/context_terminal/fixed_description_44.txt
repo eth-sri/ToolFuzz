@@ -1,0 +1,1 @@
+Terminal: Execute shell commands on this Linux machine. Commands must be strings or arrays of strings. Use absolute paths for clarity. Enclose paths with spaces in quotes. Verify syntax: `grep`, `cat`, `mv`, `ls`, `cp`, `rm` require correct path inputs. Run iteratively for filesystem validation. Examples: `ls 'ProjectA/docs'`, `mv 'old name' 'new_name'`.

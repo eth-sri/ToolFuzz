@@ -1,0 +1,16 @@
+environments:
+- ground_truth_directory: ./ground_truths/setup_environmental_science/environmental_science_1
+  prompt_file: ./prompts/environmental_science/prompt1.txt
+  setup_file: ./setups/setup_environmental_science.sh
+- ground_truth_directory: ./ground_truths/setup_environmental_science/environmental_science_4
+  prompt_file: ./prompts/environmental_science/prompt4.txt
+  setup_file: ./setups/setup_environmental_science.sh
+- ground_truth_directory: ./ground_truths/setup_environmental_science/environmental_science_0
+  prompt_file: ./prompts/environmental_science/prompt0.txt
+  setup_file: ./setups/setup_environmental_science.sh
+- ground_truth_directory: ./ground_truths/setup_environmental_science/environmental_science_3
+  prompt_file: ./prompts/environmental_science/prompt3.txt
+  setup_file: ./setups/setup_environmental_science.sh
+- ground_truth_directory: ./ground_truths/setup_environmental_science/environmental_science_2
+  prompt_file: ./prompts/environmental_science/prompt2.txt
+  setup_file: ./setups/setup_environmental_science.sh

@@ -1,0 +1,124 @@
+├── archive
+│   ├── properties
+│   │   ├── archived_property_A_2021.zip
+│   │   └── archived_property_B_2021.zip
+│   ├── contracts
+│   │   ├── archived_contract_A_2021.pdf
+│   │   └── archived_contract_B_2021.pdf
+│   └── templates
+│       ├── old_lease_agreement_template.docx
+│       └── old_purchase_agreement_template.docx
+├── properties
+│   ├── property_A
+│   │   ├── 2023
+│   │   │   ├── property_details
+│   │   │   │   ├── property_description.pdf
+│   │   │   │   └── property_images.pdf
+│   │   │   ├── contracts
+│   │   │   │   ├── lease_agreement.pdf
+│   │   │   │   └── purchase_agreement.pdf
+│   │   │   ├── inspections
+│   │   │   │   ├── inspection_report_feb.csv
+│   │   │   │   └── inspection_report_jan.csv
+│   │   │   └── tax
+│   │   │       ├── Q1
+│   │   │       │   ├── tax_filing.pdf
+│   │   │       │   └── tax_receipt.pdf
+│   │   │       ├── Q2
+│   │   │       │   ├── tax_filing.pdf
+│   │   │       │   └── tax_receipt.pdf
+│   │   │       ├── Q3
+│   │   │       │   ├── tax_filing.pdf
+│   │   │       │   └── tax_receipt.pdf
+│   │   │       └── Q4
+│   │   │           ├── tax_filing.pdf
+│   │   │           └── tax_receipt.pdf
+│   │   └── 2024
+│   │       ├── property_details
+│   │       │   ├── property_description.pdf
+│   │       │   └── property_images.pdf
+│   │       ├── contracts
+│   │       │   ├── lease_agreement.pdf
+│   │       │   └── purchase_agreement.pdf
+│   │       ├── inspections
+│   │       │   ├── inspection_report_feb.csv
+│   │       │   └── inspection_report_jan.csv
+│   │       └── tax
+│   │           ├── Q1
+│   │           │   ├── tax_filing.pdf
+│   │           │   └── tax_receipt.pdf
+│   │           ├── Q2
+│   │           │   ├── tax_filing.pdf
+│   │           │   └── tax_receipt.pdf
+│   │           ├── Q3
+│   │           │   ├── tax_filing.pdf
+│   │           │   └── tax_receipt.pdf
+│   │           └── Q4
+│   │               ├── tax_filing.pdf
+│   │               └── tax_receipt.pdf
+│   └── property_B
+│       ├── 2023
+│       │   ├── property_details
+│       │   │   ├── property_description.pdf
+│       │   │   └── property_images.pdf
+│       │   ├── contracts
+│       │   │   ├── lease_agreement.pdf
+│       │   │   └── purchase_agreement.pdf
+│       │   ├── inspections
+│       │   │   ├── inspection_report_feb.csv
+│       │   │   └── inspection_report_jan.csv
+│       │   └── tax
+│       │       ├── Q1
+│       │       │   ├── tax_filing.pdf
+│       │       │   └── tax_receipt.pdf
+│       │       ├── Q2
+│       │       │   ├── tax_filing.pdf
+│       │       │   └── tax_receipt.pdf
+│       │       ├── Q3
+│       │       │   ├── tax_filing.pdf
+│       │       │   └── tax_receipt.pdf
+│       │       └── Q4
+│       │           ├── tax_filing.pdf
+│       │           └── tax_receipt.pdf
+│       └── 2024
+│           ├── property_details
+│           │   ├── property_description.pdf
+│           │   └── property_images.pdf
+│           ├── contracts
+│           │   ├── lease_agreement.pdf
+│           │   └── purchase_agreement.pdf
+│           ├── inspections
+│           │   ├── inspection_report_feb.csv
+│           │   └── inspection_report_jan.csv
+│           └── tax
+│               ├── Q1
+│               │   ├── tax_filing.pdf
+│               │   └── tax_receipt.pdf
+│               ├── Q2
+│               │   ├── tax_filing.pdf
+│               │   └── tax_receipt.pdf
+│               ├── Q3
+│               │   ├── tax_filing.pdf
+│               │   └── tax_receipt.pdf
+│               └── Q4
+│                   ├── tax_filing.pdf
+│                   └── tax_receipt.pdf
+├── reports
+│   ├── annual_reports
+│   │   └── annual_report_2023.pdf
+│   ├── monthly_reports
+│   │   ├── february_2023.pdf
+│   │   └── january_2023.pdf
+│   └── quarterly_reports
+│       ├── Q1_report_2023.pdf
+│       └── Q2_report_2023.pdf
+└── templates
+   ├── contract_templates
+   │   ├── lease_agreement_template.docx
+   │   └── purchase_agreement_template.docx
+   ├── inspection_templates
+   │   ├── monthly_inspection_template.xlsx
+   │   └── annual_inspection_template.xlsx
+   └── tax_templates
+       ├── property_tax_template.docx
+       └── income_tax_template.docx

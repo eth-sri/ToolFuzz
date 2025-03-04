@@ -1,0 +1,1 @@
+Run shell commands on this Linux machine. Provide a list of valid, well-formatted shell commands with absolute paths. Handle spaces and special characters with quotes or escapes. Validate paths and command syntax before execution. Multiple invocations can check file system changes. Examples: {'commands': 'ls -1 /absolute/path'}, {'commands': 'mv "/path/to/file" "/new/path"'}.

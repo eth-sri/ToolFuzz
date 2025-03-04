@@ -1,0 +1,21 @@
+environments:
+- ground_truth_directory: 
+    ./ground_truths/setup_pharmaceuticals_and_drug_development/pharmaceuticals_and_drug_development_1
+  prompt_file: ./prompts/pharmaceuticals_and_drug_development/prompt1.txt
+  setup_file: ./setups/setup_pharmaceuticals_and_drug_development.sh
+- ground_truth_directory: 
+    ./ground_truths/setup_pharmaceuticals_and_drug_development/pharmaceuticals_and_drug_development_4
+  prompt_file: ./prompts/pharmaceuticals_and_drug_development/prompt4.txt
+  setup_file: ./setups/setup_pharmaceuticals_and_drug_development.sh
+- ground_truth_directory: 
+    ./ground_truths/setup_pharmaceuticals_and_drug_development/pharmaceuticals_and_drug_development_0
+  prompt_file: ./prompts/pharmaceuticals_and_drug_development/prompt0.txt
+  setup_file: ./setups/setup_pharmaceuticals_and_drug_development.sh
+- ground_truth_directory: 
+    ./ground_truths/setup_pharmaceuticals_and_drug_development/pharmaceuticals_and_drug_development_3
+  prompt_file: ./prompts/pharmaceuticals_and_drug_development/prompt3.txt
+  setup_file: ./setups/setup_pharmaceuticals_and_drug_development.sh
+- ground_truth_directory: 
+    ./ground_truths/setup_pharmaceuticals_and_drug_development/pharmaceuticals_and_drug_development_2
+  prompt_file: ./prompts/pharmaceuticals_and_drug_development/prompt2.txt
+  setup_file: ./setups/setup_pharmaceuticals_and_drug_development.sh

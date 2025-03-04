@@ -1,0 +1,1 @@
+Move the short term forecasts to the current folder

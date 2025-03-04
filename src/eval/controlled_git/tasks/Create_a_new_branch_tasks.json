@@ -1,0 +1,52 @@
+[
+    {
+        "task": "Create a new branch for implementing a new feature.",
+        "user_prompt": "Create a new branch called 'feature/new-payment-gateway' in the repository.",
+        "code_snippet": "initial_branches = set(repo.list_branches())\nexpected_branch = 'feature/new-payment-gateway'\nassert expected_branch in repo.list_branches() - initial_branches"
+    },
+    {
+        "task": "Create a new branch in the GitHub repository",
+        "user_prompt": "Create a new branch called 'feature-update' in the repository.",
+        "code_snippet": "assert 'feature-update' in repo.list_branches()"
+    },
+    {
+        "task": "Create a new branch in the GitHub repository for a new feature development.",
+        "user_prompt": "I need to create a new branch called 'feature/add-login' in the GitHub repository to start working on the new login feature.",
+        "code_snippet": "assert 'feature/add-login' in repo.list_branches()"
+    },
+    {
+        "task": "Create a new branch in the GitHub repository",
+        "user_prompt": "I would like to create a new branch named 'feature-update' in my GitHub repository.",
+        "code_snippet": "tool.create_new_branch('feature-update')\nassert 'feature-update' in repo.list_branches()"
+    },
+    {
+        "task": "Create a new branch in the GitHub repository.",
+        "user_prompt": "I need to create a new branch called 'feature/new-feature' in my GitHub repository. Can you help me with that?",
+        "code_snippet": "new_branch_name = 'feature/new-feature'\nrepo.create_branch(new_branch_name)\nassert new_branch_name in repo.list_branches()"
+    },
+    {
+        "task": "Create a new branch in the GitHub repository",
+        "user_prompt": "Please create a new branch named 'feature/new-ui' in the GitHub repository.",
+        "code_snippet": "repo.create_branch('feature/new-ui')\nassert 'feature/new-ui' in repo.list_branches()"
+    },
+    {
+        "task": "Create a new branch in the repository",
+        "user_prompt": "I need to create a new branch called 'feature/add-login' in my GitHub repository.",
+        "code_snippet": "repo.create_branch('feature/add-login')\nassert 'feature/add-login' in repo.list_branches()"
+    },
+    {
+        "task": "Create a new branch in the GitHub repository.",
+        "user_prompt": "Please create a new branch named 'feature/update-readme' in the repository.",
+        "code_snippet": "assert 'feature/update-readme' in repo.list_branches()"
+    },
+    {
+        "task": "Create a new branch in the GitHub repository",
+        "user_prompt": "Please create a new branch named 'feature-update' in the GitHub repository.",
+        "code_snippet": "assert 'feature-update' in repo.list_branches()"
+    },
+    {
+        "task": "Create a new branch in the GitHub repository",
+        "user_prompt": "Please create a new feature branch named 'feature/add-login-functionality' in the repository.",
+        "code_snippet": "new_branch_name = 'feature/add-login-functionality'\nrepo.create_branch(new_branch_name)\nassert new_branch_name in repo.list_branches()"
+    }
+]

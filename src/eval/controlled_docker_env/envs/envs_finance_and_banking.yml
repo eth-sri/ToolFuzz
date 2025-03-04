@@ -1,0 +1,25 @@
+environments:
+- ground_truth_directory: ./ground_truths/setup_finance_and_banking/finance_and_banking_5
+  prompt_file: ./prompts/finance_and_banking/prompt5.txt
+  setup_file: ./setups/setup_finance_and_banking.sh
+- ground_truth_directory: ./ground_truths/setup_finance_and_banking/finance_and_banking_1
+  prompt_file: ./prompts/finance_and_banking/prompt1.txt
+  setup_file: ./setups/setup_finance_and_banking.sh
+- ground_truth_directory: ./ground_truths/setup_finance_and_banking/finance_and_banking_4
+  prompt_file: ./prompts/finance_and_banking/prompt4.txt
+  setup_file: ./setups/setup_finance_and_banking.sh
+- ground_truth_directory: ./ground_truths/setup_finance_and_banking/finance_and_banking_0
+  prompt_file: ./prompts/finance_and_banking/prompt0.txt
+  setup_file: ./setups/setup_finance_and_banking.sh
+- ground_truth_directory: ./ground_truths/setup_finance_and_banking/finance_and_banking_6
+  prompt_file: ./prompts/finance_and_banking/prompt6.txt
+  setup_file: ./setups/setup_finance_and_banking.sh
+- ground_truth_directory: ./ground_truths/setup_finance_and_banking/finance_and_banking_3
+  prompt_file: ./prompts/finance_and_banking/prompt3.txt
+  setup_file: ./setups/setup_finance_and_banking.sh
+- ground_truth_directory: ./ground_truths/setup_finance_and_banking/finance_and_banking_7
+  prompt_file: ./prompts/finance_and_banking/prompt7.txt
+  setup_file: ./setups/setup_finance_and_banking.sh
+- ground_truth_directory: ./ground_truths/setup_finance_and_banking/finance_and_banking_2
+  prompt_file: ./prompts/finance_and_banking/prompt2.txt
+  setup_file: ./setups/setup_finance_and_banking.sh

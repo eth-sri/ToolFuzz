@@ -1,0 +1,1 @@
+Run valid shell commands on this Linux machine. Ensure paths and syntax are correct, and verify file system state. Supports iterative validation. Examples: 'ls /path/to/dir', 'cp /source/file /destination/'. Avoid incorrect paths or command misuse.

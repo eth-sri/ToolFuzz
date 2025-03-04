@@ -1,0 +1,1 @@
+Move the 'content_calendar.xlsx' file to the 'Social_Media_Strategy' folder

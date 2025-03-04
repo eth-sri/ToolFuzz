@@ -1,0 +1,1 @@
+Run shell commands on this Linux machine using absolute paths for files and directories. Ensure command syntax matches shell standards, specifying exact files or directories. Avoid ambiguous language. Tool can be invoked multiple times for accurate file system validation. Examples: 'find /path/to/directory -type f -name "*.pdf"', 'mv /path/to/file /new/location/'.

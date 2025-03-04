@@ -1,0 +1,1 @@
+This tool executes shell commands on a Linux machine. Provide valid commands with explicit paths. Use absolute paths and quotes for names with spaces. Validate paths and syntax before execution. Invoke multiple times to ensure file system state consistency. Example: {'commands': ['mv /src/file /dst/file']}

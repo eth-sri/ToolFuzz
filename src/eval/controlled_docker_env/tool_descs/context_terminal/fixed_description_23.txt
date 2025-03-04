@@ -1,0 +1,1 @@
+Terminal: Execute shell commands on this Linux machine. Use valid and precise paths and filenames. Commands must match the actual directory structure and file names. Validate by testing commands in a safe environment. Can be used multiple times for checking file system state.

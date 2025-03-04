@@ -1,0 +1,1 @@
+Terminal: Execute shell commands on this Linux machine. Use absolute paths and precise file names. Commands must follow shell syntax and be JSON-deserialized. Validate paths and file existence before execution. Can be invoked multiple times for checking file system state. E.g., 'mv /abs/path/file1 /abs/path/renamed_file'.

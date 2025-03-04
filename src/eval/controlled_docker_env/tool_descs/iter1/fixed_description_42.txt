@@ -1,0 +1,1 @@
+Execute valid shell commands on this Linux machine with absolute file paths. Ensure commands are syntactically correct, paths exist, and files are not confused with directories. Validate commands and verify file states before multiple invocations. Example: 'mv /source/file /destination/dir/'

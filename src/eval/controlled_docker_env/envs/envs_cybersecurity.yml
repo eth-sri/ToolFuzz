@@ -1,0 +1,19 @@
+environments:
+- ground_truth_directory: ./ground_truths/setup_cybersecurity/cybersecurity_5
+  prompt_file: ./prompts/cybersecurity/prompt5.txt
+  setup_file: ./setups/setup_cybersecurity.sh
+- ground_truth_directory: ./ground_truths/setup_cybersecurity/cybersecurity_1
+  prompt_file: ./prompts/cybersecurity/prompt1.txt
+  setup_file: ./setups/setup_cybersecurity.sh
+- ground_truth_directory: ./ground_truths/setup_cybersecurity/cybersecurity_4
+  prompt_file: ./prompts/cybersecurity/prompt4.txt
+  setup_file: ./setups/setup_cybersecurity.sh
+- ground_truth_directory: ./ground_truths/setup_cybersecurity/cybersecurity_0
+  prompt_file: ./prompts/cybersecurity/prompt0.txt
+  setup_file: ./setups/setup_cybersecurity.sh
+- ground_truth_directory: ./ground_truths/setup_cybersecurity/cybersecurity_3
+  prompt_file: ./prompts/cybersecurity/prompt3.txt
+  setup_file: ./setups/setup_cybersecurity.sh
+- ground_truth_directory: ./ground_truths/setup_cybersecurity/cybersecurity_2
+  prompt_file: ./prompts/cybersecurity/prompt2.txt
+  setup_file: ./setups/setup_cybersecurity.sh

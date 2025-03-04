@@ -1,0 +1,41 @@
+environments:
+- ground_truth_directory: 
+    ./ground_truths/setup_music_production_and_sound_engineering/music_production_and_sound_engineering_5
+  prompt_file: ./prompts/music_production_and_sound_engineering/prompt5.txt
+  setup_file: ./setups/setup_music_production_and_sound_engineering.sh
+- ground_truth_directory: 
+    ./ground_truths/setup_music_production_and_sound_engineering/music_production_and_sound_engineering_8
+  prompt_file: ./prompts/music_production_and_sound_engineering/prompt8.txt
+  setup_file: ./setups/setup_music_production_and_sound_engineering.sh
+- ground_truth_directory: 
+    ./ground_truths/setup_music_production_and_sound_engineering/music_production_and_sound_engineering_1
+  prompt_file: ./prompts/music_production_and_sound_engineering/prompt1.txt
+  setup_file: ./setups/setup_music_production_and_sound_engineering.sh
+- ground_truth_directory: 
+    ./ground_truths/setup_music_production_and_sound_engineering/music_production_and_sound_engineering_4
+  prompt_file: ./prompts/music_production_and_sound_engineering/prompt4.txt
+  setup_file: ./setups/setup_music_production_and_sound_engineering.sh
+- ground_truth_directory: 
+    ./ground_truths/setup_music_production_and_sound_engineering/music_production_and_sound_engineering_9
+  prompt_file: ./prompts/music_production_and_sound_engineering/prompt9.txt
+  setup_file: ./setups/setup_music_production_and_sound_engineering.sh
+- ground_truth_directory: 
+    ./ground_truths/setup_music_production_and_sound_engineering/music_production_and_sound_engineering_0
+  prompt_file: ./prompts/music_production_and_sound_engineering/prompt0.txt
+  setup_file: ./setups/setup_music_production_and_sound_engineering.sh
+- ground_truth_directory: 
+    ./ground_truths/setup_music_production_and_sound_engineering/music_production_and_sound_engineering_6
+  prompt_file: ./prompts/music_production_and_sound_engineering/prompt6.txt
+  setup_file: ./setups/setup_music_production_and_sound_engineering.sh
+- ground_truth_directory: 
+    ./ground_truths/setup_music_production_and_sound_engineering/music_production_and_sound_engineering_3
+  prompt_file: ./prompts/music_production_and_sound_engineering/prompt3.txt
+  setup_file: ./setups/setup_music_production_and_sound_engineering.sh
+- ground_truth_directory: 
+    ./ground_truths/setup_music_production_and_sound_engineering/music_production_and_sound_engineering_7
+  prompt_file: ./prompts/music_production_and_sound_engineering/prompt7.txt
+  setup_file: ./setups/setup_music_production_and_sound_engineering.sh
+- ground_truth_directory: 
+    ./ground_truths/setup_music_production_and_sound_engineering/music_production_and_sound_engineering_2
+  prompt_file: ./prompts/music_production_and_sound_engineering/prompt2.txt
+  setup_file: ./setups/setup_music_production_and_sound_engineering.sh

@@ -1,0 +1,1 @@
+Run shell commands with full paths and precise syntax. Use absolute paths for directories and files to ensure accuracy. Validate commands before execution. Commands can be invoked multiple times to verify file system state changes. Example: 'mv /absolute/path/source /absolute/path/destination'.

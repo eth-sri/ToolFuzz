@@ -1,0 +1,65 @@
+├── 01_PreProduction
+│   ├── 01_Songwriting
+│   │   ├── Lyrics
+│   │   │   ├── song_lyrics_v1.txt
+│   │   │   └── song_lyrics_v2.txt
+│   │   └── Melodies
+│   │       ├── melody_idea_v1.mid
+│   │       └── melody_idea_v2.mid
+│   ├── 02_Arrangement
+│   │   ├── arrangement_v1.mid
+│   │   └── arrangement_v2.mid
+│   ├── 03_Demos
+│   │   ├── demo_v1.mp3
+│   │   └── demo_v2.mp3
+│   └── 04_References
+│       └── reference_track.mp3
+├── 02_Production
+│   ├── 01_Recording
+│   │   ├── Instruments
+│   │   │   ├── guitar_take1.wav
+│   │   │   └── piano_take1.wav
+│   │   └── Vocals
+│   │       ├── lead_vocal_take1.wav
+│   │       └── backing_vocal_take1.wav
+│   ├── 02_Editing
+│   │   ├── edited_guitar_take1.wav
+│   │   └── edited_vocal_take1.wav
+│   ├── 03_Mixing
+│   │   ├── mix_v1.mp3
+│   │   └── mix_v2.mp3
+│   └── 04_Mastering
+│       ├── master_v1.wav
+│       └── master_v2.wav
+├── 03_PostProduction
+│   ├── 01_Album_Artwork
+│   │   └── album_cover.jpg
+│   ├── 02_Lyric_Sheet
+│   │   └── lyric_sheet.pdf
+│   ├── 03_Press_Release
+│   │   └── press_release.docx
+│   └── 04_Music_Video
+│       └── music_video.mp4
+├── 04_Assets
+│   ├── Samples
+│   │   └── drum_sample.wav
+│   ├── Plugins
+│   │   └── favorite_reverb.vst
+│   └── Presets
+│       └── vocal_chain.fxp
+├── 05_Documents
+│   ├── Budget
+│   │   └── budget_plan.xlsx
+│   ├── Contracts
+│   │   └── recording_contract.pdf
+│   ├── Production_Schedule
+│   │   └── schedule.xlsx
+│   └── Project_Notes
+│       └── meeting_notes.txt
+└── 06_Releases
+    ├── Singles
+    │   └── single_track.mp3
+    ├── Albums
+    │   └── full_album.zip
+    └── Live_Sessions
+        └── live_session.mp3

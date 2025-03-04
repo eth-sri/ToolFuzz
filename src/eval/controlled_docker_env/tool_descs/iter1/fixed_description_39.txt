@@ -1,0 +1,1 @@
+Execute shell commands on this Linux machine by providing precise directory paths and valid commands. Ensure commands target directories, not files. Validate paths and command format before execution. Commands can be invoked multiple times for state validation. Example: {'commands': ['ls /path/to/directory']}.

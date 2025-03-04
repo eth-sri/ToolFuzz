@@ -1,0 +1,1 @@
+Execute shell commands on a Linux machine by providing a valid list of commands. Use absolute paths, correct file types, and compatible arguments. Avoid ambiguous language. The tool can be invoked multiple times for file system validation.

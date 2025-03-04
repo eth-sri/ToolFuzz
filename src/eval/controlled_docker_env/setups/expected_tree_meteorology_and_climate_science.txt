@@ -1,0 +1,52 @@
+├── archive
+│   ├── climate_reports
+│   │   ├── archived_climate_report_2021.pdf
+│   │   └── archived_climate_report_2020.pdf
+│   ├── weather_data
+│   │   ├── archived_weather_data_2021.csv
+│   │   └── archived_weather_data_2020.csv
+│   └── research_papers
+│       ├── old_research_paper1.pdf
+│       └── old_research_paper2.pdf
+├── current
+│   ├── climate_reports
+│   │   ├── climate_report_2022.pdf
+│   │   └── climate_report_2023.pdf
+│   ├── weather_data
+│   │   ├── weather_data_2022.csv
+│   │   └── weather_data_2023.csv
+│   └── research_papers
+│       ├── research_paper1.pdf
+│       └── research_paper2.pdf
+├── forecasts
+│   ├── short_term
+│   │   ├── forecast_1.pdf
+│   │   └── forecast_2.pdf
+│   └── long_term
+│       ├── forecast_1.pdf
+│       └── forecast_2.pdf
+├── models
+│   ├── climate_models
+│   │   ├── model1
+│   │   │   ├── model1_code.py
+│   │   │   └── model1_data.csv
+│   │   └── model2
+│   │       ├── model2_code.py
+│   │       └── model2_data.csv
+│   └── weather_models
+│       ├── model1
+│       │   ├── model1_code.py
+│       │   └── model1_data.csv
+│       └── model2
+│           ├── model2_code.py
+│           └── model2_data.csv
+└── resources
+    ├── books
+    │   ├── book1.pdf
+    │   └── book2.pdf
+    ├── databases
+    │   ├── database1.csv
+    │   └── database2.csv
+    └── websites
+        ├── website1.txt
+        └── website2.txt

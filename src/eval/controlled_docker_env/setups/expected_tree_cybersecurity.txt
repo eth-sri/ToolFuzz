@@ -1,0 +1,54 @@
+├── 01_Threat_Intelligence
+│   ├── Reports
+│   │   ├── daily_threat_report.pdf
+│   │   └── weekly_threat_report.pdf
+│   ├── IOCs
+│   │   ├── IOC_list.csv
+│   │   └── IOC_analysis.docx
+│   └── Threat_Actors
+│       ├── actor_profile_A.pdf
+│       └── actor_profile_B.pdf
+├── 02_Vulnerability_Assessment
+│   ├── Scans
+│   │   ├── network_scan_report.pdf
+│   │   └── web_scan_report.pdf
+│   ├── Patches
+│   │   ├── patch_notes_A.docx
+│   │   └── patch_notes_B.docx
+│   └── Risk_Assessment
+│       ├── risk_assessment_report.pdf
+│       └── risk_mitigation_plan.docx
+├── 03_Incident_Response
+│   ├── Incidents
+│   │   ├── incident_report_A.pdf
+│   │   └── incident_report_B.pdf
+│   ├── Forensics
+│   │   ├── forensic_report_A.pdf
+│   │   └── forensic_report_B.pdf
+│   └── Recovery
+│       ├── recovery_plan_A.docx
+│       └── recovery_plan_B.docx
+├── 04_Compliance_and_Audit
+│   ├── Policies
+│   │   ├── data_protection_policy.pdf
+│   │   └── access_control_policy.pdf
+│   ├── Audits
+│   │   ├── audit_report_A.pdf
+│   │   └── audit_report_B.pdf
+│   └── Regulations
+│       ├── GDPR_compliance_checklist.pdf
+│       └── PCI_DSS_compliance_checklist.pdf
+├── 05_Training_and_Awareness
+│   ├── Training_Materials
+│   │   ├── phishing_training.ppt
+│   │   └── password_security_training.ppt
+│   └── Awareness_Campaigns
+│       ├── cybersecurity_poster.pdf
+│       └── cybersecurity_newsletter.pdf
+└── 06_Tools_and_Scripts
+    ├── Tools
+    │   ├── network_monitoring_tool.zip
+    │   └── malware_analysis_tool.zip
+    └── Scripts
+        ├── automate_patch_deployment.py
+        └── network_scan_script.py

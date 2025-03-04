@@ -1,0 +1,16 @@
+environments:
+- ground_truth_directory: ./ground_truths/setup_law_and_legal_analytics/law_and_legal_analytics_1
+  prompt_file: ./prompts/law_and_legal_analytics/prompt1.txt
+  setup_file: ./setups/setup_law_and_legal_analytics.sh
+- ground_truth_directory: ./ground_truths/setup_law_and_legal_analytics/law_and_legal_analytics_4
+  prompt_file: ./prompts/law_and_legal_analytics/prompt4.txt
+  setup_file: ./setups/setup_law_and_legal_analytics.sh
+- ground_truth_directory: ./ground_truths/setup_law_and_legal_analytics/law_and_legal_analytics_0
+  prompt_file: ./prompts/law_and_legal_analytics/prompt0.txt
+  setup_file: ./setups/setup_law_and_legal_analytics.sh
+- ground_truth_directory: ./ground_truths/setup_law_and_legal_analytics/law_and_legal_analytics_3
+  prompt_file: ./prompts/law_and_legal_analytics/prompt3.txt
+  setup_file: ./setups/setup_law_and_legal_analytics.sh
+- ground_truth_directory: ./ground_truths/setup_law_and_legal_analytics/law_and_legal_analytics_2
+  prompt_file: ./prompts/law_and_legal_analytics/prompt2.txt
+  setup_file: ./setups/setup_law_and_legal_analytics.sh

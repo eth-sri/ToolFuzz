@@ -1,0 +1,47 @@
+[
+  {
+    "task": "Comment on issue #2 to inquire about the documentation release schedule.",
+    "user_prompt": "Can you please comment on issue #2 to ask about when the documentation is planned to be released?",
+    "code_snippet": "issue_number = 2\n\ncomment = \"Could you please provide more information on the timeline for the documentation release? It would be really helpful for users to understand how to use the library effectively.\"\n\n# Assuming the tool is used here to add the comment\nassert len(repo.list_comments(issue_number)) == 1"
+  },
+  {
+    "task": "Add a comment to GitHub issue #2 regarding the roadmap for documentation release.",
+    "user_prompt": "I would like to comment on GitHub issue #2 asking about the roadmap for the release of documentation.",
+    "code_snippet": "issue_number = 2\ncomment = \"Is there an update on the roadmap for releasing the documentation? It would greatly help in using the library effectively.\"\n# Use the tool to add the comment to the issue\ntool_command = f\"{issue_number}\\n\\n{comment}\"\n\n# Validate that the comment has been added\nassert len(repo.list_comments(issue_number)) == 1"
+  },
+  {
+    "task": "Add a comment to the GitHub issue requesting documentation release details.",
+    "user_prompt": "Please add a comment to issue #2 asking for details about the planned release of the documentation.",
+    "code_snippet": "issue_number = 2\n\ncomment = \"Could you please provide more details on when the documentation will be released? This will help us plan accordingly.\"\nrepo.add_comment(issue_number, comment)\nassert len(repo.list_comments(issue_number)) == 1"
+  },
+  {
+    "task": "Comment on the GitHub issue regarding the security breach found in dependencies.",
+    "user_prompt": "Please comment on issue #1 with the following message: 'Thank you for bringing this to our attention. We are currently investigating the security breach related to MyTrendyAuthenticator and will update the package shortly.'",
+    "code_snippet": "assert len(repo.list_comments(1)) == 1"
+  },
+  {
+    "task": "Comment on GitHub issue to inquire about the roadmap for releasing documentation for the library.",
+    "user_prompt": "Please comment on issue #2 to ask about the roadmap for releasing the documentation for the library.",
+    "code_snippet": "assert len(repo.list_comments(2)) == 1"
+  },
+  {
+    "task": "Comment on GitHub issue regarding documentation request.",
+    "user_prompt": "Please comment on issue #2 with the following message: 'Hi, thank you for reaching out. We are currently working on the documentation and expect to release it by next month. Stay tuned for updates!'",
+    "code_snippet": "issue_number = 2\nrepo.comment_on_issue(issue_number, 'Hi, thank you for reaching out. We are currently working on the documentation and expect to release it by next month. Stay tuned for updates!')\nassert len(repo.list_comments(issue_number)) == 1"
+  },
+  {
+    "task": "Add a comment to issue #2 requesting an update on the documentation roadmap.",
+    "user_prompt": "Please comment on issue #2 with the following message: 'Is there any update on the roadmap for the documentation release? It would be helpful to have some guidance on how to use the library.'",
+    "code_snippet": "assert len(repo.list_comments(2)) == 1"
+  },
+  {
+    "task": "Add a comment to a GitHub issue about the documentation request.",
+    "user_prompt": "Please add a comment to issue #2 stating that the documentation is currently being developed and will be released in the next update.",
+    "code_snippet": "issue_number = 2\n\ncomment = \"The documentation is currently being developed and will be released in the next update.\"\n\n# Perform the task of adding a comment to the issue\ntool_output = tool(issue_number, comment)\n\n# Validate the task\nassert len(repo.list_comments(issue_number)) == 1"
+  },
+  {
+    "task": "Comment on the GitHub issue requesting documentation release information.",
+    "user_prompt": "Please comment on the issue #2 with a request for the documentation release roadmap information.",
+    "code_snippet": "issue_number = 2\n\ncomment = \"Hello, is there any update on the documentation release roadmap? It would be beneficial for users to know when to expect it. Thanks!\"\n\n# Assuming the function to add a comment is called `add_comment`\nadd_comment(issue_number, comment)\n\n# Validate the task completion\nassert len(repo.list_comments(issue_number)) == 1"
+  }
+]

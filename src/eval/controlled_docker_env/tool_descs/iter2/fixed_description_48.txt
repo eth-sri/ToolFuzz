@@ -1,0 +1,1 @@
+Run shell commands on this Linux machine. Provide fully qualified paths and explicit shell commands. Avoid using relative paths or shortcuts like '~'. Validate commands for correctness. Tool can be invoked multiple times for consistent file system state validation. Example: {'commands': 'ls /full/path/to/directory'}

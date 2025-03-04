@@ -1,0 +1,1 @@
+Execute shell commands on this Linux machine. Provide commands as strings or arrays of strings. Use valid shell syntax and correct file paths. Validate command success before proceeding. Invoke the tool multiple times for better filesystem state validation.

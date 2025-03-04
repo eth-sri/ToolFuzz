@@ -1,0 +1,21 @@
+environments:
+- ground_truth_directory: 
+    ./ground_truths/setup_virtual_reality_(vr)_and_augmented_reality_(ar)/virtual_reality_(vr)_and_augmented_reality_(ar)_1
+  prompt_file: ./prompts/virtual_reality_(vr)_and_augmented_reality_(ar)/prompt1.txt
+  setup_file: ./setups/setup_virtual_reality_(vr)_and_augmented_reality_(ar).sh
+- ground_truth_directory: 
+    ./ground_truths/setup_virtual_reality_(vr)_and_augmented_reality_(ar)/virtual_reality_(vr)_and_augmented_reality_(ar)_4
+  prompt_file: ./prompts/virtual_reality_(vr)_and_augmented_reality_(ar)/prompt4.txt
+  setup_file: ./setups/setup_virtual_reality_(vr)_and_augmented_reality_(ar).sh
+- ground_truth_directory: 
+    ./ground_truths/setup_virtual_reality_(vr)_and_augmented_reality_(ar)/virtual_reality_(vr)_and_augmented_reality_(ar)_0
+  prompt_file: ./prompts/virtual_reality_(vr)_and_augmented_reality_(ar)/prompt0.txt
+  setup_file: ./setups/setup_virtual_reality_(vr)_and_augmented_reality_(ar).sh
+- ground_truth_directory: 
+    ./ground_truths/setup_virtual_reality_(vr)_and_augmented_reality_(ar)/virtual_reality_(vr)_and_augmented_reality_(ar)_3
+  prompt_file: ./prompts/virtual_reality_(vr)_and_augmented_reality_(ar)/prompt3.txt
+  setup_file: ./setups/setup_virtual_reality_(vr)_and_augmented_reality_(ar).sh
+- ground_truth_directory: 
+    ./ground_truths/setup_virtual_reality_(vr)_and_augmented_reality_(ar)/virtual_reality_(vr)_and_augmented_reality_(ar)_2
+  prompt_file: ./prompts/virtual_reality_(vr)_and_augmented_reality_(ar)/prompt2.txt
+  setup_file: ./setups/setup_virtual_reality_(vr)_and_augmented_reality_(ar).sh

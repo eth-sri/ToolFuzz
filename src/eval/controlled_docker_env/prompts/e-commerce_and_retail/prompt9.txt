@@ -1,0 +1,1 @@
+Copy the Q1 sales receipt for product A in 2024 to a new folder named 'Q1_receipts'

@@ -1,0 +1,41 @@
+environments:
+- ground_truth_directory: 
+    ./ground_truths/setup_agriculture_and_precision_farming/agriculture_and_precision_farming_5
+  prompt_file: ./prompts/agriculture_and_precision_farming/prompt5.txt
+  setup_file: ./setups/setup_agriculture_and_precision_farming.sh
+- ground_truth_directory: 
+    ./ground_truths/setup_agriculture_and_precision_farming/agriculture_and_precision_farming_8
+  prompt_file: ./prompts/agriculture_and_precision_farming/prompt8.txt
+  setup_file: ./setups/setup_agriculture_and_precision_farming.sh
+- ground_truth_directory: 
+    ./ground_truths/setup_agriculture_and_precision_farming/agriculture_and_precision_farming_1
+  prompt_file: ./prompts/agriculture_and_precision_farming/prompt1.txt
+  setup_file: ./setups/setup_agriculture_and_precision_farming.sh
+- ground_truth_directory: 
+    ./ground_truths/setup_agriculture_and_precision_farming/agriculture_and_precision_farming_4
+  prompt_file: ./prompts/agriculture_and_precision_farming/prompt4.txt
+  setup_file: ./setups/setup_agriculture_and_precision_farming.sh
+- ground_truth_directory: 
+    ./ground_truths/setup_agriculture_and_precision_farming/agriculture_and_precision_farming_9
+  prompt_file: ./prompts/agriculture_and_precision_farming/prompt9.txt
+  setup_file: ./setups/setup_agriculture_and_precision_farming.sh
+- ground_truth_directory: 
+    ./ground_truths/setup_agriculture_and_precision_farming/agriculture_and_precision_farming_0
+  prompt_file: ./prompts/agriculture_and_precision_farming/prompt0.txt
+  setup_file: ./setups/setup_agriculture_and_precision_farming.sh
+- ground_truth_directory: 
+    ./ground_truths/setup_agriculture_and_precision_farming/agriculture_and_precision_farming_6
+  prompt_file: ./prompts/agriculture_and_precision_farming/prompt6.txt
+  setup_file: ./setups/setup_agriculture_and_precision_farming.sh
+- ground_truth_directory: 
+    ./ground_truths/setup_agriculture_and_precision_farming/agriculture_and_precision_farming_3
+  prompt_file: ./prompts/agriculture_and_precision_farming/prompt3.txt
+  setup_file: ./setups/setup_agriculture_and_precision_farming.sh
+- ground_truth_directory: 
+    ./ground_truths/setup_agriculture_and_precision_farming/agriculture_and_precision_farming_7
+  prompt_file: ./prompts/agriculture_and_precision_farming/prompt7.txt
+  setup_file: ./setups/setup_agriculture_and_precision_farming.sh
+- ground_truth_directory: 
+    ./ground_truths/setup_agriculture_and_precision_farming/agriculture_and_precision_farming_2
+  prompt_file: ./prompts/agriculture_and_precision_farming/prompt2.txt
+  setup_file: ./setups/setup_agriculture_and_precision_farming.sh

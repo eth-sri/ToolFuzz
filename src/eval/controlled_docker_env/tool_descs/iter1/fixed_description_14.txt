@@ -1,0 +1,1 @@
+Execute valid shell commands with correct syntax and paths. Validate file and directory existence before running commands. Use absolute paths and specify file types or extensions to ensure accuracy. Commands can be invoked multiple times to validate filesystem state. Examples: 'ls -d /path/*/' or 'find /path -type f -name "*.pdf"'.

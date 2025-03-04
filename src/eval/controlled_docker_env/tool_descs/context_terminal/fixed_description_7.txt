@@ -1,0 +1,1 @@
+This tool runs shell commands on a Linux machine. Commands must be JSON-deserialized strings or arrays. Use relative paths, quoting or escaping spaces. Validate syntax before executing. Commands can be invoked multiple times for system state checks. Example: {'commands': 'ls "My Folder" | wc -l'}

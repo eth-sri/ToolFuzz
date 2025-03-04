@@ -1,0 +1,1 @@
+Copy the maps for each venue to it's folder alongside the Transportation folder

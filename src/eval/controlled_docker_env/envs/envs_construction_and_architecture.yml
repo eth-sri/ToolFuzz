@@ -1,0 +1,21 @@
+environments:
+- ground_truth_directory: 
+    ./ground_truths/setup_construction_and_architecture/construction_and_architecture_1
+  prompt_file: ./prompts/construction_and_architecture/prompt1.txt
+  setup_file: ./setups/setup_construction_and_architecture.sh
+- ground_truth_directory: 
+    ./ground_truths/setup_construction_and_architecture/construction_and_architecture_4
+  prompt_file: ./prompts/construction_and_architecture/prompt4.txt
+  setup_file: ./setups/setup_construction_and_architecture.sh
+- ground_truth_directory: 
+    ./ground_truths/setup_construction_and_architecture/construction_and_architecture_0
+  prompt_file: ./prompts/construction_and_architecture/prompt0.txt
+  setup_file: ./setups/setup_construction_and_architecture.sh
+- ground_truth_directory: 
+    ./ground_truths/setup_construction_and_architecture/construction_and_architecture_3
+  prompt_file: ./prompts/construction_and_architecture/prompt3.txt
+  setup_file: ./setups/setup_construction_and_architecture.sh
+- ground_truth_directory: 
+    ./ground_truths/setup_construction_and_architecture/construction_and_architecture_2
+  prompt_file: ./prompts/construction_and_architecture/prompt2.txt
+  setup_file: ./setups/setup_construction_and_architecture.sh

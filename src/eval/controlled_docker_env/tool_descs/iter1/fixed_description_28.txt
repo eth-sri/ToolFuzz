@@ -1,0 +1,1 @@
+Execute shell commands on this Linux machine. Ensure commands are valid, use full paths, and specify proper syntax. Validate paths exist and ensure directories are not confused with files. Can be invoked multiple times for better file system validation. Example: 'ls /path/to/directory'.

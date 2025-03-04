@@ -1,0 +1,21 @@
+environments:
+- ground_truth_directory: 
+    ./ground_truths/setup_manufacturing_and_automation/manufacturing_and_automation_1
+  prompt_file: ./prompts/manufacturing_and_automation/prompt1.txt
+  setup_file: ./setups/setup_manufacturing_and_automation.sh
+- ground_truth_directory: 
+    ./ground_truths/setup_manufacturing_and_automation/manufacturing_and_automation_4
+  prompt_file: ./prompts/manufacturing_and_automation/prompt4.txt
+  setup_file: ./setups/setup_manufacturing_and_automation.sh
+- ground_truth_directory: 
+    ./ground_truths/setup_manufacturing_and_automation/manufacturing_and_automation_0
+  prompt_file: ./prompts/manufacturing_and_automation/prompt0.txt
+  setup_file: ./setups/setup_manufacturing_and_automation.sh
+- ground_truth_directory: 
+    ./ground_truths/setup_manufacturing_and_automation/manufacturing_and_automation_3
+  prompt_file: ./prompts/manufacturing_and_automation/prompt3.txt
+  setup_file: ./setups/setup_manufacturing_and_automation.sh
+- ground_truth_directory: 
+    ./ground_truths/setup_manufacturing_and_automation/manufacturing_and_automation_2
+  prompt_file: ./prompts/manufacturing_and_automation/prompt2.txt
+  setup_file: ./setups/setup_manufacturing_and_automation.sh

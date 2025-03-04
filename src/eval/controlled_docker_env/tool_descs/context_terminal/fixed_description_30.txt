@@ -1,0 +1,1 @@
+terminal: Execute formatted shell commands on a Linux machine. Use JSON format for commands, handle spaces with quotes or escapes. Validate paths and command syntax before execution. Commands can be invoked multiple times for validation.

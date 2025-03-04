@@ -1,0 +1,72 @@
+├── archive
+│   ├── market_reports
+│   │   ├── archived_market_report_2021.zip
+│   │   └── archived_market_report_2022.zip
+│   ├── research_data
+│   │   ├── archived_research_data_2021.zip
+│   │   └── archived_research_data_2022.zip
+│   └── templates
+│       ├── old_report_template.docx
+│       └── old_research_template.xlsx
+├── clients
+│   ├── client_A
+│   │   ├── 2023
+│   │   │   ├── market_reports
+│   │   │   │   ├── Q1_market_report.pdf
+│   │   │   │   └── Q2_market_report.pdf
+│   │   │   ├── research_data
+│   │   │   │   ├── Q1_research_data.csv
+│   │   │   │   └── Q2_research_data.csv
+│   │   │   └── presentations
+│   │   │       ├── Q1_presentation.ppt
+│   │   │       └── Q2_presentation.ppt
+│   │   └── 2024
+│   │       ├── market_reports
+│   │       │   ├── Q1_market_report.pdf
+│   │       │   └── Q2_market_report.pdf
+│   │       ├── research_data
+│   │       │   ├── Q1_research_data.csv
+│   │       │   └── Q2_research_data.csv
+│   │       └── presentations
+│   │           ├── Q1_presentation.ppt
+│   │           └── Q2_presentation.ppt
+│   └── client_B
+│       ├── 2023
+│       │   ├── market_reports
+│       │   │   ├── Q1_market_report.pdf
+│       │   │   └── Q2_market_report.pdf
+│       │   ├── research_data
+│       │   │   ├── Q1_research_data.csv
+│       │   │   └── Q2_research_data.csv
+│       │   └── presentations
+│       │       ├── Q1_presentation.ppt
+│       │       └── Q2_presentation.ppt
+│       └── 2024
+│           ├── market_reports
+│           │   ├── Q1_market_report.pdf
+│           │   └── Q2_market_report.pdf
+│           ├── research_data
+│           │   ├── Q1_research_data.csv
+│           │   └── Q2_research_data.csv
+│           └── presentations
+│               ├── Q1_presentation.ppt
+│               └── Q2_presentation.ppt
+├── reports
+│   ├── annual_reports
+│   │   └── annual_report_2023.pdf
+│   ├── quarterly_reports
+│   │   ├── Q1_report_2023.pdf
+│   │   └── Q2_report_2023.pdf
+│   └── monthly_reports
+│       ├── january_2023.pdf
+│       └── february_2023.pdf
+└── templates
+   ├── report_templates
+   │   ├── advanced_report_template.docx
+   │   └── basic_report_template.docx
+   ├── research_templates
+   │   ├── advanced_research_template.xlsx
+   │   └── basic_research_template.xlsx
+   └── presentation_templates
+       ├── advanced_presentation_template.ppt
+       └── basic_presentation_template.ppt

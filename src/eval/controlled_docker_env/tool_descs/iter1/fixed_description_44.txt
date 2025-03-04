@@ -1,0 +1,1 @@
+The terminal tool executes shell commands on a Linux machine. Provide valid, formatted commands as a list or string. Ensure paths exist and are correctly specified. Use the tool to verify filesystem state before and after operations. Example: {'commands': ['ls /path/to/directory']}

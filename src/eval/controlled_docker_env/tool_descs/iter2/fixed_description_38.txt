@@ -1,0 +1,1 @@
+Terminal: Execute shell commands on this Linux machine. Use absolute paths and escape spaces/special characters in commands. Validate for correctness and precision. Tool can be invoked multiple times to ensure file system state. Examples: {'commands':'mv /path/to/source /path/to/destination'}, {'commands':'ls /path/to/directory'}.

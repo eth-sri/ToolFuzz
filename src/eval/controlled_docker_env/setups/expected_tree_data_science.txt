@@ -1,0 +1,45 @@
+├── 01_Data_Collection
+│   ├── 01_Raw_Data
+│   │   ├── customer_data.csv
+│   │   └── transaction_data.csv
+│   └── 02_Cleaned_Data
+│       ├── cleaned_customer_data.csv
+│       └── cleaned_transaction_data.csv
+├── 02_Data_Analysis
+│   ├── 01_Exploratory_Data_Analysis
+│   │   ├── customer_eda.ipynb
+│   │   └── transaction_eda.ipynb
+│   └── 02_Statistical_Analysis
+│       ├── customer_statistical_analysis.ipynb
+│       └── transaction_statistical_analysis.ipynb
+├── 03_Modeling
+│   ├── 01_Preprocessing
+│   │   ├── customer_preprocessing.ipynb
+│   │   └── transaction_preprocessing.ipynb
+│   ├── 02_Model_Training
+│   │   ├── customer_model_training.ipynb
+│   │   └── transaction_model_training.ipynb
+│   └── 03_Model_Evaluation
+│       ├── customer_model_evaluation.ipynb
+│       └── transaction_model_evaluation.ipynb
+├── 04_Visualization
+│   ├── 01_Data_Visualization
+│   │   ├── customer_data_visualization.ipynb
+│   │   └── transaction_data_visualization.ipynb
+│   └── 02_Model_Visualization
+│       ├── customer_model_visualization.ipynb
+│       └── transaction_model_visualization.ipynb
+├── 05_Reports
+│   ├── 01_Data_Reports
+│   │   ├── customer_data_report.pdf
+│   │   └── transaction_data_report.pdf
+│   └── 02_Model_Reports
+│       ├── customer_model_report.pdf
+│       └── transaction_model_report.pdf
+└── 06_Archives
+    ├── 01_Old_Data
+    │   ├── old_customer_data.csv
+    │   └── old_transaction_data.csv
+    └── 02_Old_Models
+        ├── old_customer_model.pkl
+        └── old_transaction_model.pkl

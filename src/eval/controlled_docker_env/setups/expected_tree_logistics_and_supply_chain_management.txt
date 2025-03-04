@@ -1,0 +1,84 @@
+├── archive
+│   ├── contracts
+│   │   ├── archived_contract_A_2021.zip
+│   │   └── archived_contract_B_2021.zip
+│   ├── reports
+│   │   ├── archived_annual_report_2021.pdf
+│   │   └── archived_monthly_report_2021.pdf
+│   └── templates
+│       ├── old_delivery_schedule_template.docx
+│       └── old_inventory_template.xlsx
+├── clients
+│   ├── client_A
+│   │   ├── 2023
+│   │   │   ├── contracts
+│   │   │   │   ├── contract_v1.pdf
+│   │   │   │   └── contract_v2.pdf
+│   │   │   ├── delivery_schedules
+│   │   │   │   ├── delivery_schedule_Q1.csv
+│   │   │   │   └── delivery_schedule_Q2.csv
+│   │   │   ├── inventory
+│   │   │   │   ├── inventory_Q1.csv
+│   │   │   │   └── inventory_Q2.csv
+│   │   │   └── orders
+│   │   │       ├── order_001.pdf
+│   │   │       └── order_002.pdf
+│   │   └── 2024
+│   │       ├── contracts
+│   │       │   ├── contract_v1.pdf
+│   │       │   └── contract_v2.pdf
+│   │       ├── delivery_schedules
+│   │       │   ├── delivery_schedule_Q1.csv
+│   │       │   └── delivery_schedule_Q2.csv
+│   │       ├── inventory
+│   │       │   ├── inventory_Q1.csv
+│   │       │   └── inventory_Q2.csv
+│   │       └── orders
+│   │           ├── order_001.pdf
+│   │           └── order_002.pdf
+│   └── client_B
+│       ├── 2023
+│       │   ├── contracts
+│       │   │   ├── contract_v1.pdf
+│       │   │   └── contract_v2.pdf
+│       │   ├── delivery_schedules
+│       │   │   ├── delivery_schedule_Q1.csv
+│       │   │   └── delivery_schedule_Q2.csv
+│       │   ├── inventory
+│       │   │   ├── inventory_Q1.csv
+│       │   │   └── inventory_Q2.csv
+│       │   └── orders
+│       │       ├── order_001.pdf
+│       │       └── order_002.pdf
+│       └── 2024
+│           ├── contracts
+│           │   ├── contract_v1.pdf
+│           │   └── contract_v2.pdf
+│           ├── delivery_schedules
+│           │   ├── delivery_schedule_Q1.csv
+│           │   └── delivery_schedule_Q2.csv
+│           ├── inventory
+│           │   ├── inventory_Q1.csv
+│           │   └── inventory_Q2.csv
+│           └── orders
+│               ├── order_001.pdf
+│               └── order_002.pdf
+├── reports
+│   ├── annual_reports
+│   │   └── annual_report_2023.pdf
+│   ├── monthly_reports
+│   │   ├── february_2023.pdf
+│   │   └── january_2023.pdf
+│   └── quarterly_reports
+│       ├── Q1_report_2023.pdf
+│       └── Q2_report_2023.pdf
+└── templates
+   ├── contract_templates
+   │   ├── advanced_contract_template.docx
+   │   └── basic_contract_template.docx
+   ├── delivery_schedule_templates
+   │   ├── monthly_delivery_schedule_template.xlsx
+   │   └── weekly_delivery_schedule_template.xlsx
+   └── inventory_templates
+       ├── advanced_inventory_template.xlsx
+       └── basic_inventory_template.xlsx

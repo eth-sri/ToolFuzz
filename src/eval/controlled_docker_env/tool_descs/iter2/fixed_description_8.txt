@@ -1,0 +1,1 @@
+Execute shell commands on this Linux machine using exact file paths and commands. Avoid using placeholders or relative paths. Validate file paths and command context. Split complex tasks into multiple commands for accuracy. Examples: {'commands': 'ls /complete/path/to/directory'}, {'commands': 'find /full/path -name "*.pdf"'}.

@@ -1,0 +1,6 @@
+./envs/envs_environmental_science.yml
+./envs/envs_finance_and_banking.yml
+./envs/envs_geology_and_geophysics.yml
+./envs/envs_government_and_public_administration.yml
+./envs/envs_graphic_design_and_animation.yml
+./envs/envs_history_and_archival_science.yml

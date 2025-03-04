@@ -1,0 +1,1 @@
+Terminal: Execute valid shell commands on this Linux machine. Input must be a valid shell command string. Verify paths and arguments accurately. Commands can be run multiple times to confirm file system state. Examples: 'ls /path/to/directory', 'zip -r archive.zip /path/to/files/*'.

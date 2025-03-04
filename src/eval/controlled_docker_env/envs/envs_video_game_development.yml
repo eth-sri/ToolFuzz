@@ -1,0 +1,25 @@
+environments:
+- ground_truth_directory: ./ground_truths/setup_video_game_development/video_game_development_5
+  prompt_file: ./prompts/video_game_development/prompt5.txt
+  setup_file: ./setups/setup_video_game_development.sh
+- ground_truth_directory: ./ground_truths/setup_video_game_development/video_game_development_1
+  prompt_file: ./prompts/video_game_development/prompt1.txt
+  setup_file: ./setups/setup_video_game_development.sh
+- ground_truth_directory: ./ground_truths/setup_video_game_development/video_game_development_4
+  prompt_file: ./prompts/video_game_development/prompt4.txt
+  setup_file: ./setups/setup_video_game_development.sh
+- ground_truth_directory: ./ground_truths/setup_video_game_development/video_game_development_0
+  prompt_file: ./prompts/video_game_development/prompt0.txt
+  setup_file: ./setups/setup_video_game_development.sh
+- ground_truth_directory: ./ground_truths/setup_video_game_development/video_game_development_6
+  prompt_file: ./prompts/video_game_development/prompt6.txt
+  setup_file: ./setups/setup_video_game_development.sh
+- ground_truth_directory: ./ground_truths/setup_video_game_development/video_game_development_3
+  prompt_file: ./prompts/video_game_development/prompt3.txt
+  setup_file: ./setups/setup_video_game_development.sh
+- ground_truth_directory: ./ground_truths/setup_video_game_development/video_game_development_7
+  prompt_file: ./prompts/video_game_development/prompt7.txt
+  setup_file: ./setups/setup_video_game_development.sh
+- ground_truth_directory: ./ground_truths/setup_video_game_development/video_game_development_2
+  prompt_file: ./prompts/video_game_development/prompt2.txt
+  setup_file: ./setups/setup_video_game_development.sh

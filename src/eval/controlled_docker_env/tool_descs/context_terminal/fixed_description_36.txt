@@ -1,0 +1,1 @@
+Terminal: Execute shell commands on this Linux machine. Use valid Linux paths and filenames, handling whitespaces with quotes or escaping. Paths must be accurate and exist. Commands can be invoked multiple times for validation. Examples: 'ls -l /path/to/directory', 'rm /path/to/file'.

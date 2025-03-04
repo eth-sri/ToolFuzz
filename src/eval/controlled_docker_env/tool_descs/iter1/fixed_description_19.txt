@@ -1,0 +1,1 @@
+Execute valid shell commands on this Linux machine. Use absolute paths, ensure files and directories exist, and check permissions. Commands must follow proper syntax. For example, use 'ls /path/to/directory' to list files. Invoke the tool multiple times to verify file system state.

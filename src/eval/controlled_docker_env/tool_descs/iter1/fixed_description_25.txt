@@ -1,0 +1,1 @@
+Run valid shell commands on this Linux machine. Use absolute paths, correct file extensions, and precise syntax. Validate paths and syntax. Examples: 'ls /path/to/dir', 'find /path -type f -size +20M'. Invoke multiple times as needed.

@@ -1,0 +1,1 @@
+Tool for executing precise shell commands on a Linux machine. Requires full file paths and valid syntax. Validate directory paths and command structure before execution. Supports repeated invocation for file system checks. For example, use 'ls /path/to/directory' instead of vague 'list files'.

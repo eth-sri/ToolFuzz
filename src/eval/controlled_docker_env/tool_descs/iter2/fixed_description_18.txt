@@ -1,0 +1,1 @@
+Execute shell commands on Linux with precise syntax. Use absolute paths, specify complete filenames, and validate commands. Split tasks for accuracy and re-run as needed for validation. Ensure command syntax is correct for desired actions.

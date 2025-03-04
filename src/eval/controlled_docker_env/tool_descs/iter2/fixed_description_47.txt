@@ -1,0 +1,1 @@
+Run shell commands on this Linux machine. Provide a list of shell commands with absolute paths for files and directories. Avoid relative paths or shorthands like '~'. Invoke the tool multiple times to validate file system state. Example: {'commands': 'ls /absolute/path/to/directory'}.

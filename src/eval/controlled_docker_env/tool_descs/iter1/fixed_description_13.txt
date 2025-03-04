@@ -1,0 +1,1 @@
+Run shell commands on this Linux machine. Provide a list of commands using full paths; ensure files and directories exist. Use distinct commands for files vs. directories. Verify the file system state and run commands multiple times if needed. Examples: 'ls -lt /path/dir' for directories, 'cat /path/file' for files.

@@ -1,0 +1,1 @@
+Run shell commands on this Linux machine using absolute paths only. Ensure full directory paths are specified and syntax is correct. Validate directory existence. Invoke multiple times if needed for state confirmation. E.g., {'commands': 'ls /full/path/to/directory'}

@@ -1,0 +1,1 @@
+Copy the weather data of 2022 to the forecasts folder

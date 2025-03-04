@@ -1,0 +1,1 @@
+Run precise shell commands on this Linux machine. Commands must include correct paths and syntax. Validate file and directory names. Use absolute or correct relative paths. Test commands in stages for accuracy. The tool can be invoked multiple times to check file system state.

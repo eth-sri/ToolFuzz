@@ -1,0 +1,21 @@
+environments:
+- ground_truth_directory: 
+    ./ground_truths/setup_logistics_and_supply_chain_management/logistics_and_supply_chain_management_1
+  prompt_file: ./prompts/logistics_and_supply_chain_management/prompt1.txt
+  setup_file: ./setups/setup_logistics_and_supply_chain_management.sh
+- ground_truth_directory: 
+    ./ground_truths/setup_logistics_and_supply_chain_management/logistics_and_supply_chain_management_4
+  prompt_file: ./prompts/logistics_and_supply_chain_management/prompt4.txt
+  setup_file: ./setups/setup_logistics_and_supply_chain_management.sh
+- ground_truth_directory: 
+    ./ground_truths/setup_logistics_and_supply_chain_management/logistics_and_supply_chain_management_0
+  prompt_file: ./prompts/logistics_and_supply_chain_management/prompt0.txt
+  setup_file: ./setups/setup_logistics_and_supply_chain_management.sh
+- ground_truth_directory: 
+    ./ground_truths/setup_logistics_and_supply_chain_management/logistics_and_supply_chain_management_3
+  prompt_file: ./prompts/logistics_and_supply_chain_management/prompt3.txt
+  setup_file: ./setups/setup_logistics_and_supply_chain_management.sh
+- ground_truth_directory: 
+    ./ground_truths/setup_logistics_and_supply_chain_management/logistics_and_supply_chain_management_2
+  prompt_file: ./prompts/logistics_and_supply_chain_management/prompt2.txt
+  setup_file: ./setups/setup_logistics_and_supply_chain_management.sh

@@ -1,0 +1,16 @@
+environments:
+- ground_truth_directory: ./ground_truths/setup_geology_and_geophysics/geology_and_geophysics_1
+  prompt_file: ./prompts/geology_and_geophysics/prompt1.txt
+  setup_file: ./setups/setup_geology_and_geophysics.sh
+- ground_truth_directory: ./ground_truths/setup_geology_and_geophysics/geology_and_geophysics_4
+  prompt_file: ./prompts/geology_and_geophysics/prompt4.txt
+  setup_file: ./setups/setup_geology_and_geophysics.sh
+- ground_truth_directory: ./ground_truths/setup_geology_and_geophysics/geology_and_geophysics_0
+  prompt_file: ./prompts/geology_and_geophysics/prompt0.txt
+  setup_file: ./setups/setup_geology_and_geophysics.sh
+- ground_truth_directory: ./ground_truths/setup_geology_and_geophysics/geology_and_geophysics_3
+  prompt_file: ./prompts/geology_and_geophysics/prompt3.txt
+  setup_file: ./setups/setup_geology_and_geophysics.sh
+- ground_truth_directory: ./ground_truths/setup_geology_and_geophysics/geology_and_geophysics_2
+  prompt_file: ./prompts/geology_and_geophysics/prompt2.txt
+  setup_file: ./setups/setup_geology_and_geophysics.sh

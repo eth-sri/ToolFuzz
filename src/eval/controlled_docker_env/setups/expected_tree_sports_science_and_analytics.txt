@@ -1,0 +1,57 @@
+├── 01_Data_Collection
+│   ├── 01_Game_Data
+│   │   ├── game1_data.csv
+│   │   └── game2_data.csv
+│   ├── 02_Player_Stats
+│   │   ├── player1_stats.csv
+│   │   └── player2_stats.csv
+│   └── 03_Team_Stats
+│       ├── team1_stats.csv
+│       └── team2_stats.csv
+├── 02_Analysis
+│   ├── 01_Player_Analysis
+│   │   ├── player1_analysis.docx
+│   │   └── player2_analysis.docx
+│   ├── 02_Game_Analysis
+│   │   ├── game1_analysis.docx
+│   │   └── game2_analysis.docx
+│   └── 03_Team_Analysis
+│       ├── team1_analysis.docx
+│       └── team2_analysis.docx
+├── 03_Reports
+│   ├── 01_Weekly_Reports
+│   │   ├── week1_report.pdf
+│   │   └── week2_report.pdf
+│   ├── 02_Monthly_Reports
+│   │   ├── month1_report.pdf
+│   │   └── month2_report.pdf
+│   └── 03_Annual_Reports
+│       ├── annual_report_2021.pdf
+│       └── annual_report_2022.pdf
+├── 04_Presentations
+│   ├── 01_Team_Presentations
+│   │   ├── team1_presentation.pptx
+│   │   └── team2_presentation.pptx
+│   └── 02_Conference_Presentations
+│       ├── conference1_presentation.pptx
+│       └── conference2_presentation.pptx
+├── 05_Research
+│   ├── 01_Articles
+│   │   ├── article1.pdf
+│   │   └── article2.pdf
+│   ├── 02_Books
+│   │   ├── book1.pdf
+│   │   └── book2.pdf
+│   └── 03_Papers
+│       ├── paper1.pdf
+│       └── paper2.pdf
+└── 06_Templates
+    ├── 01_Report_Templates
+    │   ├── weekly_report_template.docx
+    │   └── monthly_report_template.docx
+    ├── 02_Presentation_Templates
+    │   ├── team_presentation_template.pptx
+    │   └── conference_presentation_template.pptx
+    └── 03_Analysis_Templates
+        ├── player_analysis_template.docx
+        └── game_analysis_template.docx

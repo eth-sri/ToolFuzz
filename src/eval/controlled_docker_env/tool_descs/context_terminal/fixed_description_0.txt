@@ -1,0 +1,1 @@
+Execute shell commands on this Linux machine. Use clear, relative paths without quotes or escape sequences. Ensure command syntax is correct and directory/file names are accurate. Test commands to ensure expected behavior. Invoke the tool multiple times for file system state validation. Examples: 'ls ProjectA/documentation', 'mv ProjectA/code/main.py ProjectB/code/'.

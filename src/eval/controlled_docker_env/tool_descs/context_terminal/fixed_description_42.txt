@@ -1,0 +1,1 @@
+Execute shell commands on Linux. Use JSON to list commands as strings or arrays. Use relative paths and quotes for spaces. Validate syntax and paths. Invoke multiple times if needed to verify file system changes.

@@ -1,0 +1,87 @@
+├── archive
+│   ├── legislation
+│   │   ├── archived_legislation_2021.zip
+│   │   └── archived_legislation_2022.zip
+│   ├── reports
+│   │   ├── archived_annual_report_2021.pdf
+│   │   └── archived_monthly_report_2021.pdf
+│   └── templates
+│       ├── old_policy_template.docx
+│       └── old_report_template.xlsx
+├── departments
+│   ├── department_A
+│   │   ├── 2023
+│   │   │   ├── budget
+│   │   │   │   ├── budget_plan.pdf
+│   │   │   │   └── budget_report.pdf
+│   │   │   ├── legislation
+│   │   │   │   ├── legislation_001.pdf
+│   │   │   │   └── legislation_002.pdf
+│   │   │   ├── policies
+│   │   │   │   ├── policy_001.pdf
+│   │   │   │   └── policy_002.pdf
+│   │   │   └── reports
+│   │   │       ├── annual_report.pdf
+│   │   │       └── monthly_report.pdf
+│   │   └── 2024
+│   │       ├── budget
+│   │       │   ├── budget_plan.pdf
+│   │       │   └── budget_report.pdf
+│   │       ├── legislation
+│   │       │   ├── legislation_001.pdf
+│   │       │   └── legislation_002.pdf
+│   │       ├── policies
+│   │       │   ├── policy_001.pdf
+│   │       │   └── policy_002.pdf
+│   │       └── reports
+│   │           ├── annual_report.pdf
+│   │           └── monthly_report.pdf
+│   └── department_B
+│       ├── 2023
+│       │   ├── budget
+│       │   │   ├── budget_plan.pdf
+│       │   │   └── budget_report.pdf
+│       │   ├── legislation
+│       │   │   ├── legislation_001.pdf
+│       │   │   └── legislation_002.pdf
+│       │   ├── policies
+│       │   │   ├── policy_001.pdf
+│       │   │   └── policy_002.pdf
+│       │   └── reports
+│       │       ├── annual_report.pdf
+│       │       └── monthly_report.pdf
+│       └── 2024
+│           ├── budget
+│           │   ├── budget_plan.pdf
+│           │   └── budget_report.pdf
+│           ├── legislation
+│           │   ├── legislation_001.pdf
+│           │   └── legislation_002.pdf
+│           ├── policies
+│           │   ├── policy_001.pdf
+│           │   └── policy_002.pdf
+│           └── reports
+│               ├── annual_report.pdf
+│               └── monthly_report.pdf
+├── reports
+│   ├── annual_reports
+│   │   └── annual_report_2023.pdf
+│   ├── monthly_reports
+│   │   ├── february_2023.pdf
+│   │   └── january_2023.pdf
+│   └── quarterly_reports
+│       ├── Q1_report_2023.pdf
+│       └── Q2_report_2023.pdf
+└── templates
+   ├── budget_templates
+   │   ├── budget_plan_template.xlsx
+   │   └── budget_report_template.xlsx
+   ├── legislation_templates
+   │   ├── legislation_template.docx
+   │   └── legislation_amendment_template.docx
+   ├── policy_templates
+   │   ├── policy_draft_template.docx
+   │   └── policy_final_template.docx
+   └── report_templates
+       ├── annual_report_template.docx
+       └── monthly_report_template.docx

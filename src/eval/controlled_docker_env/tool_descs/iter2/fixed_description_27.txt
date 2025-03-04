@@ -1,0 +1,1 @@
+Execute shell commands on Linux. Use absolute paths and explicit parameters. Avoid assumptions about directories. For complex tasks, break into simple commands. Validate file paths and states before execution. Example: 'unzip /path/to/file.zip -d /destination/directory'.

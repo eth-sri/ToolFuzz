@@ -1,0 +1,52 @@
+[
+    {
+        "task": "Delete a file in the GitHub repository",
+        "user_prompt": "I need to delete a file from my GitHub repository. Please provide the full file path without a leading slash.",
+        "code_snippet": "file_path = 'path/to/your/file.txt'\nrepo.delete_file(file_path)\nassert file_path not in [file.path for file in repo.list_files()]"
+    },
+    {
+        "task": "Delete a file from the GitHub repository",
+        "user_prompt": "Please delete the file 'docs/old_guide.md' from the repository.",
+        "code_snippet": "repo.delete_file('docs/old_guide.md')\nassert 'old_guide.md' not in [file.name for file in repo.list_files()]"
+    },
+    {
+        "task": "Delete a file from the GitHub repository",
+        "user_prompt": "I need to delete a file named 'old_script.py' from my GitHub repository. Can you help me with that?",
+        "code_snippet": "repo.delete_file(file_path='old_script.py', branch='main')\nassert 'old_script.py' not in [file.name for file in repo.list_files(branch='main')]"
+    },
+    {
+        "task": "Delete a file from a GitHub repository",
+        "user_prompt": "I would like to delete a file from my GitHub repository. The file path is 'src/utils/helpers.js'. Please ensure the path does not start with a slash.",
+        "code_snippet": "assert 'src/utils/helpers.js' not in repo.list_files()"
+    },
+    {
+        "task": "Delete a specific file from the GitHub repository.",
+        "user_prompt": "I need to delete the 'docs/setup_guide.md' file from my GitHub repository using the GitHub API wrapper tool.",
+        "code_snippet": "deleted_file_path = 'docs/setup_guide.md'\n# Assume delete_file is a method of the GitHub API wrapper\nrepo.delete_file(deleted_file_path)\n\n# Validate that the file has been deleted\n# Since we cannot directly list files, we'll assume file deletion reduces issue count or PR count\nassert len(repo.list_issues()) == initial_issue_count  # Assuming no issue corresponds to the file\nassert len(repo.list_prs()) == initial_pr_count  # Assuming no PR corresponds to the file\n# Alternatively, you might have a method like repo.get_file_contents(file_path) that would fail"
+    },
+    {
+        "task": "Delete a file from the GitHub repository",
+        "user_prompt": "Please delete the file 'docs/old_readme.md' from the repository.",
+        "code_snippet": "repo.delete_file('docs/old_readme.md')\nassert 'docs/old_readme.md' not in [file.path for file in repo.list_files()]"
+    },
+    {
+        "task": "Delete a file from the GitHub repository",
+        "user_prompt": "I need to delete a file from my GitHub repository. The file path is 'src/utils/helpers.js'. Could you help me with that?",
+        "code_snippet": "assert 'src/utils/helpers.js' not in [file.path for file in repo.list_files()]"
+    },
+    {
+        "task": "Delete a file from a GitHub repository",
+        "user_prompt": "I want to delete a file named 'old_script.py' from my repository. Please use the tool to delete it. Remember, the path should not start with a slash.",
+        "code_snippet": "repo.delete_file('old_script.py')\nassert 'old_script.py' not in repo.list_files()"
+    },
+    {
+        "task": "Delete a file from the GitHub repository",
+        "user_prompt": "Please delete the file 'docs/obsolete_guide.md' from the repository using the GitHub API tool.",
+        "code_snippet": "assert 'docs/obsolete_guide.md' not in [file['path'] for file in repo.list_files()]"
+    },
+    {
+        "task": "Delete a file in the GitHub repository",
+        "user_prompt": "Please delete the file 'docs/old_guide.md' from the repository.",
+        "code_snippet": "response = repo.delete_file('docs/old_guide.md')\nassert response['commit'].message == 'Delete docs/old_guide.md', 'File deletion was not successful'"
+    }
+]

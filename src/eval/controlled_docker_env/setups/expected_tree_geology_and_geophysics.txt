@@ -1,0 +1,53 @@
+├── 01_Field_Work
+│   ├── 01_Site_Reports
+│   │   ├── site_report_1.pdf
+│   │   └── site_report_2.pdf
+│   ├── 02_Maps
+│   │   ├── topographic_map_1.jpg
+│   │   └── geological_map_1.jpg
+│   └── 03_Sample_Data
+│       ├── rock_sample_1.csv
+│       └── soil_sample_1.csv
+├── 02_Lab_Analysis
+│   ├── 01_Rock_Analysis
+│   │   ├── rock_analysis_1.pdf
+│   │   └── rock_analysis_2.pdf
+│   ├── 02_Soil_Analysis
+│   │   ├── soil_analysis_1.pdf
+│   │   └── soil_analysis_2.pdf
+│   └── 03_Data_Sheets
+│       ├── rock_data_sheet_1.xlsx
+│       └── soil_data_sheet_1.xlsx
+├── 03_Research
+│   ├── 01_Literature_Review
+│   │   ├── paper_1.pdf
+│   │   └── paper_2.pdf
+│   ├── 02_Research_Proposal
+│   │   └── research_proposal.pdf
+│   └── 03_Research_Data
+│       ├── research_data_1.csv
+│       └── research_data_2.csv
+├── 04_Presentations
+│   ├── 01_Conference_Presentations
+│   │   ├── conference_presentation_1.ppt
+│   │   └── conference_presentation_2.ppt
+│   └── 02_Meeting_Presentations
+│       ├── meeting_presentation_1.ppt
+│       └── meeting_presentation_2.ppt
+├── 05_Publications
+│   ├── 01_Journal_Articles
+│   │   ├── journal_article_1.pdf
+│   │   └── journal_article_2.pdf
+│   └── 02_Book_Chapters
+│       ├── book_chapter_1.pdf
+│       └── book_chapter_2.pdf
+└── 06_Archive
+    ├── 01_Old_Reports
+    │   ├── old_site_report_1.pdf
+    │   └── old_site_report_2.pdf
+    ├── 02_Old_Analyses
+    │   ├── old_rock_analysis_1.pdf
+    │   └── old_soil_analysis_1.pdf
+    └── 03_Old_Data
+        ├── old_research_data_1.csv
+        └── old_research_data_2.csv

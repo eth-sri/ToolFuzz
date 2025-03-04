@@ -1,0 +1,1 @@
+Run shell commands on a Linux machine. Use absolute paths for files and directories. Ensure command syntax is complete and correct. Validate file paths before running. Commands can be invoked multiple times for validation. Avoid shortcuts and ambiguous paths.

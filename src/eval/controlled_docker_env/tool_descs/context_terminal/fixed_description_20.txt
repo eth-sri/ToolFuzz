@@ -1,0 +1,1 @@
+Use precise shell commands, specifying paths clearly. Commands must be in JSON format, such as {'commands': ['ls dir', 'mv src dest']}. Validate paths and syntax. Invoke iteratively for file system checks.

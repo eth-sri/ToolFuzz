@@ -1,0 +1,1 @@
+Delete the 'notes.txt' file from the 'project_1' folder in 'Current_Projects'

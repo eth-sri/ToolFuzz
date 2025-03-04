@@ -1,0 +1,1 @@
+Delete the long term forecasts from the forecasts folder

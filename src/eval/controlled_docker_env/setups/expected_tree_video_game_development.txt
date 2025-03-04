@@ -1,0 +1,98 @@
+├── 01_PreProduction
+│   ├── 01_Concepts
+│   │   ├── Character_Designs
+│   │   │   ├── character_sketch_v1.jpg
+│   │   │   └── character_sketch_v2.jpg
+│   │   ├── Environment_Designs
+│   │   │   └── environment_sketch_v1.jpg
+│   │   └── Game_Design_Document
+│   │       └── GDD_v1.docx
+│   ├── 02_Script
+│   │   ├── Drafts
+│   │   │   └── script_draft.txt
+│   │   └── Final
+│   │       └── final_script.txt
+│   ├── 03_Storyboards
+│   │   └── storyboard_scene1.jpg
+│   ├── 04_Animatic
+│   │   └── animatic_v1.mp4
+│   └── 05_References
+│       └── reference_image.jpg
+├── 02_Production
+│   ├── 01_Modeling
+│   │   ├── Characters
+│   │   │   └── character_model_v1.obj
+│   │   └── Environments
+│   │       └── environment_model_v1.obj
+│   ├── 02_Texturing
+│   │   ├── Characters
+│   │   │   └── character_texture_v1.png
+│   │   └── Environments
+│   │       └── environment_texture_v1.png
+│   ├── 03_Rigging
+│   │   ├── Characters
+│   │   │   └── character_rig_v1.blend
+│   │   └── Props
+│   │       └── prop_rig_v1.blend
+│   ├── 04_Animation
+│   │   ├── Blocking
+│   │   │   └── blocking_scene1_v1.mov
+│   │   ├── Final
+│   │   │   └── final_animation_scene1.mov
+│   │   └── Rough
+│   │       └── rough_animation_scene1_v1.mov
+│   ├── 05_Programming
+│   │   ├── AI
+│   │   │   └── enemy_AI_v1.cs
+│   │   ├── Gameplay
+│   │   │   └── player_movement_v1.cs
+│   │   └── UI
+│   │       └── main_menu_v1.cs
+│   ├── 06_Sound
+│   │   ├── Effects
+│   │   │   └── explosion_effect_v1.wav
+│   │   └── Music
+│   │       └── background_music_v1.mp3
+│   └── 07_Testing
+│       ├── Bug_Reports
+│       │   └── bug_report_v1.txt
+│       └── Test_Plans
+│           └── test_plan_v1.txt
+├── 03_PostProduction
+│   ├── 01_Marketing
+│   │   ├── Press_Kit
+│   │   │   └── press_kit_v1.pdf
+│   │   └── Trailers
+│   │       └── game_trailer_v1.mp4
+│   ├── 02_Release
+│   │   ├── Patches
+│   │   │   └── patch_v1.1.zip
+│   │   └── Versions
+│   │       └── game_v1.0.zip
+│   └── 03_Reviews
+│       └── review_v1.txt
+├── 04_Assets
+│   ├── Backgrounds
+│   │   └── background_image.jpg
+│   ├── Characters
+│   │   └── character_asset.obj
+│   ├── Props
+│   │   └── prop_asset.obj
+│   └── Textures
+│       └── wood_texture.png
+├── 05_Documents
+│   ├── Budget
+│   │   └── budget_plan.xlsx
+│   ├── Deliverables
+│   │   └── deliverables_checklist.txt
+│   ├── Production_Schedule
+│   │   └── schedule.xlsx
+│   └── Project_Notes
+│       └── meeting_notes.txt
+└── 06_Builds
+    ├── Archive
+    │   └── game_v0.1.zip
+    ├── Final
+    │   └── game_v1.0.zip
+    └── Previews
+        └── game_preview_v0.5.zip

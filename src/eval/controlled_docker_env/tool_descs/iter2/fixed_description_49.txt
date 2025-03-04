@@ -1,0 +1,1 @@
+Run shell commands with absolute paths. Ensure paths are complete and commands are valid. Use specific flags and formats. Validate paths before execution. Commands can be invoked multiple times for thorough file system state checks. Example: 'find /absolute/path -type f -name '*.pdf''.

@@ -1,0 +1,49 @@
+├── Archive
+│   ├── Ancient_History
+│   │   ├── Roman_Empire
+│   │   │   ├── roman_empire_1.pdf
+│   │   │   └── roman_empire_2.pdf
+│   │   └── Greek_Civilization
+│   │       ├── greek_civilization_1.pdf
+│   │       └── greek_civilization_2.pdf
+│   ├── Medieval_History
+│   │   ├── Crusades
+│   │   │   ├── crusades_1.pdf
+│   │   │   └── crusades_2.pdf
+│   │   └── Renaissance
+│   │       ├── renaissance_1.pdf
+│   │       └── renaissance_2.pdf
+│   └── Modern_History
+│       ├── World_War_I
+│       │   ├── world_war_I_1.pdf
+│       │   └── world_war_I_2.pdf
+│       └── World_War_II
+│           ├── world_war_II_1.pdf
+│           └── world_war_II_2.pdf
+├── Research
+│   ├── Current_Projects
+│   │   ├── project_1
+│   │   │   ├── notes.txt
+│   │   │   ├── references.pdf
+│   │   │   └── draft.docx
+│   │   └── project_2
+│   │       ├── notes.txt
+│   │       ├── references.pdf
+│   │       └── draft.docx
+│   └── Completed_Projects
+│       ├── project_1
+│       │   ├── final_paper.pdf
+│       │   └── presentation.pptx
+│       └── project_2
+│           ├── final_paper.pdf
+│           └── presentation.pptx
+├── Publications
+│   ├── Books
+│   │   ├── book_1.pdf
+│   │   └── book_2.pdf
+│   └── Articles
+│       ├── article_1.pdf
+│       └── article_2.pdf
+└── Templates
+    ├── Paper_Template.docx
+    └── Presentation_Template.pptx

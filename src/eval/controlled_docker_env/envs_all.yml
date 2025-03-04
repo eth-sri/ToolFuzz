@@ -1,0 +1,583 @@
+environments:
+  - ground_truth_directory: ./ground_truths/setup_history_and_archival_science/history_and_archival_science_5
+    prompt_file: ./prompts/history_and_archival_science/prompt5.txt
+    setup_file: ./setups/setup_history_and_archival_science.sh
+  - ground_truth_directory: ./ground_truths/setup_history_and_archival_science/history_and_archival_science_1
+    prompt_file: ./prompts/history_and_archival_science/prompt1.txt
+    setup_file: ./setups/setup_history_and_archival_science.sh
+  - ground_truth_directory: ./ground_truths/setup_history_and_archival_science/history_and_archival_science_4
+    prompt_file: ./prompts/history_and_archival_science/prompt4.txt
+    setup_file: ./setups/setup_history_and_archival_science.sh
+  - ground_truth_directory: ./ground_truths/setup_history_and_archival_science/history_and_archival_science_0
+    prompt_file: ./prompts/history_and_archival_science/prompt0.txt
+    setup_file: ./setups/setup_history_and_archival_science.sh
+  - ground_truth_directory: ./ground_truths/setup_history_and_archival_science/history_and_archival_science_3
+    prompt_file: ./prompts/history_and_archival_science/prompt3.txt
+    setup_file: ./setups/setup_history_and_archival_science.sh
+  - ground_truth_directory: ./ground_truths/setup_history_and_archival_science/history_and_archival_science_2
+    prompt_file: ./prompts/history_and_archival_science/prompt2.txt
+    setup_file: ./setups/setup_history_and_archival_science.sh
+  - ground_truth_directory: ./ground_truths/setup_manufacturing_and_automation/manufacturing_and_automation_1
+    prompt_file: ./prompts/manufacturing_and_automation/prompt1.txt
+    setup_file: ./setups/setup_manufacturing_and_automation.sh
+  - ground_truth_directory: ./ground_truths/setup_manufacturing_and_automation/manufacturing_and_automation_4
+    prompt_file: ./prompts/manufacturing_and_automation/prompt4.txt
+    setup_file: ./setups/setup_manufacturing_and_automation.sh
+  - ground_truth_directory: ./ground_truths/setup_manufacturing_and_automation/manufacturing_and_automation_0
+    prompt_file: ./prompts/manufacturing_and_automation/prompt0.txt
+    setup_file: ./setups/setup_manufacturing_and_automation.sh
+  - ground_truth_directory: ./ground_truths/setup_manufacturing_and_automation/manufacturing_and_automation_3
+    prompt_file: ./prompts/manufacturing_and_automation/prompt3.txt
+    setup_file: ./setups/setup_manufacturing_and_automation.sh
+  - ground_truth_directory: ./ground_truths/setup_manufacturing_and_automation/manufacturing_and_automation_2
+    prompt_file: ./prompts/manufacturing_and_automation/prompt2.txt
+    setup_file: ./setups/setup_manufacturing_and_automation.sh
+  - ground_truth_directory: ./ground_truths/setup_graphic_design_and_animation/graphic_design_and_animation_1
+    prompt_file: ./prompts/graphic_design_and_animation/prompt1.txt
+    setup_file: ./setups/setup_graphic_design_and_animation.sh
+  - ground_truth_directory: ./ground_truths/setup_graphic_design_and_animation/graphic_design_and_animation_4
+    prompt_file: ./prompts/graphic_design_and_animation/prompt4.txt
+    setup_file: ./setups/setup_graphic_design_and_animation.sh
+  - ground_truth_directory: ./ground_truths/setup_graphic_design_and_animation/graphic_design_and_animation_0
+    prompt_file: ./prompts/graphic_design_and_animation/prompt0.txt
+    setup_file: ./setups/setup_graphic_design_and_animation.sh
+  - ground_truth_directory: ./ground_truths/setup_graphic_design_and_animation/graphic_design_and_animation_3
+    prompt_file: ./prompts/graphic_design_and_animation/prompt3.txt
+    setup_file: ./setups/setup_graphic_design_and_animation.sh
+  - ground_truth_directory: ./ground_truths/setup_graphic_design_and_animation/graphic_design_and_animation_2
+    prompt_file: ./prompts/graphic_design_and_animation/prompt2.txt
+    setup_file: ./setups/setup_graphic_design_and_animation.sh
+  - ground_truth_directory: ./ground_truths/setup_law_and_legal_analytics/law_and_legal_analytics_1
+    prompt_file: ./prompts/law_and_legal_analytics/prompt1.txt
+    setup_file: ./setups/setup_law_and_legal_analytics.sh
+  - ground_truth_directory: ./ground_truths/setup_law_and_legal_analytics/law_and_legal_analytics_4
+    prompt_file: ./prompts/law_and_legal_analytics/prompt4.txt
+    setup_file: ./setups/setup_law_and_legal_analytics.sh
+  - ground_truth_directory: ./ground_truths/setup_law_and_legal_analytics/law_and_legal_analytics_0
+    prompt_file: ./prompts/law_and_legal_analytics/prompt0.txt
+    setup_file: ./setups/setup_law_and_legal_analytics.sh
+  - ground_truth_directory: ./ground_truths/setup_law_and_legal_analytics/law_and_legal_analytics_3
+    prompt_file: ./prompts/law_and_legal_analytics/prompt3.txt
+    setup_file: ./setups/setup_law_and_legal_analytics.sh
+  - ground_truth_directory: ./ground_truths/setup_law_and_legal_analytics/law_and_legal_analytics_2
+    prompt_file: ./prompts/law_and_legal_analytics/prompt2.txt
+    setup_file: ./setups/setup_law_and_legal_analytics.sh
+  - ground_truth_directory: ./ground_truths/setup_social_media_and_digital_marketing/social_media_and_digital_marketing_1
+    prompt_file: ./prompts/social_media_and_digital_marketing/prompt1.txt
+    setup_file: ./setups/setup_social_media_and_digital_marketing.sh
+  - ground_truth_directory: ./ground_truths/setup_social_media_and_digital_marketing/social_media_and_digital_marketing_4
+    prompt_file: ./prompts/social_media_and_digital_marketing/prompt4.txt
+    setup_file: ./setups/setup_social_media_and_digital_marketing.sh
+  - ground_truth_directory: ./ground_truths/setup_social_media_and_digital_marketing/social_media_and_digital_marketing_0
+    prompt_file: ./prompts/social_media_and_digital_marketing/prompt0.txt
+    setup_file: ./setups/setup_social_media_and_digital_marketing.sh
+  - ground_truth_directory: ./ground_truths/setup_social_media_and_digital_marketing/social_media_and_digital_marketing_3
+    prompt_file: ./prompts/social_media_and_digital_marketing/prompt3.txt
+    setup_file: ./setups/setup_social_media_and_digital_marketing.sh
+  - ground_truth_directory: ./ground_truths/setup_social_media_and_digital_marketing/social_media_and_digital_marketing_2
+    prompt_file: ./prompts/social_media_and_digital_marketing/prompt2.txt
+    setup_file: ./setups/setup_social_media_and_digital_marketing.sh
+  - ground_truth_directory: ./ground_truths/setup_government_and_public_administration/government_and_public_administration_1
+    prompt_file: ./prompts/government_and_public_administration/prompt1.txt
+    setup_file: ./setups/setup_government_and_public_administration.sh
+  - ground_truth_directory: ./ground_truths/setup_government_and_public_administration/government_and_public_administration_4
+    prompt_file: ./prompts/government_and_public_administration/prompt4.txt
+    setup_file: ./setups/setup_government_and_public_administration.sh
+  - ground_truth_directory: ./ground_truths/setup_government_and_public_administration/government_and_public_administration_0
+    prompt_file: ./prompts/government_and_public_administration/prompt0.txt
+    setup_file: ./setups/setup_government_and_public_administration.sh
+  - ground_truth_directory: ./ground_truths/setup_government_and_public_administration/government_and_public_administration_3
+    prompt_file: ./prompts/government_and_public_administration/prompt3.txt
+    setup_file: ./setups/setup_government_and_public_administration.sh
+  - ground_truth_directory: ./ground_truths/setup_government_and_public_administration/government_and_public_administration_2
+    prompt_file: ./prompts/government_and_public_administration/prompt2.txt
+    setup_file: ./setups/setup_government_and_public_administration.sh
+  - ground_truth_directory: ./ground_truths/setup_music_production_and_sound_engineering/music_production_and_sound_engineering_5
+    prompt_file: ./prompts/music_production_and_sound_engineering/prompt5.txt
+    setup_file: ./setups/setup_music_production_and_sound_engineering.sh
+  - ground_truth_directory: ./ground_truths/setup_music_production_and_sound_engineering/music_production_and_sound_engineering_8
+    prompt_file: ./prompts/music_production_and_sound_engineering/prompt8.txt
+    setup_file: ./setups/setup_music_production_and_sound_engineering.sh
+  - ground_truth_directory: ./ground_truths/setup_music_production_and_sound_engineering/music_production_and_sound_engineering_1
+    prompt_file: ./prompts/music_production_and_sound_engineering/prompt1.txt
+    setup_file: ./setups/setup_music_production_and_sound_engineering.sh
+  - ground_truth_directory: ./ground_truths/setup_music_production_and_sound_engineering/music_production_and_sound_engineering_4
+    prompt_file: ./prompts/music_production_and_sound_engineering/prompt4.txt
+    setup_file: ./setups/setup_music_production_and_sound_engineering.sh
+  - ground_truth_directory: ./ground_truths/setup_music_production_and_sound_engineering/music_production_and_sound_engineering_9
+    prompt_file: ./prompts/music_production_and_sound_engineering/prompt9.txt
+    setup_file: ./setups/setup_music_production_and_sound_engineering.sh
+  - ground_truth_directory: ./ground_truths/setup_music_production_and_sound_engineering/music_production_and_sound_engineering_0
+    prompt_file: ./prompts/music_production_and_sound_engineering/prompt0.txt
+    setup_file: ./setups/setup_music_production_and_sound_engineering.sh
+  - ground_truth_directory: ./ground_truths/setup_music_production_and_sound_engineering/music_production_and_sound_engineering_6
+    prompt_file: ./prompts/music_production_and_sound_engineering/prompt6.txt
+    setup_file: ./setups/setup_music_production_and_sound_engineering.sh
+  - ground_truth_directory: ./ground_truths/setup_music_production_and_sound_engineering/music_production_and_sound_engineering_3
+    prompt_file: ./prompts/music_production_and_sound_engineering/prompt3.txt
+    setup_file: ./setups/setup_music_production_and_sound_engineering.sh
+  - ground_truth_directory: ./ground_truths/setup_music_production_and_sound_engineering/music_production_and_sound_engineering_7
+    prompt_file: ./prompts/music_production_and_sound_engineering/prompt7.txt
+    setup_file: ./setups/setup_music_production_and_sound_engineering.sh
+  - ground_truth_directory: ./ground_truths/setup_music_production_and_sound_engineering/music_production_and_sound_engineering_2
+    prompt_file: ./prompts/music_production_and_sound_engineering/prompt2.txt
+    setup_file: ./setups/setup_music_production_and_sound_engineering.sh
+  - ground_truth_directory: ./ground_truths/setup_entertainment_and_media/entertainment_and_media_5
+    prompt_file: ./prompts/entertainment_and_media/prompt5.txt
+    setup_file: ./setups/setup_entertainment_and_media.sh
+  - ground_truth_directory: ./ground_truths/setup_entertainment_and_media/entertainment_and_media_8
+    prompt_file: ./prompts/entertainment_and_media/prompt8.txt
+    setup_file: ./setups/setup_entertainment_and_media.sh
+  - ground_truth_directory: ./ground_truths/setup_entertainment_and_media/entertainment_and_media_1
+    prompt_file: ./prompts/entertainment_and_media/prompt1.txt
+    setup_file: ./setups/setup_entertainment_and_media.sh
+  - ground_truth_directory: ./ground_truths/setup_entertainment_and_media/entertainment_and_media_4
+    prompt_file: ./prompts/entertainment_and_media/prompt4.txt
+    setup_file: ./setups/setup_entertainment_and_media.sh
+  - ground_truth_directory: ./ground_truths/setup_entertainment_and_media/entertainment_and_media_9
+    prompt_file: ./prompts/entertainment_and_media/prompt9.txt
+    setup_file: ./setups/setup_entertainment_and_media.sh
+  - ground_truth_directory: ./ground_truths/setup_entertainment_and_media/entertainment_and_media_0
+    prompt_file: ./prompts/entertainment_and_media/prompt0.txt
+    setup_file: ./setups/setup_entertainment_and_media.sh
+  - ground_truth_directory: ./ground_truths/setup_entertainment_and_media/entertainment_and_media_6
+    prompt_file: ./prompts/entertainment_and_media/prompt6.txt
+    setup_file: ./setups/setup_entertainment_and_media.sh
+  - ground_truth_directory: ./ground_truths/setup_entertainment_and_media/entertainment_and_media_3
+    prompt_file: ./prompts/entertainment_and_media/prompt3.txt
+    setup_file: ./setups/setup_entertainment_and_media.sh
+  - ground_truth_directory: ./ground_truths/setup_entertainment_and_media/entertainment_and_media_7
+    prompt_file: ./prompts/entertainment_and_media/prompt7.txt
+    setup_file: ./setups/setup_entertainment_and_media.sh
+  - ground_truth_directory: ./ground_truths/setup_entertainment_and_media/entertainment_and_media_2
+    prompt_file: ./prompts/entertainment_and_media/prompt2.txt
+    setup_file: ./setups/setup_entertainment_and_media.sh
+  - ground_truth_directory: ./ground_truths/setup_cybersecurity/cybersecurity_5
+    prompt_file: ./prompts/cybersecurity/prompt5.txt
+    setup_file: ./setups/setup_cybersecurity.sh
+  - ground_truth_directory: ./ground_truths/setup_cybersecurity/cybersecurity_1
+    prompt_file: ./prompts/cybersecurity/prompt1.txt
+    setup_file: ./setups/setup_cybersecurity.sh
+  - ground_truth_directory: ./ground_truths/setup_cybersecurity/cybersecurity_4
+    prompt_file: ./prompts/cybersecurity/prompt4.txt
+    setup_file: ./setups/setup_cybersecurity.sh
+  - ground_truth_directory: ./ground_truths/setup_cybersecurity/cybersecurity_0
+    prompt_file: ./prompts/cybersecurity/prompt0.txt
+    setup_file: ./setups/setup_cybersecurity.sh
+  - ground_truth_directory: ./ground_truths/setup_cybersecurity/cybersecurity_3
+    prompt_file: ./prompts/cybersecurity/prompt3.txt
+    setup_file: ./setups/setup_cybersecurity.sh
+  - ground_truth_directory: ./ground_truths/setup_cybersecurity/cybersecurity_2
+    prompt_file: ./prompts/cybersecurity/prompt2.txt
+    setup_file: ./setups/setup_cybersecurity.sh
+  - ground_truth_directory: ./ground_truths/setup_journalism_and_digital_media/journalism_and_digital_media_5
+    prompt_file: ./prompts/journalism_and_digital_media/prompt5.txt
+    setup_file: ./setups/setup_journalism_and_digital_media.sh
+  - ground_truth_directory: ./ground_truths/setup_journalism_and_digital_media/journalism_and_digital_media_1
+    prompt_file: ./prompts/journalism_and_digital_media/prompt1.txt
+    setup_file: ./setups/setup_journalism_and_digital_media.sh
+  - ground_truth_directory: ./ground_truths/setup_journalism_and_digital_media/journalism_and_digital_media_4
+    prompt_file: ./prompts/journalism_and_digital_media/prompt4.txt
+    setup_file: ./setups/setup_journalism_and_digital_media.sh
+  - ground_truth_directory: ./ground_truths/setup_journalism_and_digital_media/journalism_and_digital_media_0
+    prompt_file: ./prompts/journalism_and_digital_media/prompt0.txt
+    setup_file: ./setups/setup_journalism_and_digital_media.sh
+  - ground_truth_directory: ./ground_truths/setup_journalism_and_digital_media/journalism_and_digital_media_3
+    prompt_file: ./prompts/journalism_and_digital_media/prompt3.txt
+    setup_file: ./setups/setup_journalism_and_digital_media.sh
+  - ground_truth_directory: ./ground_truths/setup_journalism_and_digital_media/journalism_and_digital_media_2
+    prompt_file: ./prompts/journalism_and_digital_media/prompt2.txt
+    setup_file: ./setups/setup_journalism_and_digital_media.sh
+  - ground_truth_directory: ./ground_truths/setup_hospitality_and_tourism/hospitality_and_tourism_1
+    prompt_file: ./prompts/hospitality_and_tourism/prompt1.txt
+    setup_file: ./setups/setup_hospitality_and_tourism.sh
+  - ground_truth_directory: ./ground_truths/setup_hospitality_and_tourism/hospitality_and_tourism_4
+    prompt_file: ./prompts/hospitality_and_tourism/prompt4.txt
+    setup_file: ./setups/setup_hospitality_and_tourism.sh
+  - ground_truth_directory: ./ground_truths/setup_hospitality_and_tourism/hospitality_and_tourism_0
+    prompt_file: ./prompts/hospitality_and_tourism/prompt0.txt
+    setup_file: ./setups/setup_hospitality_and_tourism.sh
+  - ground_truth_directory: ./ground_truths/setup_hospitality_and_tourism/hospitality_and_tourism_3
+    prompt_file: ./prompts/hospitality_and_tourism/prompt3.txt
+    setup_file: ./setups/setup_hospitality_and_tourism.sh
+  - ground_truth_directory: ./ground_truths/setup_hospitality_and_tourism/hospitality_and_tourism_2
+    prompt_file: ./prompts/hospitality_and_tourism/prompt2.txt
+    setup_file: ./setups/setup_hospitality_and_tourism.sh
+  - ground_truth_directory: ./ground_truths/setup_sports_science_and_analytics/sports_science_and_analytics_5
+    prompt_file: ./prompts/sports_science_and_analytics/prompt5.txt
+    setup_file: ./setups/setup_sports_science_and_analytics.sh
+  - ground_truth_directory: ./ground_truths/setup_sports_science_and_analytics/sports_science_and_analytics_1
+    prompt_file: ./prompts/sports_science_and_analytics/prompt1.txt
+    setup_file: ./setups/setup_sports_science_and_analytics.sh
+  - ground_truth_directory: ./ground_truths/setup_sports_science_and_analytics/sports_science_and_analytics_4
+    prompt_file: ./prompts/sports_science_and_analytics/prompt4.txt
+    setup_file: ./setups/setup_sports_science_and_analytics.sh
+  - ground_truth_directory: ./ground_truths/setup_sports_science_and_analytics/sports_science_and_analytics_0
+    prompt_file: ./prompts/sports_science_and_analytics/prompt0.txt
+    setup_file: ./setups/setup_sports_science_and_analytics.sh
+  - ground_truth_directory: ./ground_truths/setup_sports_science_and_analytics/sports_science_and_analytics_6
+    prompt_file: ./prompts/sports_science_and_analytics/prompt6.txt
+    setup_file: ./setups/setup_sports_science_and_analytics.sh
+  - ground_truth_directory: ./ground_truths/setup_sports_science_and_analytics/sports_science_and_analytics_3
+    prompt_file: ./prompts/sports_science_and_analytics/prompt3.txt
+    setup_file: ./setups/setup_sports_science_and_analytics.sh
+  - ground_truth_directory: ./ground_truths/setup_sports_science_and_analytics/sports_science_and_analytics_2
+    prompt_file: ./prompts/sports_science_and_analytics/prompt2.txt
+    setup_file: ./setups/setup_sports_science_and_analytics.sh
+  - ground_truth_directory: ./ground_truths/setup_real_estate/real_estate_1
+    prompt_file: ./prompts/real_estate/prompt1.txt
+    setup_file: ./setups/setup_real_estate.sh
+  - ground_truth_directory: ./ground_truths/setup_real_estate/real_estate_4
+    prompt_file: ./prompts/real_estate/prompt4.txt
+    setup_file: ./setups/setup_real_estate.sh
+  - ground_truth_directory: ./ground_truths/setup_real_estate/real_estate_0
+    prompt_file: ./prompts/real_estate/prompt0.txt
+    setup_file: ./setups/setup_real_estate.sh
+  - ground_truth_directory: ./ground_truths/setup_real_estate/real_estate_3
+    prompt_file: ./prompts/real_estate/prompt3.txt
+    setup_file: ./setups/setup_real_estate.sh
+  - ground_truth_directory: ./ground_truths/setup_real_estate/real_estate_2
+    prompt_file: ./prompts/real_estate/prompt2.txt
+    setup_file: ./setups/setup_real_estate.sh
+  - ground_truth_directory: ./ground_truths/setup_environmental_science/environmental_science_1
+    prompt_file: ./prompts/environmental_science/prompt1.txt
+    setup_file: ./setups/setup_environmental_science.sh
+  - ground_truth_directory: ./ground_truths/setup_environmental_science/environmental_science_4
+    prompt_file: ./prompts/environmental_science/prompt4.txt
+    setup_file: ./setups/setup_environmental_science.sh
+  - ground_truth_directory: ./ground_truths/setup_environmental_science/environmental_science_0
+    prompt_file: ./prompts/environmental_science/prompt0.txt
+    setup_file: ./setups/setup_environmental_science.sh
+  - ground_truth_directory: ./ground_truths/setup_environmental_science/environmental_science_3
+    prompt_file: ./prompts/environmental_science/prompt3.txt
+    setup_file: ./setups/setup_environmental_science.sh
+  - ground_truth_directory: ./ground_truths/setup_environmental_science/environmental_science_2
+    prompt_file: ./prompts/environmental_science/prompt2.txt
+    setup_file: ./setups/setup_environmental_science.sh
+  - ground_truth_directory: ./ground_truths/setup_agriculture_and_precision_farming/agriculture_and_precision_farming_5
+    prompt_file: ./prompts/agriculture_and_precision_farming/prompt5.txt
+    setup_file: ./setups/setup_agriculture_and_precision_farming.sh
+  - ground_truth_directory: ./ground_truths/setup_agriculture_and_precision_farming/agriculture_and_precision_farming_8
+    prompt_file: ./prompts/agriculture_and_precision_farming/prompt8.txt
+    setup_file: ./setups/setup_agriculture_and_precision_farming.sh
+  - ground_truth_directory: ./ground_truths/setup_agriculture_and_precision_farming/agriculture_and_precision_farming_1
+    prompt_file: ./prompts/agriculture_and_precision_farming/prompt1.txt
+    setup_file: ./setups/setup_agriculture_and_precision_farming.sh
+  - ground_truth_directory: ./ground_truths/setup_agriculture_and_precision_farming/agriculture_and_precision_farming_4
+    prompt_file: ./prompts/agriculture_and_precision_farming/prompt4.txt
+    setup_file: ./setups/setup_agriculture_and_precision_farming.sh
+  - ground_truth_directory: ./ground_truths/setup_agriculture_and_precision_farming/agriculture_and_precision_farming_9
+    prompt_file: ./prompts/agriculture_and_precision_farming/prompt9.txt
+    setup_file: ./setups/setup_agriculture_and_precision_farming.sh
+  - ground_truth_directory: ./ground_truths/setup_agriculture_and_precision_farming/agriculture_and_precision_farming_0
+    prompt_file: ./prompts/agriculture_and_precision_farming/prompt0.txt
+    setup_file: ./setups/setup_agriculture_and_precision_farming.sh
+  - ground_truth_directory: ./ground_truths/setup_agriculture_and_precision_farming/agriculture_and_precision_farming_6
+    prompt_file: ./prompts/agriculture_and_precision_farming/prompt6.txt
+    setup_file: ./setups/setup_agriculture_and_precision_farming.sh
+  - ground_truth_directory: ./ground_truths/setup_agriculture_and_precision_farming/agriculture_and_precision_farming_3
+    prompt_file: ./prompts/agriculture_and_precision_farming/prompt3.txt
+    setup_file: ./setups/setup_agriculture_and_precision_farming.sh
+  - ground_truth_directory: ./ground_truths/setup_agriculture_and_precision_farming/agriculture_and_precision_farming_7
+    prompt_file: ./prompts/agriculture_and_precision_farming/prompt7.txt
+    setup_file: ./setups/setup_agriculture_and_precision_farming.sh
+  - ground_truth_directory: ./ground_truths/setup_agriculture_and_precision_farming/agriculture_and_precision_farming_2
+    prompt_file: ./prompts/agriculture_and_precision_farming/prompt2.txt
+    setup_file: ./setups/setup_agriculture_and_precision_farming.sh
+  - ground_truth_directory: ./ground_truths/setup_biotechnology/biotechnology_1
+    prompt_file: ./prompts/biotechnology/prompt1.txt
+    setup_file: ./setups/setup_biotechnology.sh
+  - ground_truth_directory: ./ground_truths/setup_biotechnology/biotechnology_4
+    prompt_file: ./prompts/biotechnology/prompt4.txt
+    setup_file: ./setups/setup_biotechnology.sh
+  - ground_truth_directory: ./ground_truths/setup_biotechnology/biotechnology_0
+    prompt_file: ./prompts/biotechnology/prompt0.txt
+    setup_file: ./setups/setup_biotechnology.sh
+  - ground_truth_directory: ./ground_truths/setup_biotechnology/biotechnology_3
+    prompt_file: ./prompts/biotechnology/prompt3.txt
+    setup_file: ./setups/setup_biotechnology.sh
+  - ground_truth_directory: ./ground_truths/setup_biotechnology/biotechnology_2
+    prompt_file: ./prompts/biotechnology/prompt2.txt
+    setup_file: ./setups/setup_biotechnology.sh
+  - ground_truth_directory: ./ground_truths/setup_video_game_development/video_game_development_5
+    prompt_file: ./prompts/video_game_development/prompt5.txt
+    setup_file: ./setups/setup_video_game_development.sh
+  - ground_truth_directory: ./ground_truths/setup_video_game_development/video_game_development_1
+    prompt_file: ./prompts/video_game_development/prompt1.txt
+    setup_file: ./setups/setup_video_game_development.sh
+  - ground_truth_directory: ./ground_truths/setup_video_game_development/video_game_development_4
+    prompt_file: ./prompts/video_game_development/prompt4.txt
+    setup_file: ./setups/setup_video_game_development.sh
+  - ground_truth_directory: ./ground_truths/setup_video_game_development/video_game_development_0
+    prompt_file: ./prompts/video_game_development/prompt0.txt
+    setup_file: ./setups/setup_video_game_development.sh
+  - ground_truth_directory: ./ground_truths/setup_video_game_development/video_game_development_6
+    prompt_file: ./prompts/video_game_development/prompt6.txt
+    setup_file: ./setups/setup_video_game_development.sh
+  - ground_truth_directory: ./ground_truths/setup_video_game_development/video_game_development_3
+    prompt_file: ./prompts/video_game_development/prompt3.txt
+    setup_file: ./setups/setup_video_game_development.sh
+  - ground_truth_directory: ./ground_truths/setup_video_game_development/video_game_development_7
+    prompt_file: ./prompts/video_game_development/prompt7.txt
+    setup_file: ./setups/setup_video_game_development.sh
+  - ground_truth_directory: ./ground_truths/setup_video_game_development/video_game_development_2
+    prompt_file: ./prompts/video_game_development/prompt2.txt
+    setup_file: ./setups/setup_video_game_development.sh
+  - ground_truth_directory: ./ground_truths/setup_finance_and_banking/finance_and_banking_5
+    prompt_file: ./prompts/finance_and_banking/prompt5.txt
+    setup_file: ./setups/setup_finance_and_banking.sh
+  - ground_truth_directory: ./ground_truths/setup_finance_and_banking/finance_and_banking_1
+    prompt_file: ./prompts/finance_and_banking/prompt1.txt
+    setup_file: ./setups/setup_finance_and_banking.sh
+  - ground_truth_directory: ./ground_truths/setup_finance_and_banking/finance_and_banking_4
+    prompt_file: ./prompts/finance_and_banking/prompt4.txt
+    setup_file: ./setups/setup_finance_and_banking.sh
+  - ground_truth_directory: ./ground_truths/setup_finance_and_banking/finance_and_banking_0
+    prompt_file: ./prompts/finance_and_banking/prompt0.txt
+    setup_file: ./setups/setup_finance_and_banking.sh
+  - ground_truth_directory: ./ground_truths/setup_finance_and_banking/finance_and_banking_6
+    prompt_file: ./prompts/finance_and_banking/prompt6.txt
+    setup_file: ./setups/setup_finance_and_banking.sh
+  - ground_truth_directory: ./ground_truths/setup_finance_and_banking/finance_and_banking_3
+    prompt_file: ./prompts/finance_and_banking/prompt3.txt
+    setup_file: ./setups/setup_finance_and_banking.sh
+  - ground_truth_directory: ./ground_truths/setup_finance_and_banking/finance_and_banking_7
+    prompt_file: ./prompts/finance_and_banking/prompt7.txt
+    setup_file: ./setups/setup_finance_and_banking.sh
+  - ground_truth_directory: ./ground_truths/setup_finance_and_banking/finance_and_banking_2
+    prompt_file: ./prompts/finance_and_banking/prompt2.txt
+    setup_file: ./setups/setup_finance_and_banking.sh
+  - ground_truth_directory: ./ground_truths/setup_machine_learning/machine_learning_5
+    prompt_file: ./prompts/machine_learning/prompt5.txt
+    setup_file: ./setups/setup_machine_learning.sh
+  - ground_truth_directory: ./ground_truths/setup_machine_learning/machine_learning_1
+    prompt_file: ./prompts/machine_learning/prompt1.txt
+    setup_file: ./setups/setup_machine_learning.sh
+  - ground_truth_directory: ./ground_truths/setup_machine_learning/machine_learning_4
+    prompt_file: ./prompts/machine_learning/prompt4.txt
+    setup_file: ./setups/setup_machine_learning.sh
+  - ground_truth_directory: ./ground_truths/setup_machine_learning/machine_learning_0
+    prompt_file: ./prompts/machine_learning/prompt0.txt
+    setup_file: ./setups/setup_machine_learning.sh
+  - ground_truth_directory: ./ground_truths/setup_machine_learning/machine_learning_3
+    prompt_file: ./prompts/machine_learning/prompt3.txt
+    setup_file: ./setups/setup_machine_learning.sh
+  - ground_truth_directory: ./ground_truths/setup_machine_learning/machine_learning_2
+    prompt_file: ./prompts/machine_learning/prompt2.txt
+    setup_file: ./setups/setup_machine_learning.sh
+  - ground_truth_directory: ./ground_truths/setup_data_science/data_science_1
+    prompt_file: ./prompts/data_science/prompt1.txt
+    setup_file: ./setups/setup_data_science.sh
+  - ground_truth_directory: ./ground_truths/setup_data_science/data_science_4
+    prompt_file: ./prompts/data_science/prompt4.txt
+    setup_file: ./setups/setup_data_science.sh
+  - ground_truth_directory: ./ground_truths/setup_data_science/data_science_0
+    prompt_file: ./prompts/data_science/prompt0.txt
+    setup_file: ./setups/setup_data_science.sh
+  - ground_truth_directory: ./ground_truths/setup_data_science/data_science_3
+    prompt_file: ./prompts/data_science/prompt3.txt
+    setup_file: ./setups/setup_data_science.sh
+  - ground_truth_directory: ./ground_truths/setup_data_science/data_science_2
+    prompt_file: ./prompts/data_science/prompt2.txt
+    setup_file: ./setups/setup_data_science.sh
+  - ground_truth_directory: ./ground_truths/setup_logistics_and_supply_chain_management/logistics_and_supply_chain_management_1
+    prompt_file: ./prompts/logistics_and_supply_chain_management/prompt1.txt
+    setup_file: ./setups/setup_logistics_and_supply_chain_management.sh
+  - ground_truth_directory: ./ground_truths/setup_logistics_and_supply_chain_management/logistics_and_supply_chain_management_4
+    prompt_file: ./prompts/logistics_and_supply_chain_management/prompt4.txt
+    setup_file: ./setups/setup_logistics_and_supply_chain_management.sh
+  - ground_truth_directory: ./ground_truths/setup_logistics_and_supply_chain_management/logistics_and_supply_chain_management_0
+    prompt_file: ./prompts/logistics_and_supply_chain_management/prompt0.txt
+    setup_file: ./setups/setup_logistics_and_supply_chain_management.sh
+  - ground_truth_directory: ./ground_truths/setup_logistics_and_supply_chain_management/logistics_and_supply_chain_management_3
+    prompt_file: ./prompts/logistics_and_supply_chain_management/prompt3.txt
+    setup_file: ./setups/setup_logistics_and_supply_chain_management.sh
+  - ground_truth_directory: ./ground_truths/setup_logistics_and_supply_chain_management/logistics_and_supply_chain_management_2
+    prompt_file: ./prompts/logistics_and_supply_chain_management/prompt2.txt
+    setup_file: ./setups/setup_logistics_and_supply_chain_management.sh
+  - ground_truth_directory: ./ground_truths/setup_human_resources_and_recruitment/human_resources_and_recruitment_1
+    prompt_file: ./prompts/human_resources_and_recruitment/prompt1.txt
+    setup_file: ./setups/setup_human_resources_and_recruitment.sh
+  - ground_truth_directory: ./ground_truths/setup_human_resources_and_recruitment/human_resources_and_recruitment_4
+    prompt_file: ./prompts/human_resources_and_recruitment/prompt4.txt
+    setup_file: ./setups/setup_human_resources_and_recruitment.sh
+  - ground_truth_directory: ./ground_truths/setup_human_resources_and_recruitment/human_resources_and_recruitment_0
+    prompt_file: ./prompts/human_resources_and_recruitment/prompt0.txt
+    setup_file: ./setups/setup_human_resources_and_recruitment.sh
+  - ground_truth_directory: ./ground_truths/setup_human_resources_and_recruitment/human_resources_and_recruitment_3
+    prompt_file: ./prompts/human_resources_and_recruitment/prompt3.txt
+    setup_file: ./setups/setup_human_resources_and_recruitment.sh
+  - ground_truth_directory: ./ground_truths/setup_human_resources_and_recruitment/human_resources_and_recruitment_2
+    prompt_file: ./prompts/human_resources_and_recruitment/prompt2.txt
+    setup_file: ./setups/setup_human_resources_and_recruitment.sh
+  - ground_truth_directory: ./ground_truths/setup_psychology_and_neuroscience/psychology_and_neuroscience_5
+    prompt_file: ./prompts/psychology_and_neuroscience/prompt5.txt
+    setup_file: ./setups/setup_psychology_and_neuroscience.sh
+  - ground_truth_directory: ./ground_truths/setup_psychology_and_neuroscience/psychology_and_neuroscience_1
+    prompt_file: ./prompts/psychology_and_neuroscience/prompt1.txt
+    setup_file: ./setups/setup_psychology_and_neuroscience.sh
+  - ground_truth_directory: ./ground_truths/setup_psychology_and_neuroscience/psychology_and_neuroscience_4
+    prompt_file: ./prompts/psychology_and_neuroscience/prompt4.txt
+    setup_file: ./setups/setup_psychology_and_neuroscience.sh
+  - ground_truth_directory: ./ground_truths/setup_psychology_and_neuroscience/psychology_and_neuroscience_0
+    prompt_file: ./prompts/psychology_and_neuroscience/prompt0.txt
+    setup_file: ./setups/setup_psychology_and_neuroscience.sh
+  - ground_truth_directory: ./ground_truths/setup_psychology_and_neuroscience/psychology_and_neuroscience_3
+    prompt_file: ./prompts/psychology_and_neuroscience/prompt3.txt
+    setup_file: ./setups/setup_psychology_and_neuroscience.sh
+  - ground_truth_directory: ./ground_truths/setup_psychology_and_neuroscience/psychology_and_neuroscience_2
+    prompt_file: ./prompts/psychology_and_neuroscience/prompt2.txt
+    setup_file: ./setups/setup_psychology_and_neuroscience.sh
+  - ground_truth_directory: ./ground_truths/setup_geology_and_geophysics/geology_and_geophysics_1
+    prompt_file: ./prompts/geology_and_geophysics/prompt1.txt
+    setup_file: ./setups/setup_geology_and_geophysics.sh
+  - ground_truth_directory: ./ground_truths/setup_geology_and_geophysics/geology_and_geophysics_4
+    prompt_file: ./prompts/geology_and_geophysics/prompt4.txt
+    setup_file: ./setups/setup_geology_and_geophysics.sh
+  - ground_truth_directory: ./ground_truths/setup_geology_and_geophysics/geology_and_geophysics_0
+    prompt_file: ./prompts/geology_and_geophysics/prompt0.txt
+    setup_file: ./setups/setup_geology_and_geophysics.sh
+  - ground_truth_directory: ./ground_truths/setup_geology_and_geophysics/geology_and_geophysics_3
+    prompt_file: ./prompts/geology_and_geophysics/prompt3.txt
+    setup_file: ./setups/setup_geology_and_geophysics.sh
+  - ground_truth_directory: ./ground_truths/setup_geology_and_geophysics/geology_and_geophysics_2
+    prompt_file: ./prompts/geology_and_geophysics/prompt2.txt
+    setup_file: ./setups/setup_geology_and_geophysics.sh
+  - ground_truth_directory: ./ground_truths/setup_education_and_e-learning/education_and_e-learning_1
+    prompt_file: ./prompts/education_and_e-learning/prompt1.txt
+    setup_file: ./setups/setup_education_and_e-learning.sh
+  - ground_truth_directory: ./ground_truths/setup_education_and_e-learning/education_and_e-learning_4
+    prompt_file: ./prompts/education_and_e-learning/prompt4.txt
+    setup_file: ./setups/setup_education_and_e-learning.sh
+  - ground_truth_directory: ./ground_truths/setup_education_and_e-learning/education_and_e-learning_0
+    prompt_file: ./prompts/education_and_e-learning/prompt0.txt
+    setup_file: ./setups/setup_education_and_e-learning.sh
+  - ground_truth_directory: ./ground_truths/setup_education_and_e-learning/education_and_e-learning_3
+    prompt_file: ./prompts/education_and_e-learning/prompt3.txt
+    setup_file: ./setups/setup_education_and_e-learning.sh
+  - ground_truth_directory: ./ground_truths/setup_education_and_e-learning/education_and_e-learning_2
+    prompt_file: ./prompts/education_and_e-learning/prompt2.txt
+    setup_file: ./setups/setup_education_and_e-learning.sh
+  - ground_truth_directory: ./ground_truths/setup_meteorology_and_climate_science/meteorology_and_climate_science_5
+    prompt_file: ./prompts/meteorology_and_climate_science/prompt5.txt
+    setup_file: ./setups/setup_meteorology_and_climate_science.sh
+  - ground_truth_directory: ./ground_truths/setup_meteorology_and_climate_science/meteorology_and_climate_science_8
+    prompt_file: ./prompts/meteorology_and_climate_science/prompt8.txt
+    setup_file: ./setups/setup_meteorology_and_climate_science.sh
+  - ground_truth_directory: ./ground_truths/setup_meteorology_and_climate_science/meteorology_and_climate_science_1
+    prompt_file: ./prompts/meteorology_and_climate_science/prompt1.txt
+    setup_file: ./setups/setup_meteorology_and_climate_science.sh
+  - ground_truth_directory: ./ground_truths/setup_meteorology_and_climate_science/meteorology_and_climate_science_4
+    prompt_file: ./prompts/meteorology_and_climate_science/prompt4.txt
+    setup_file: ./setups/setup_meteorology_and_climate_science.sh
+  - ground_truth_directory: ./ground_truths/setup_meteorology_and_climate_science/meteorology_and_climate_science_9
+    prompt_file: ./prompts/meteorology_and_climate_science/prompt9.txt
+    setup_file: ./setups/setup_meteorology_and_climate_science.sh
+  - ground_truth_directory: ./ground_truths/setup_meteorology_and_climate_science/meteorology_and_climate_science_0
+    prompt_file: ./prompts/meteorology_and_climate_science/prompt0.txt
+    setup_file: ./setups/setup_meteorology_and_climate_science.sh
+  - ground_truth_directory: ./ground_truths/setup_meteorology_and_climate_science/meteorology_and_climate_science_6
+    prompt_file: ./prompts/meteorology_and_climate_science/prompt6.txt
+    setup_file: ./setups/setup_meteorology_and_climate_science.sh
+  - ground_truth_directory: ./ground_truths/setup_meteorology_and_climate_science/meteorology_and_climate_science_3
+    prompt_file: ./prompts/meteorology_and_climate_science/prompt3.txt
+    setup_file: ./setups/setup_meteorology_and_climate_science.sh
+  - ground_truth_directory: ./ground_truths/setup_meteorology_and_climate_science/meteorology_and_climate_science_7
+    prompt_file: ./prompts/meteorology_and_climate_science/prompt7.txt
+    setup_file: ./setups/setup_meteorology_and_climate_science.sh
+  - ground_truth_directory: ./ground_truths/setup_meteorology_and_climate_science/meteorology_and_climate_science_2
+    prompt_file: ./prompts/meteorology_and_climate_science/prompt2.txt
+    setup_file: ./setups/setup_meteorology_and_climate_science.sh
+  - ground_truth_directory: ./ground_truths/setup_transportation_(autonomous_vehicles,_traffic_management)/transportation_(autonomous_vehicles,_traffic_management)_1
+    prompt_file: ./prompts/transportation_(autonomous_vehicles,_traffic_management)/prompt1.txt
+    setup_file: ./setups/setup_transportation_(autonomous_vehicles,_traffic_management).sh
+  - ground_truth_directory: ./ground_truths/setup_transportation_(autonomous_vehicles,_traffic_management)/transportation_(autonomous_vehicles,_traffic_management)_4
+    prompt_file: ./prompts/transportation_(autonomous_vehicles,_traffic_management)/prompt4.txt
+    setup_file: ./setups/setup_transportation_(autonomous_vehicles,_traffic_management).sh
+  - ground_truth_directory: ./ground_truths/setup_transportation_(autonomous_vehicles,_traffic_management)/transportation_(autonomous_vehicles,_traffic_management)_0
+    prompt_file: ./prompts/transportation_(autonomous_vehicles,_traffic_management)/prompt0.txt
+    setup_file: ./setups/setup_transportation_(autonomous_vehicles,_traffic_management).sh
+  - ground_truth_directory: ./ground_truths/setup_transportation_(autonomous_vehicles,_traffic_management)/transportation_(autonomous_vehicles,_traffic_management)_3
+    prompt_file: ./prompts/transportation_(autonomous_vehicles,_traffic_management)/prompt3.txt
+    setup_file: ./setups/setup_transportation_(autonomous_vehicles,_traffic_management).sh
+  - ground_truth_directory: ./ground_truths/setup_transportation_(autonomous_vehicles,_traffic_management)/transportation_(autonomous_vehicles,_traffic_management)_2
+    prompt_file: ./prompts/transportation_(autonomous_vehicles,_traffic_management)/prompt2.txt
+    setup_file: ./setups/setup_transportation_(autonomous_vehicles,_traffic_management).sh
+  - ground_truth_directory: ./ground_truths/setup_virtual_reality_(vr)_and_augmented_reality_(ar)/virtual_reality_(vr)_and_augmented_reality_(ar)_1
+    prompt_file: ./prompts/virtual_reality_(vr)_and_augmented_reality_(ar)/prompt1.txt
+    setup_file: ./setups/setup_virtual_reality_(vr)_and_augmented_reality_(ar).sh
+  - ground_truth_directory: ./ground_truths/setup_virtual_reality_(vr)_and_augmented_reality_(ar)/virtual_reality_(vr)_and_augmented_reality_(ar)_4
+    prompt_file: ./prompts/virtual_reality_(vr)_and_augmented_reality_(ar)/prompt4.txt
+    setup_file: ./setups/setup_virtual_reality_(vr)_and_augmented_reality_(ar).sh
+  - ground_truth_directory: ./ground_truths/setup_virtual_reality_(vr)_and_augmented_reality_(ar)/virtual_reality_(vr)_and_augmented_reality_(ar)_0
+    prompt_file: ./prompts/virtual_reality_(vr)_and_augmented_reality_(ar)/prompt0.txt
+    setup_file: ./setups/setup_virtual_reality_(vr)_and_augmented_reality_(ar).sh
+  - ground_truth_directory: ./ground_truths/setup_virtual_reality_(vr)_and_augmented_reality_(ar)/virtual_reality_(vr)_and_augmented_reality_(ar)_3
+    prompt_file: ./prompts/virtual_reality_(vr)_and_augmented_reality_(ar)/prompt3.txt
+    setup_file: ./setups/setup_virtual_reality_(vr)_and_augmented_reality_(ar).sh
+  - ground_truth_directory: ./ground_truths/setup_virtual_reality_(vr)_and_augmented_reality_(ar)/virtual_reality_(vr)_and_augmented_reality_(ar)_2
+    prompt_file: ./prompts/virtual_reality_(vr)_and_augmented_reality_(ar)/prompt2.txt
+    setup_file: ./setups/setup_virtual_reality_(vr)_and_augmented_reality_(ar).sh
+  - ground_truth_directory: ./ground_truths/setup_computer_science/computer_science_5
+    prompt_file: ./prompts/computer_science/prompt5.txt
+    setup_file: ./setups/setup_computer_science.sh
+  - ground_truth_directory: ./ground_truths/setup_computer_science/computer_science_1
+    prompt_file: ./prompts/computer_science/prompt1.txt
+    setup_file: ./setups/setup_computer_science.sh
+  - ground_truth_directory: ./ground_truths/setup_computer_science/computer_science_4
+    prompt_file: ./prompts/computer_science/prompt4.txt
+    setup_file: ./setups/setup_computer_science.sh
+  - ground_truth_directory: ./ground_truths/setup_computer_science/computer_science_0
+    prompt_file: ./prompts/computer_science/prompt0.txt
+    setup_file: ./setups/setup_computer_science.sh
+  - ground_truth_directory: ./ground_truths/setup_computer_science/computer_science_3
+    prompt_file: ./prompts/computer_science/prompt3.txt
+    setup_file: ./setups/setup_computer_science.sh
+  - ground_truth_directory: ./ground_truths/setup_computer_science/computer_science_2
+    prompt_file: ./prompts/computer_science/prompt2.txt
+    setup_file: ./setups/setup_computer_science.sh
+  - ground_truth_directory: ./ground_truths/setup_pharmaceuticals_and_drug_development/pharmaceuticals_and_drug_development_1
+    prompt_file: ./prompts/pharmaceuticals_and_drug_development/prompt1.txt
+    setup_file: ./setups/setup_pharmaceuticals_and_drug_development.sh
+  - ground_truth_directory: ./ground_truths/setup_pharmaceuticals_and_drug_development/pharmaceuticals_and_drug_development_4
+    prompt_file: ./prompts/pharmaceuticals_and_drug_development/prompt4.txt
+    setup_file: ./setups/setup_pharmaceuticals_and_drug_development.sh
+  - ground_truth_directory: ./ground_truths/setup_pharmaceuticals_and_drug_development/pharmaceuticals_and_drug_development_0
+    prompt_file: ./prompts/pharmaceuticals_and_drug_development/prompt0.txt
+    setup_file: ./setups/setup_pharmaceuticals_and_drug_development.sh
+  - ground_truth_directory: ./ground_truths/setup_pharmaceuticals_and_drug_development/pharmaceuticals_and_drug_development_3
+    prompt_file: ./prompts/pharmaceuticals_and_drug_development/prompt3.txt
+    setup_file: ./setups/setup_pharmaceuticals_and_drug_development.sh
+  - ground_truth_directory: ./ground_truths/setup_pharmaceuticals_and_drug_development/pharmaceuticals_and_drug_development_2
+    prompt_file: ./prompts/pharmaceuticals_and_drug_development/prompt2.txt
+    setup_file: ./setups/setup_pharmaceuticals_and_drug_development.sh
+  - ground_truth_directory: ./ground_truths/setup_economics_and_market_research/economics_and_market_research_1
+    prompt_file: ./prompts/economics_and_market_research/prompt1.txt
+    setup_file: ./setups/setup_economics_and_market_research.sh
+  - ground_truth_directory: ./ground_truths/setup_economics_and_market_research/economics_and_market_research_4
+    prompt_file: ./prompts/economics_and_market_research/prompt4.txt
+    setup_file: ./setups/setup_economics_and_market_research.sh
+  - ground_truth_directory: ./ground_truths/setup_economics_and_market_research/economics_and_market_research_0
+    prompt_file: ./prompts/economics_and_market_research/prompt0.txt
+    setup_file: ./setups/setup_economics_and_market_research.sh
+  - ground_truth_directory: ./ground_truths/setup_economics_and_market_research/economics_and_market_research_3
+    prompt_file: ./prompts/economics_and_market_research/prompt3.txt
+    setup_file: ./setups/setup_economics_and_market_research.sh
+  - ground_truth_directory: ./ground_truths/setup_economics_and_market_research/economics_and_market_research_2
+    prompt_file: ./prompts/economics_and_market_research/prompt2.txt
+    setup_file: ./setups/setup_economics_and_market_research.sh
+  - ground_truth_directory: ./ground_truths/setup_construction_and_architecture/construction_and_architecture_1
+    prompt_file: ./prompts/construction_and_architecture/prompt1.txt
+    setup_file: ./setups/setup_construction_and_architecture.sh
+  - ground_truth_directory: ./ground_truths/setup_construction_and_architecture/construction_and_architecture_4
+    prompt_file: ./prompts/construction_and_architecture/prompt4.txt
+    setup_file: ./setups/setup_construction_and_architecture.sh
+  - ground_truth_directory: ./ground_truths/setup_construction_and_architecture/construction_and_architecture_0
+    prompt_file: ./prompts/construction_and_architecture/prompt0.txt
+    setup_file: ./setups/setup_construction_and_architecture.sh
+  - ground_truth_directory: ./ground_truths/setup_construction_and_architecture/construction_and_architecture_3
+    prompt_file: ./prompts/construction_and_architecture/prompt3.txt
+    setup_file: ./setups/setup_construction_and_architecture.sh
+  - ground_truth_directory: ./ground_truths/setup_construction_and_architecture/construction_and_architecture_2
+    prompt_file: ./prompts/construction_and_architecture/prompt2.txt
+    setup_file: ./setups/setup_construction_and_architecture.sh

@@ -1,0 +1,1 @@
+Run shell commands on Linux. Ensure valid paths and distinguish files from directories. Use absolute paths and split tasks into simpler commands. Validate paths before execution. Invoke tool multiple times for file system validation. Examples: Move file: mv /source/file /destination/, List files: ls /directory/.

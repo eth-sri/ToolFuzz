@@ -1,0 +1,1 @@
+Run shell commands on a Linux system. Use JSON to input commands as strings or arrays. Specify exact paths and filenames, avoiding vague terms. Validate paths to prevent errors and ensure correct execution. Invoke multiple times for state verification.

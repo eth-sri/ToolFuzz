@@ -1,0 +1,25 @@
+environments:
+- ground_truth_directory: 
+    ./ground_truths/setup_history_and_archival_science/history_and_archival_science_5
+  prompt_file: ./prompts/history_and_archival_science/prompt5.txt
+  setup_file: ./setups/setup_history_and_archival_science.sh
+- ground_truth_directory: 
+    ./ground_truths/setup_history_and_archival_science/history_and_archival_science_1
+  prompt_file: ./prompts/history_and_archival_science/prompt1.txt
+  setup_file: ./setups/setup_history_and_archival_science.sh
+- ground_truth_directory: 
+    ./ground_truths/setup_history_and_archival_science/history_and_archival_science_4
+  prompt_file: ./prompts/history_and_archival_science/prompt4.txt
+  setup_file: ./setups/setup_history_and_archival_science.sh
+- ground_truth_directory: 
+    ./ground_truths/setup_history_and_archival_science/history_and_archival_science_0
+  prompt_file: ./prompts/history_and_archival_science/prompt0.txt
+  setup_file: ./setups/setup_history_and_archival_science.sh
+- ground_truth_directory: 
+    ./ground_truths/setup_history_and_archival_science/history_and_archival_science_3
+  prompt_file: ./prompts/history_and_archival_science/prompt3.txt
+  setup_file: ./setups/setup_history_and_archival_science.sh
+- ground_truth_directory: 
+    ./ground_truths/setup_history_and_archival_science/history_and_archival_science_2
+  prompt_file: ./prompts/history_and_archival_science/prompt2.txt
+  setup_file: ./setups/setup_history_and_archival_science.sh

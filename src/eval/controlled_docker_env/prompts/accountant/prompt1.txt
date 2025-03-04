@@ -1,0 +1,1 @@
+Locate the Q4 tax filings for Client B from 2024 and move them to a 'Finalized Tax Filings' folder.

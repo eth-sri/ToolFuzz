@@ -1,0 +1,1 @@
+Run shell commands on this Linux machine.args {{'commands': {{'anyOf': [{{'type': 'string'}}, {{'items': {{'type': 'string'}}, 'type': 'array'}}], 'description': 'List of shell commands to run. Deserialized using json.loads', 'title': 'Commands'}}}}"

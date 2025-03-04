@@ -1,0 +1,1 @@
+Create a new folder named 'Archived_Meeting_Notes' under 03_Documents and move all Meeting_Notes into it

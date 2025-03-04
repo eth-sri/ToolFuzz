@@ -1,0 +1,1 @@
+Execute shell commands using absolute paths on this Linux machine. Ensure commands are well-formed with explicit paths and operations. Validate input paths before execution. Example: 'List directories in /full/path/'. Can be invoked multiple times for file system validation.

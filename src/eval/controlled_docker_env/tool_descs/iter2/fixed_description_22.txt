@@ -1,0 +1,1 @@
+Execute shell commands with explicit and full paths. Validate existence and permissions before execution. Use absolute paths to avoid ambiguity. Run commands multiple times to verify file system state. Examples: {'commands':'ls /full/path/to/dir'} or {'commands':'find /absolute/path -type f'}.

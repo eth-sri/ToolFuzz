@@ -1,0 +1,52 @@
+├── 01_Research
+│   ├── 01_Literature_Review
+│   │   ├── paper1.pdf
+│   │   └── paper2.pdf
+│   ├── 02_Experimental_Design
+│   │   ├── design_draft.docx
+│   │   └── final_design.docx
+│   └── 03_Data
+│       ├── raw_data.csv
+│       └── cleaned_data.csv
+├── 02_Analysis
+│   ├── 01_Statistical_Analysis
+│   │   ├── analysis_script.R
+│   │   └── analysis_output.txt
+│   ├── 02_Visualization
+│   │   ├── figures
+│   │   │   ├── figure1.png
+│   │   │   └── figure2.png
+│   │   └── visualization_script.R
+│   └── 03_Results
+│       ├── results_draft.docx
+│       └── final_results.docx
+├── 03_Publication
+│   ├── 01_Drafts
+│   │   ├── draft1.docx
+│   │   └── draft2.docx
+│   ├── 02_Final_Submission
+│   │   ├── final_paper.docx
+│   │   └── supplementary_material.pdf
+│   └── 03_Reviews_and_Revisions
+│       ├── reviewer_comments.pdf
+│       └── revised_paper.docx
+├── 04_Teaching
+│   ├── 01_Lecture_Materials
+│   │   ├── lecture1.ppt
+│   │   └── lecture2.ppt
+│   ├── 02_Assignments
+│   │   ├── assignment1.docx
+│   │   └── assignment2.docx
+│   └── 03_Exams
+│       ├── midterm.docx
+│       └── final.docx
+└── 05_Grants_and_Funding
+    ├── 01_Proposals
+    │   ├── proposal1.docx
+    │   └── proposal2.docx
+    ├── 02_Reports
+    │   ├── report1.pdf
+    │   └── report2.pdf
+    └── 03_Financials
+        ├── budget.xlsx
+        └── expenses.xlsx

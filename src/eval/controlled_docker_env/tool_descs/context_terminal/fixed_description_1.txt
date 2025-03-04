@@ -1,0 +1,1 @@
+Execute valid shell commands on this Linux machine. Input must include precise file paths and command syntax. Validate paths using 'ls' or 'cat' to confirm file existence. Examples: {'commands': 'ls Documents/Reports'}, {'commands': 'cat Documents/Reports/report1.txt'}. The tool can be invoked multiple times to ensure file system state consistency.

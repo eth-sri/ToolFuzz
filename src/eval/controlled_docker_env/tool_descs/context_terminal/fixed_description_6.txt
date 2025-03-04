@@ -1,0 +1,1 @@
+Execute shell commands on this Linux machine. Use clear, concise commands with relative paths. Enclose paths with spaces in quotes. Validate command syntax and file paths. The tool can be invoked multiple times to ensure correct file system state.

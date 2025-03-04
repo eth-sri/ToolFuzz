@@ -1,0 +1,1 @@
+Run shell commands using full paths and valid syntax. Ensure commands are properly escaped and tested in a shell environment. Invoke the tool multiple times for accurate filesystem validation. Example: {'commands': 'ls -l /path/to/directory'}.

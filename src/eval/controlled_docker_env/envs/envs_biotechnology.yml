@@ -1,0 +1,16 @@
+environments:
+- ground_truth_directory: ./ground_truths/setup_biotechnology/biotechnology_1
+  prompt_file: ./prompts/biotechnology/prompt1.txt
+  setup_file: ./setups/setup_biotechnology.sh
+- ground_truth_directory: ./ground_truths/setup_biotechnology/biotechnology_4
+  prompt_file: ./prompts/biotechnology/prompt4.txt
+  setup_file: ./setups/setup_biotechnology.sh
+- ground_truth_directory: ./ground_truths/setup_biotechnology/biotechnology_0
+  prompt_file: ./prompts/biotechnology/prompt0.txt
+  setup_file: ./setups/setup_biotechnology.sh
+- ground_truth_directory: ./ground_truths/setup_biotechnology/biotechnology_3
+  prompt_file: ./prompts/biotechnology/prompt3.txt
+  setup_file: ./setups/setup_biotechnology.sh
+- ground_truth_directory: ./ground_truths/setup_biotechnology/biotechnology_2
+  prompt_file: ./prompts/biotechnology/prompt2.txt
+  setup_file: ./setups/setup_biotechnology.sh

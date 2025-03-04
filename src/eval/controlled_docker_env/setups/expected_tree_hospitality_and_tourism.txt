@@ -1,0 +1,72 @@
+├── archive
+│   ├── bookings
+│   │   ├── archived_booking_A_2021.zip
+│   │   └── archived_booking_B_2021.zip
+│   ├── reports
+│   │   ├── archived_annual_report_2021.pdf
+│   │   └── archived_monthly_report_2021.pdf
+│   └── templates
+│       ├── old_menu_template.docx
+│       └── old_event_plan_template.xlsx
+├── bookings
+│   ├── booking_A
+│   │   ├── 2023
+│   │   │   ├── booking_details
+│   │   │   │   ├── booking_confirmation.pdf
+│   │   │   │   └── booking_invoice.pdf
+│   │   │   ├── customer_feedback
+│   │   │   │   ├── feedback_form.pdf
+│   │   │   │   └── feedback_summary.docx
+│   │   │   └── event_plan
+│   │   │       ├── event_schedule.pdf
+│   │   │       └── event_layout.pdf
+│   │   └── 2024
+│   │       ├── booking_details
+│   │       │   ├── booking_confirmation.pdf
+│   │       │   └── booking_invoice.pdf
+│   │       ├── customer_feedback
+│   │       │   ├── feedback_form.pdf
+│   │       │   └── feedback_summary.docx
+│   │       └── event_plan
+│   │           ├── event_schedule.pdf
+│   │           └── event_layout.pdf
+│   └── booking_B
+│       ├── 2023
+│       │   ├── booking_details
+│       │   │   ├── booking_confirmation.pdf
+│       │   │   └── booking_invoice.pdf
+│       │   ├── customer_feedback
+│       │   │   ├── feedback_form.pdf
+│       │   │   └── feedback_summary.docx
+│       │   └── event_plan
+│       │       ├── event_schedule.pdf
+│       │       └── event_layout.pdf
+│       └── 2024
+│           ├── booking_details
+│           │   ├── booking_confirmation.pdf
+│           │   └── booking_invoice.pdf
+│           ├── customer_feedback
+│           │   ├── feedback_form.pdf
+│           │   └── feedback_summary.docx
+│           └── event_plan
+│               ├── event_schedule.pdf
+│               └── event_layout.pdf
+├── reports
+│   ├── annual_reports
+│   │   └── annual_report_2023.pdf
+│   ├── monthly_reports
+│   │   ├── february_2023.pdf
+│   │   └── january_2023.pdf
+│   └── quarterly_reports
+│       ├── Q1_report_2023.pdf
+│       └── Q2_report_2023.pdf
+└── templates
+   ├── booking_templates
+   │   ├── advanced_booking_template.docx
+   │   └── basic_booking_template.docx
+   ├── feedback_templates
+   │   ├── monthly_feedback_template.xlsx
+   │   └── weekly_feedback_template.xlsx
+   └── event_plan_templates
+       ├── corporate_event_plan_template.docx
+       └── standard_event_plan_template.docx

@@ -1,0 +1,1 @@
+Copy the basic presentation template to client B's 2023 presentations folder.

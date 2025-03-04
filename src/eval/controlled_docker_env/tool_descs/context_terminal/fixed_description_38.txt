@@ -1,0 +1,1 @@
+Execute shell commands with absolute paths and correct syntax on this Linux machine. Commands must be valid shell strings, deserialized using json.loads. Validate paths and use proper naming. Invoke multiple times for consistent file system checks. E.g., 'rm /path/to/file', 'mv /path/from/file /path/to/file'.

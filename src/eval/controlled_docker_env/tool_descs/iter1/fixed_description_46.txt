@@ -1,0 +1,1 @@
+Execute valid shell commands on this Linux machine. Ensure commands use correct syntax and paths. Validate file and directory references. Split complex operations into multiple commands for accuracy. Avoid assuming tool behavior; confirm results.

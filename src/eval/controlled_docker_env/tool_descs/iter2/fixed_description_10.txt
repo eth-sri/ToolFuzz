@@ -1,0 +1,1 @@
+Run shell commands with absolute paths and correct syntax. Specify full paths for files/directories, and structure commands clearly. Validate actions by invoking multiple times. Example: Find PDFs in '/full/path/to/directory'.

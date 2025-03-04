@@ -1,0 +1,1 @@
+Execute Linux shell commands with full paths and explicit syntax. Use exact file and directory names. Validate paths before running. The tool can be invoked multiple times to check filesystem state. Example: {'commands': 'ls /full/path/to/directory'}.

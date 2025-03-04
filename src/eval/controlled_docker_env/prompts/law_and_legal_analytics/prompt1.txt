@@ -1,0 +1,1 @@
+Move the 'old_contract_template.docx' and 'old_legal_notice_template.docx' from the 'archive' folder to the 'templates' folder.

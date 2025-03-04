@@ -1,0 +1,1 @@
+Copy the machine design version 2 to the Manufacturing folder

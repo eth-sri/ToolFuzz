@@ -1,0 +1,1 @@
+Run shell commands on this Linux machine. Use JSON to specify commands as strings or arrays. Ensure paths are correct, use quotes or escapes for spaces, and validate command syntax. For example, use 'mv source target' or 'ls -l directory'. The tool can be invoked multiple times to ensure file system state validity.

@@ -1,0 +1,1 @@
+Run precise shell commands on this Linux machine. Use valid paths and syntax; enclose paths with spaces in quotes. For clarity, avoid placeholders and validate filesystem state before execution. Commands can be invoked multiple times if needed.

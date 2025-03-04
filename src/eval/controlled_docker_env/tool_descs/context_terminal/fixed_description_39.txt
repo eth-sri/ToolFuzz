@@ -1,0 +1,1 @@
+Run shell commands on this Linux machine. Commands must be valid shell syntax, with file paths correctly specified, and encapsulated in quotes if they contain spaces. Verify file existence and confirm directory structures before execution. Invoke multiple times for state validation. Example: {'commands': 'ls "My Documents"'}.

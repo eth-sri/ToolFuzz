@@ -1,0 +1,1 @@
+Run shell commands on a Linux machine. Provide valid file or directory paths and correct command syntax. Ensure paths are accurate and distinguish between files and directories. The tool can be invoked multiple times for validation.

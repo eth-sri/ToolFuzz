@@ -1,0 +1,16 @@
+environments:
+- ground_truth_directory: ./ground_truths/setup_real_estate/real_estate_1
+  prompt_file: ./prompts/real_estate/prompt1.txt
+  setup_file: ./setups/setup_real_estate.sh
+- ground_truth_directory: ./ground_truths/setup_real_estate/real_estate_4
+  prompt_file: ./prompts/real_estate/prompt4.txt
+  setup_file: ./setups/setup_real_estate.sh
+- ground_truth_directory: ./ground_truths/setup_real_estate/real_estate_0
+  prompt_file: ./prompts/real_estate/prompt0.txt
+  setup_file: ./setups/setup_real_estate.sh
+- ground_truth_directory: ./ground_truths/setup_real_estate/real_estate_3
+  prompt_file: ./prompts/real_estate/prompt3.txt
+  setup_file: ./setups/setup_real_estate.sh
+- ground_truth_directory: ./ground_truths/setup_real_estate/real_estate_2
+  prompt_file: ./prompts/real_estate/prompt2.txt
+  setup_file: ./setups/setup_real_estate.sh

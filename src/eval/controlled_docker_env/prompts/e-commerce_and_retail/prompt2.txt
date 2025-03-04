@@ -1,0 +1,1 @@
+Copy the 2024 product images for product B to a new folder named 'backup'

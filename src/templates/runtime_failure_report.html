@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Tool Testing Report</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+</head>
+<body>
+<div class="container mt-5">
+    <h2 class="mb-4"><img src="./toolfuzz.png" class="img-fluid" style="max-height: 150px;">ToolFuzz - Runtime Failure
+        report</h2>
+    <p><a href="{{ full_result_file }}" target="_blank">Raw results file.</a></p>
+    <div class="accordion" id="toolAccordion">
+        {% for tool, tool_results in test_results.items() %}
+        {% set tool_has_trigger = tool_results | selectattr("successful_trigger") | list | length > 0 %}
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="heading-{{ loop.index }}">
+                <button class="accordion-button {% if tool_has_trigger %}btn-danger{% endif %}" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#collapse-{{ loop.index }}" aria-expanded="false"
+                        aria-controls="collapse-{{ loop.index }}">
+                    {{ tool }}
+                </button>
+            </h2>
+            <div id="collapse-{{ loop.index }}" class="accordion-collapse collapse"
+                 aria-labelledby="heading-{{ loop.index }}" data-bs-parent="#toolAccordion">
+                <div class="accordion-body">
+                    <!-- Inner accordion for test details -->
+                    <div class="accordion" id="accordion-{{ loop.index }}">
+                        {% for detail in tool_results %}
+                        {% set detail_loop = loop %}
+                        <div class="accordion-item">
+                            <h2 class="accordion-header"
+                                id="detail-heading-{{ loop.index }}-{{ detail_loop.index }}">
+                                <button class="accordion-button collapsed {% if detail.successful_trigger %}text-danger{% endif %}"
+                                        type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#detail-collapse-{{ loop.index }}-{{ detail_loop.index }}"
+                                        aria-expanded="false"
+                                        aria-controls="detail-collapse-{{ loop.index }}-{{ detail_loop.index }}">
+                                    {{ detail.prompt }}
+                                </button>
+                            </h2>
+                            <div id="detail-collapse-{{ loop.index }}-{{ detail_loop.index }}"
+                                 class="accordion-collapse collapse"
+                                 aria-labelledby="detail-heading-{{ loop.index }}-{{ detail_loop.index }}"
+                                 data-bs-parent="#accordion-{{ loop.index }}">
+                                <div class="accordion-body">
+                                    <div class="row">
+                                        <!-- Fuzzer Card -->
+                                        <div class="col-md-6">
+                                            <div class="card shadow-sm">
+                                                <div class="card-header bg-primary text-white">
+                                                    <h4 class="mb-0">Fuzzer</h4>
+                                                </div>
+                                                <div class="card-body">
+                                                    <ul class="list-group list-group-flush">
+                                                        <li class="list-group-item"><strong>Generated
+                                                            Parameters:</strong> {{ detail.fuzzed_params }}
+                                                        </li>
+                                                        <li class="list-group-item"><strong>Triggered
+                                                            Exception:</strong>
+                                                            {{ detail.expected_exception }}
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Agent Card -->
+                                        <div class="col-md-6">
+                                            <div class="card shadow-sm">
+                                                {% set bg_color = 'danger' if detail.successful_trigger else 'success'
+                                                %}
+                                                <div class="card-header bg-{{ bg_color }} text-white">
+                                                    <h4 class="mb-0">Agent</h4>
+                                                </div>
+                                                <div class="card-body">
+                                                    <ul class="list-group list-group-flush">
+                                                        <li class="list-group-item"><strong>Agent
+                                                            Type:</strong> {{ detail.agent_type }}
+                                                        </li>
+                                                        <li class="list-group-item"><strong>Tool Invocation
+                                                            Parameters:</strong> {{ detail.invocation_params }}
+                                                        </li>
+                                                        <li class="list-group-item"><strong>Triggered
+                                                            Exception:</strong> {{ detail.exception }}
+                                                        </li>
+                                                        <li class="list-group-item"><strong>Successful
+                                                            Trigger:</strong>
+                                                            {{ detail.successful_trigger }}
+                                                        </li>
+                                                        <li class="list-group-item"><strong>Trace:</strong>
+                                                            <pre id="traceCollapse{{ loop.index }}-{{ detail_loop.index }}"
+                                                                 class="json-preview bg-light p-2 border rounded"
+                                                                 data-collapsed="true"
+                                                                 style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">{{ detail.trace | safe }}</pre>
+                                                            <button class="btn btn-link btn-sm"
+                                                                    type="button"
+                                                                    onclick="toggleJSON('traceCollapse{{ loop.index }}-{{ detail_loop.index }}', this)">
+                                                                Expand
+                                                            </button>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+<script>
+    function toggleJSON(id, btn) {
+        let preTag = document.getElementById(id);
+        let isCollapsed = preTag.getAttribute("data-collapsed") === "true";
+
+        if (isCollapsed) {
+            preTag.style.whiteSpace = "pre-wrap";  // Expand to multiline
+            preTag.style.overflow = "visible";
+            btn.innerText = "Collapse";  // Change button text
+            preTag.setAttribute("data-collapsed", "false");
+        } else {
+            preTag.style.whiteSpace = "nowrap";  // Collapse to single line
+            preTag.style.overflow = "hidden";
+            btn.innerText = "Expand";  // Change button text
+            preTag.setAttribute("data-collapsed", "true");
+        }
+    }
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

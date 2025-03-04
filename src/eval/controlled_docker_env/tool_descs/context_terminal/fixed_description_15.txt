@@ -1,0 +1,1 @@
+Run valid Linux shell commands. Ensure accurate paths, use quotes for spaces, and adhere to shell syntax. Validate paths and command syntax before execution. Tool can be invoked multiple times for file system state validation. Example: {'commands': 'ls -1 "ProjectA/documentation" | wc -l'}.

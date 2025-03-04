@@ -1,0 +1,124 @@
+├── archive
+│   ├── clients
+│   │   ├── archived_client_A_2021.zip
+│   │   └── archived_client_B_2021.zip
+│   ├── reports
+│   │   ├── archived_annual_report_2021.pdf
+│   │   └── archived_monthly_report_2021.pdf
+│   └── templates
+│       ├── old_loan_agreement_template.docx
+│       └── old_investment_plan_template.xlsx
+├── clients
+│   ├── client_A
+│   │   ├── 2023
+│   │   │   ├── financial_statements
+│   │   │   │   ├── balance_sheet.pdf
+│   │   │   │   └── profit_loss_statement.pdf
+│   │   │   ├── loan_documents
+│   │   │   │   ├── loan_agreement.pdf
+│   │   │   │   └── loan_schedule.pdf
+│   │   │   ├── investment_documents
+│   │   │   │   ├── investment_plan.pdf
+│   │   │   │   └── investment_receipt.pdf
+│   │   │   └── tax
+│   │   │       ├── Q1
+│   │   │       │   ├── tax_filing.pdf
+│   │   │       │   └── tax_receipt.pdf
+│   │   │       ├── Q2
+│   │   │       │   ├── tax_filing.pdf
+│   │   │       │   └── tax_receipt.pdf
+│   │   │       ├── Q3
+│   │   │       │   ├── tax_filing.pdf
+│   │   │       │   └── tax_receipt.pdf
+│   │   │       └── Q4
+│   │   │           ├── tax_filing.pdf
+│   │   │           └── tax_receipt.pdf
+│   │   └── 2024
+│   │       ├── financial_statements
+│   │       │   ├── balance_sheet.pdf
+│   │       │   └── profit_loss_statement.pdf
+│   │       ├── loan_documents
+│   │       │   ├── loan_agreement.pdf
+│   │       │   └── loan_schedule.pdf
+│   │       ├── investment_documents
+│   │       │   ├── investment_plan.pdf
+│   │       │   └── investment_receipt.pdf
+│   │       └── tax
+│   │           ├── Q1
+│   │           │   ├── tax_filing.pdf
+│   │           │   └── tax_receipt.pdf
+│   │           ├── Q2
+│   │           │   ├── tax_filing.pdf
+│   │           │   └── tax_receipt.pdf
+│   │           ├── Q3
+│   │           │   ├── tax_filing.pdf
+│   │           │   └── tax_receipt.pdf
+│   │           └── Q4
+│   │               ├── tax_filing.pdf
+│   │               └── tax_receipt.pdf
+│   └── client_B
+│       ├── 2023
+│       │   ├── financial_statements
+│       │   │   ├── balance_sheet.pdf
+│       │   │   └── profit_loss_statement.pdf
+│       │   ├── loan_documents
+│       │   │   ├── loan_agreement.pdf
+│       │   │   └── loan_schedule.pdf
+│       │   ├── investment_documents
+│       │   │   ├── investment_plan.pdf
+│       │   │   └── investment_receipt.pdf
+│       │   └── tax
+│       │       ├── Q1
+│       │       │   ├── tax_filing.pdf
+│       │       │   └── tax_receipt.pdf
+│       │       ├── Q2
+│       │       │   ├── tax_filing.pdf
+│       │       │   └── tax_receipt.pdf
+│       │       ├── Q3
+│       │       │   ├── tax_filing.pdf
+│       │       │   └── tax_receipt.pdf
+│       │       └── Q4
+│       │           ├── tax_filing.pdf
+│       │           └── tax_receipt.pdf
+│       └── 2024
+│           ├── financial_statements
+│           │   ├── balance_sheet.pdf
+│           │   └── profit_loss_statement.pdf
+│           ├── loan_documents
+│           │   ├── loan_agreement.pdf
+│           │   └── loan_schedule.pdf
+│           ├── investment_documents
+│           │   ├── investment_plan.pdf
+│           │   └── investment_receipt.pdf
+│           └── tax
+│               ├── Q1
+│               │   ├── tax_filing.pdf
+│               │   └── tax_receipt.pdf
+│               ├── Q2
+│               │   ├── tax_filing.pdf
+│               │   └── tax_receipt.pdf
+│               ├── Q3
+│               │   ├── tax_filing.pdf
+│               │   └── tax_receipt.pdf
+│               └── Q4
+│                   ├── tax_filing.pdf
+│                   └── tax_receipt.pdf
+├── reports
+│   ├── annual_reports
+│   │   └── annual_report_2023.pdf
+│   ├── monthly_reports
+│   │   ├── february_2023.pdf
+│   │   └── january_2023.pdf
+│   └── quarterly_reports
+│       ├── Q1_report_2023.pdf
+│       └── Q2_report_2023.pdf
+└── templates
+   ├── loan_templates
+   │   ├── standard_loan_agreement_template.docx
+   │   └── advanced_loan_agreement_template.docx
+   ├── investment_templates
+   │   ├── standard_investment_plan_template.xlsx
+   │   └── advanced_investment_plan_template.xlsx
+   └── tax_templates
+       ├── corporate_tax_template.docx
+       └── standard_tax_template.docx

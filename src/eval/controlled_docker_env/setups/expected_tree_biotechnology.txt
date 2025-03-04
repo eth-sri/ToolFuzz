@@ -1,0 +1,48 @@
+├── 01_Research
+│   ├── 01_Literature_Review
+│   │   ├── paper1.pdf
+│   │   └── paper2.pdf
+│   ├── 02_Experimental_Design
+│   │   ├── experiment1.docx
+│   │   └── experiment2.docx
+│   └── 03_Data
+│       ├── data1.csv
+│       └── data2.csv
+├── 02_Experiments
+│   ├── 01_Setup
+│   │   ├── setup1.docx
+│   │   └── setup2.docx
+│   ├── 02_Results
+│   │   ├── result1.csv
+│   │   └── result2.csv
+│   └── 03_Analysis
+│       ├── analysis1.xlsx
+│       └── analysis2.xlsx
+├── 03_Patents
+│   ├── 01_Applications
+│   │   ├── application1.pdf
+│   │   └── application2.pdf
+│   └── 02_Granted
+│       ├── patent1.pdf
+│       └── patent2.pdf
+├── 04_Publications
+│   ├── 01_Drafts
+│   │   ├── draft1.docx
+│   │   └── draft2.docx
+│   └── 02_Published
+│       ├── paper1.pdf
+│       └── paper2.pdf
+├── 05_Presentations
+│   ├── 01_Conferences
+│   │   ├── conference1.pptx
+│   │   └── conference2.pptx
+│   └── 02_Seminars
+│       ├── seminar1.pptx
+│       └── seminar2.pptx
+└── 06_Grants
+    ├── 01_Applications
+    │   ├── application1.pdf
+    │   └── application2.pdf
+    └── 02_Awarded
+        ├── grant1.pdf
+        └── grant2.pdf

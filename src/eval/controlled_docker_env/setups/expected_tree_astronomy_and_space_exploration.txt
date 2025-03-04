@@ -1,0 +1,75 @@
+├── 01_Research
+│   ├── 01_Astronomy
+│   │   ├── Galaxy_Research
+│   │   │   ├── galaxy_research_paper_v1.pdf
+│   │   │   └── galaxy_research_paper_v2.pdf
+│   │   └── Star_Research
+│   │       ├── star_research_paper_v1.pdf
+│   │       └── star_research_paper_v2.pdf
+│   └── 02_Space_Exploration
+│       ├── Mission_Research
+│       │   ├── mission_research_paper_v1.pdf
+│       │   └── mission_research_paper_v2.pdf
+│       └── Planet_Research
+│           ├── planet_research_paper_v1.pdf
+│           └── planet_research_paper_v2.pdf
+├── 02_Data
+│   ├── 01_Astronomy_Data
+│   │   ├── Galaxy_Data
+│   │   │   ├── galaxy_data_v1.csv
+│   │   │   └── galaxy_data_v2.csv
+│   │   └── Star_Data
+│   │       ├── star_data_v1.csv
+│   │       └── star_data_v2.csv
+│   └── 02_Space_Exploration_Data
+│       ├── Mission_Data
+│       │   ├── mission_data_v1.csv
+│       │   └── mission_data_v2.csv
+│       └── Planet_Data
+│           ├── planet_data_v1.csv
+│           └── planet_data_v2.csv
+├── 03_Publications
+│   ├── 01_Astronomy_Publications
+│   │   ├── Galaxy_Publications
+│   │   │   ├── galaxy_publication_v1.pdf
+│   │   │   └── galaxy_publication_v2.pdf
+│   │   └── Star_Publications
+│   │       ├── star_publication_v1.pdf
+│   │       └── star_publication_v2.pdf
+│   └── 02_Space_Exploration_Publications
+│       ├── Mission_Publications
+│       │   ├── mission_publication_v1.pdf
+│       │   └── mission_publication_v2.pdf
+│       └── Planet_Publications
+│           ├── planet_publication_v1.pdf
+│           └── planet_publication_v2.pdf
+├── 04_Presentations
+│   ├── 01_Astronomy_Presentations
+│   │   ├── Galaxy_Presentations
+│   │   │   ├── galaxy_presentation_v1.ppt
+│   │   │   └── galaxy_presentation_v2.ppt
+│   │   └── Star_Presentations
+│   │       ├── star_presentation_v1.ppt
+│   │       └── star_presentation_v2.ppt
+│   └── 02_Space_Exploration_Presentations
+│       ├── Mission_Presentations
+│       │   ├── mission_presentation_v1.ppt
+│       │   └── mission_presentation_v2.ppt
+│       └── Planet_Presentations
+│           ├── planet_presentation_v1.ppt
+│           └── planet_presentation_v2.ppt
+└── 05_Images
+    ├── 01_Astronomy_Images
+    │   ├── Galaxy_Images
+    │   │   ├── galaxy_image_v1.jpg
+    │   │   └── galaxy_image_v2.jpg
+    │   └── Star_Images
+    │       ├── star_image_v1.jpg
+    │       └── star_image_v2.jpg
+    └── 02_Space_Exploration_Images
+        ├── Mission_Images
+        │   ├── mission_image_v1.jpg
+        │   └── mission_image_v2.jpg
+        └── Planet_Images
+            ├── planet_image_v1.jpg
+            └── planet_image_v2.jpg

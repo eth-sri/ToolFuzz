@@ -1,0 +1,1 @@
+Run shell commands on a Linux machine. Ensure commands are valid, using complete paths and correct syntax. Example: {'commands': 'ls /home/user/directory'}. Check file/directory existence and use absolute paths. Invoke multiple times to validate file system state.

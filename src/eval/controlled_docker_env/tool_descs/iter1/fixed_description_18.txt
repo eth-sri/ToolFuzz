@@ -1,0 +1,1 @@
+Execute shell commands on this Linux machine. Use full paths and correct syntax for file operations. Validate commands and paths before execution. Examples: 'ls /path/to/directory', 'rm /path/to/file'. Commands can be run multiple times for validation.

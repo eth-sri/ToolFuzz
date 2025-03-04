@@ -1,0 +1,1 @@
+This tool executes Linux shell commands. Commands must be valid, with correct syntax, paths, and quoting for spaces or special characters. Use absolute/relative paths appropriately. Validate state post-execution. Example: {'commands': ['mv src/main.py dest/', 'rm -i file.txt']}

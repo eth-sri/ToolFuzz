@@ -1,0 +1,1 @@
+Execute shell commands with precise file paths, using quotes for spaces (e.g., 'my folder'). Validate directory structure before execution. For complex operations, use multiple invocations to ensure correct file system state. Provide full paths to avoid ambiguity.

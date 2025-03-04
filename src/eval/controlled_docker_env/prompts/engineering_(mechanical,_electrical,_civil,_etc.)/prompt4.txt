@@ -1,0 +1,1 @@
+Copy the ISO standards to the Resources folder

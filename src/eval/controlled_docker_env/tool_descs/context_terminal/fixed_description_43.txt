@@ -1,0 +1,1 @@
+The terminal tool executes shell commands on a Linux machine. Use valid shell syntax with precise file paths. Enclose paths with spaces in quotes. Commands can be a single string or an array of strings. Validate paths and files exist before execution. Use multiple invocations to ensure correct filesystem state. Example: {'commands': 'mv "path with spaces/file.txt" /new/path/'}

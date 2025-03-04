@@ -1,0 +1,1 @@
+Run precise shell commands on this Linux machine. Ensure commands use absolute paths and valid file names. Validate paths and syntax against the current file system state. Commands like 'ls', 'find', 'mv', 'cp', 'chmod', and 'du' should be clear and contextually accurate. Incorrect commands can be retried for better validation.

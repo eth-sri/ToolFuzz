@@ -1,0 +1,1 @@
+Delete the 'Presentation_Template.pptx' file from the 'Templates' folder

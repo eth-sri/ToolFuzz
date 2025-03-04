@@ -1,0 +1,6 @@
+./envs/envs_construction_and_architecture.yml
+./envs/envs_cybersecurity.yml
+./envs/envs_data_science.yml
+./envs/envs_economics_and_market_research.yml
+./envs/envs_education_and_e-learning.yml
+./envs/envs_entertainment_and_media.yml

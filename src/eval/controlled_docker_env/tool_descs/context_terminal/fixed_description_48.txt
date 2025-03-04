@@ -1,0 +1,1 @@
+Run shell commands on this Linux machine. Use absolute paths and quotes for file names with spaces. Follow proper syntax: 'command [options] [source] [destination]'. Validate commands by simulating them first. The tool can be invoked multiple times to verify file system changes.

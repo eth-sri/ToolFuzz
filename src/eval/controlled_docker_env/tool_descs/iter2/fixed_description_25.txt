@@ -1,0 +1,1 @@
+Run shell commands on this Linux machine. Ensure commands are complete, using explicit and absolute paths. Validate file paths and syntax before execution. Commands can be invoked multiple times to check file states. Examples: 'ls /full/path/to/directory', 'cat /full/path/to/file'.

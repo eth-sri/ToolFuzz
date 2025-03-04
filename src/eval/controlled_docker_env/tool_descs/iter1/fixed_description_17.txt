@@ -1,0 +1,1 @@
+Execute precise shell commands on this Linux machine. Ensure commands use absolute paths and correct syntax. Validate command structure before execution. The tool can be used multiple times to verify file system state. Examples: 'ls /path/to/dir', 'mv /source/file /dest/file'.

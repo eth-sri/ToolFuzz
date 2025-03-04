@@ -1,0 +1,1 @@
+Run shell commands using absolute paths and adhere to exact syntax. Avoid placeholders and ensure paths/directories exist. Commands must be syntactically correct and verified. The tool can be invoked multiple times to validate file system state. Examples include 'ls /home/user/docs' and 'du -sh /home/user/docs'.

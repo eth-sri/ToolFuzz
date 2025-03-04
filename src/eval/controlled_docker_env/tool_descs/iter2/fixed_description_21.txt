@@ -1,0 +1,1 @@
+Run shell commands on this Linux machine with precise, fully qualified paths and correct syntax. Avoid placeholders; validate paths. Example: `ls /full/path/to/directory`. Can be invoked multiple times for file system validation.

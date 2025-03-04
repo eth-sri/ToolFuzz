@@ -1,0 +1,51 @@
+├── 01_Research
+│   ├── 01_Literature_Review
+│   │   ├── related_article_1.pdf
+│   │   └── related_article_2.pdf
+│   ├── 02_Patents
+│   │   ├── patent_1.pdf
+│   │   └── patent_2.pdf
+│   └── 03_Research_Proposal
+│       └── research_proposal.docx
+├── 02_Drug_Development
+│   ├── 01_Preclinical_Trials
+│   │   ├── animal_study_report_1.pdf
+│   │   └── lab_results_1.xlsx
+│   ├── 02_Clinical_Trials
+│   │   ├── phase1_report.pdf
+│   │   ├── phase2_report.pdf
+│   │   └── phase3_report.pdf
+│   └── 03_FDA_Approval
+│       ├── fda_submission.docx
+│       └── fda_approval_letter.pdf
+├── 03_Manufacturing
+│   ├── 01_Production_Schedule
+│   │   └── production_schedule.xlsx
+│   ├── 02_Quality_Control
+│   │   ├── qc_report_1.pdf
+│   │   └── qc_report_2.pdf
+│   └── 03_Packaging
+│       ├── packaging_design.ai
+│       └── packaging_test_report.pdf
+├── 04_Marketing
+│   ├── 01_Market_Research
+│   │   ├── competitor_analysis.pdf
+│   │   └── target_market_report.pdf
+│   ├── 02_Marketing_Strategy
+│   │   ├── marketing_plan.docx
+│   │   └── marketing_budget.xlsx
+│   └── 03_Advertising
+│       ├── ad_script.docx
+│       └── ad_storyboard.pdf
+└── 05_Sales
+    ├── 01_Sales_Reports
+    │   ├── sales_report_q1.pdf
+    │   ├── sales_report_q2.pdf
+    │   ├── sales_report_q3.pdf
+    │   └── sales_report_q4.pdf
+    ├── 02_Customer_Feedback
+    │   ├── customer_survey_results.xlsx
+    │   └── customer_complaints.docx
+    └── 03_Returns_and_Refunds
+        ├── return_policy.docx
+        └── refund_report.pdf

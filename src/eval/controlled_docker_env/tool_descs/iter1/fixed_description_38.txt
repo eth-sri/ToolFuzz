@@ -1,0 +1,1 @@
+Use this tool to execute Linux shell commands. Ensure commands are syntactically correct, paths exist, and inputs match expected formats. Validate paths and command logic before execution. Examples: 'find /path -type f -name ".pdf"' or 'ls /directory'. Commands can be invoked multiple times for validation.

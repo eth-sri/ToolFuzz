@@ -1,0 +1,6 @@
+./envs/envs_manufacturing_and_automation.yml
+./envs/envs_meteorology_and_climate_science.yml
+./envs/envs_music_production_and_sound_engineering.yml
+./envs/envs_pharmaceuticals_and_drug_development.yml
+./envs/envs_psychology_and_neuroscience.yml
+./envs/envs_real_estate.yml

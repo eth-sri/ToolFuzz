@@ -1,0 +1,1 @@
+Execute shell commands on this Linux machine. Use absolute paths and precise command syntax to avoid errors. Validate paths and use quotes for spaces. The tool supports multiple invocations for consistent file system state checks. Example: {'commands': ['ls /absolute/path/']}

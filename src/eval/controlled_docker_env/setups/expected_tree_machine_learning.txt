@@ -1,0 +1,44 @@
+├── 01_Data
+│   ├── 01_Raw
+│   │   ├── dataset1.csv
+│   │   └── dataset2.csv
+│   ├── 02_Processed
+│   │   ├── dataset1_processed.csv
+│   │   └── dataset2_processed.csv
+│   └── 03_External
+│       ├── external_data1.csv
+│       └── external_data2.csv
+├── 02_Code
+│   ├── 01_Preprocessing
+│   │   ├── data_cleaning.py
+│   │   └── data_transformation.py
+│   ├── 02_Models
+│   │   ├── model1.py
+│   │   ├── model2.py
+│   │   └── model3.py
+│   ├── 03_Evaluation
+│   │   ├── model_evaluation.py
+│   │   └── performance_metrics.py
+│   └── 04_Visualization
+│       ├── data_visualization.py
+│       └── model_visualization.py
+├── 03_Results
+│   ├── 01_Model_Outputs
+│   │   ├── model1_output.csv
+│   │   ├── model2_output.csv
+│   │   └── model3_output.csv
+│   ├── 02_Evaluation_Reports
+│   │   ├── model1_evaluation.pdf
+│   │   ├── model2_evaluation.pdf
+│   │   └── model3_evaluation.pdf
+│   └── 03_Visualizations
+│       ├── data_visualization.png
+│       └── model_visualization.png
+├── 04_Documentation
+│   ├── 01_Project_Proposal.pdf
+│   ├── 02_Methodology.pdf
+│   ├── 03_Final_Report.pdf
+│   └── 04_Presentation.pptx
+└── 05_Archive
+    ├── old_code.zip
+    └── old_data.zip

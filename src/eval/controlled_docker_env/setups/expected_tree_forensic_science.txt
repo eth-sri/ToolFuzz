@@ -1,0 +1,98 @@
+├── 01_Case_Files
+│   ├── 01_Open_Cases
+│   │   ├── Case_001
+│   │   │   ├── Evidence
+│   │   │   │   ├── DNA_Samples
+│   │   │   │   │   ├── sample_001.jpg
+│   │   │   │   │   └── sample_002.jpg
+│   │   │   │   ├── Fingerprints
+│   │   │   │   │   ├── fingerprint_001.jpg
+│   │   │   │   │   └── fingerprint_002.jpg
+│   │   │   │   └── Photos
+│   │   │   │       ├── crime_scene_001.jpg
+│   │   │   │       └── crime_scene_002.jpg
+│   │   │   ├── Reports
+│   │   │   │   ├── autopsy_report.pdf
+│   │   │   │   └── initial_report.pdf
+│   │   │   └── Witness_Statements
+│   │   │       ├── statement_001.pdf
+│   │   │       └── statement_002.pdf
+│   │   └── Case_002
+│   │       ├── Evidence
+│   │       │   ├── DNA_Samples
+│   │       │   │   ├── sample_001.jpg
+│   │       │   │   └── sample_002.jpg
+│   │       │   ├── Fingerprints
+│   │       │   │   ├── fingerprint_001.jpg
+│   │       │   │   └── fingerprint_002.jpg
+│   │       │   └── Photos
+│   │       │       ├── crime_scene_001.jpg
+│   │       │       └── crime_scene_002.jpg
+│   │       ├── Reports
+│   │       │   ├── autopsy_report.pdf
+│   │       │   └── initial_report.pdf
+│   │       └── Witness_Statements
+│   │           ├── statement_001.pdf
+│   │           └── statement_002.pdf
+│   └── 02_Closed_Cases
+│       ├── Case_001
+│       │   ├── Evidence
+│       │   │   ├── DNA_Samples
+│       │   │   │   ├── sample_001.jpg
+│       │   │   │   └── sample_002.jpg
+│       │   │   ├── Fingerprints
+│       │   │   │   ├── fingerprint_001.jpg
+│       │   │   │   └── fingerprint_002.jpg
+│       │   │   └── Photos
+│       │   │       ├── crime_scene_001.jpg
+│       │   │       └── crime_scene_002.jpg
+│       │   ├── Reports
+│       │   │   ├── autopsy_report.pdf
+│       │   │   └── final_report.pdf
+│       │   └── Witness_Statements
+│       │       ├── statement_001.pdf
+│       │       └── statement_002.pdf
+│       └── Case_002
+│           ├── Evidence
+│           │   ├── DNA_Samples
+│           │   │   ├── sample_001.jpg
+│           │   │   └── sample_002.jpg
+│           │   ├── Fingerprints
+│           │   │   ├── fingerprint_001.jpg
+│           │   │   └── fingerprint_002.jpg
+│           │   └── Photos
+│           │       ├── crime_scene_001.jpg
+│           │       └── crime_scene_002.jpg
+│           ├── Reports
+│           │   ├── autopsy_report.pdf
+│           │   └── final_report.pdf
+│           └── Witness_Statements
+│               ├── statement_001.pdf
+│               └── statement_002.pdf
+├── 02_Research
+│   ├── Articles
+│   │   ├── article_001.pdf
+│   │   └── article_002.pdf
+│   ├── Books
+│   │   ├── book_001.pdf
+│   │   └── book_002.pdf
+│   └── Journals
+│       ├── journal_001.pdf
+│       └── journal_002.pdf
+├── 03_Training
+│   ├── Certificates
+│   │   ├── certificate_001.pdf
+│   │   └── certificate_002.pdf
+│   ├── Courses
+│   │   ├── course_001.pdf
+│   │   └── course_002.pdf
+│   └── Workshops
+│       ├── workshop_001.pdf
+│       └── workshop_002.pdf
+└── 04_Tools
+    ├── Software
+    │   ├── software_001.zip
+    │   └── software_002.zip
+    └── Templates
+        ├── report_template.docx
+        └── statement_template.docx

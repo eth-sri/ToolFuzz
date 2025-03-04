@@ -1,0 +1,21 @@
+environments:
+- ground_truth_directory: 
+    ./ground_truths/setup_economics_and_market_research/economics_and_market_research_1
+  prompt_file: ./prompts/economics_and_market_research/prompt1.txt
+  setup_file: ./setups/setup_economics_and_market_research.sh
+- ground_truth_directory: 
+    ./ground_truths/setup_economics_and_market_research/economics_and_market_research_4
+  prompt_file: ./prompts/economics_and_market_research/prompt4.txt
+  setup_file: ./setups/setup_economics_and_market_research.sh
+- ground_truth_directory: 
+    ./ground_truths/setup_economics_and_market_research/economics_and_market_research_0
+  prompt_file: ./prompts/economics_and_market_research/prompt0.txt
+  setup_file: ./setups/setup_economics_and_market_research.sh
+- ground_truth_directory: 
+    ./ground_truths/setup_economics_and_market_research/economics_and_market_research_3
+  prompt_file: ./prompts/economics_and_market_research/prompt3.txt
+  setup_file: ./setups/setup_economics_and_market_research.sh
+- ground_truth_directory: 
+    ./ground_truths/setup_economics_and_market_research/economics_and_market_research_2
+  prompt_file: ./prompts/economics_and_market_research/prompt2.txt
+  setup_file: ./setups/setup_economics_and_market_research.sh

@@ -1,0 +1,1 @@
+Run shell commands on this Linux machine using precise, existing paths and correct syntax. Use JSON format for multiple commands. Escape special characters in paths. Validate paths and system state before execution. Example: {'commands': 'ls -1 Tools/Scripts | wc -l'}

@@ -1,0 +1,71 @@
+├── 01_Projects
+│   ├── 01_Project_A
+│   │   ├── 01_Design
+│   │   │   ├── CAD_Files
+│   │   │   │   ├── assembly_A_v1.dwg
+│   │   │   │   └── part_A_v1.dwg
+│   │   │   ├── Calculations
+│   │   │   │   ├── load_calculations.xlsx
+│   │   │   │   └── stress_analysis.xlsx
+│   │   │   └── Specifications
+│   │   │       └── project_A_specifications.pdf
+│   │   ├── 02_Manufacturing
+│   │   │   ├── Manufacturing_Plans
+│   │   │   │   └── manufacturing_plan_A.pdf
+│   │   │   └── Quality_Control
+│   │   │       └── QC_report_A.pdf
+│   │   └── 03_Testing
+│   │       ├── Test_Reports
+│   │       │   └── test_report_A.pdf
+│   │       └── Test_Setup
+│   │           └── test_setup_A.pdf
+│   └── 02_Project_B
+│       ├── 01_Design
+│       │   ├── CAD_Files
+│       │   │   ├── assembly_B_v1.dwg
+│       │   │   └── part_B_v1.dwg
+│       │   ├── Calculations
+│       │   │   ├── load_calculations.xlsx
+│       │   │   └── stress_analysis.xlsx
+│       │   └── Specifications
+│       │       └── project_B_specifications.pdf
+│       ├── 02_Manufacturing
+│       │   ├── Manufacturing_Plans
+│       │   │   └── manufacturing_plan_B.pdf
+│       │   └── Quality_Control
+│       │       └── QC_report_B.pdf
+│       └── 03_Testing
+│           ├── Test_Reports
+│           │   └── test_report_B.pdf
+│           └── Test_Setup
+│               └── test_setup_B.pdf
+├── 02_Resources
+│   ├── 01_Materials
+│   │   ├── material_A_specifications.pdf
+│   │   └── material_B_specifications.pdf
+│   ├── 02_Tools
+│   │   ├── tool_A_manual.pdf
+│   │   └── tool_B_manual.pdf
+│   └── 03_Software
+│       ├── software_A_guide.pdf
+│       └── software_B_guide.pdf
+├── 03_Documents
+│   ├── 01_Standards
+│   │   ├── ISO_9001.pdf
+│   │   └── ISO_14001.pdf
+│   ├── 02_Patents
+│   │   ├── patent_A.pdf
+│   │   └── patent_B.pdf
+│   └── 03_Reports
+│       ├── annual_report_2023.pdf
+│       └── monthly_report_2023.pdf
+└── 04_Archives
+    ├── 01_Old_Projects
+    │   ├── old_project_A.zip
+    │   └── old_project_B.zip
+    ├── 02_Old_Documents
+    │   ├── old_standard_A.pdf
+    │   └── old_report_A.pdf
+    └── 03_Old_Resources
+        ├── old_material_A_specifications.pdf
+        └── old_tool_A_manual.pdf

@@ -1,0 +1,1 @@
+Delete the 'ad_keywords.xlsx' file from the 'google_ads' folder

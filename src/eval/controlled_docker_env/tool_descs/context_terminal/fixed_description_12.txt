@@ -1,0 +1,1 @@
+Terminal: Execute precise shell commands on this Linux machine. Commands must be valid shell syntax, with paths quoted or escaped properly for spaces and special characters. Validate commands and paths for accuracy. Invoke multiple times for state validation. Example: {'commands': 'ls -l "Folder Name"'}.

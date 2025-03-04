@@ -1,0 +1,1 @@
+Run Linux shell commands with absolute paths. Specify clear, precise actions. Validate commands against file system state. Example: 'unzip /path/to/file.zip -d /path/to/destination'. Can be invoked multiple times for validation.

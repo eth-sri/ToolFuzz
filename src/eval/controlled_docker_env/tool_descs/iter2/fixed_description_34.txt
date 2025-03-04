@@ -1,0 +1,1 @@
+Execute shell commands on this Linux machine using absolute paths. Commands must specify exact file/directory paths and be well-formed for the intended operation. Validate syntax and context. The tool supports multiple invocations for better system state checks.

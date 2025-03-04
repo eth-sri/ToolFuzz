@@ -1,0 +1,1 @@
+terminal: Execute validated shell commands on this Linux machine. Commands must include absolute paths, correct file names, and extensions. Verify paths and command syntax before execution. Invoke multiple times to confirm filesystem state. Example: {'commands': ['ls /home/user/documents']}.

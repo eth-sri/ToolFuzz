@@ -1,0 +1,1 @@
+Execute shell commands on Linux with absolute paths and valid syntax. Ensure files exist and commands are specific. Use absolute paths like '/home/user/path'. Validate with dry runs or multiple invocations to check file states. Examples: 'mv /path/to/file /new/path/' or 'ls /absolute/path/'.

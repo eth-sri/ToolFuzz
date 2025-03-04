@@ -1,0 +1,1 @@
+Execute shell commands on a Linux machine. Provide commands as a JSON array or string, ensuring paths are absolute and correctly formatted. Use quotes or escape spaces and special characters. Validate paths before execution and invoke the tool multiple times for state checks. Example: {'commands': ['ls /path/to/dir', 'mv /source/file /destination/']}

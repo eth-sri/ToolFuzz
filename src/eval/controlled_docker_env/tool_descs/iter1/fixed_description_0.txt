@@ -1,0 +1,1 @@
+Run valid shell commands on this Linux machine. Use JSON arrays for multiple commands. Ensure paths are correct and specify whether operating on files or directories. Validate before execution. Commands can be rerun for state checks. Example: {'commands': ['ls /path/to/directory']}

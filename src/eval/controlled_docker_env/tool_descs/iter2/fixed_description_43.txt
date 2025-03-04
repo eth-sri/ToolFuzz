@@ -1,0 +1,1 @@
+Terminal: Execute shell commands on this Linux machine. Commands must use absolute paths for files and directories. Avoid using `~` or shorthand paths. Use valid shell syntax. Example: `ls /home/user/documents/`. Invoke multiple times for validation.

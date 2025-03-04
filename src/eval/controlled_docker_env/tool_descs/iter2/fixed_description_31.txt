@@ -1,0 +1,1 @@
+Run shell commands on this Linux machine using absolute paths only. Ensure correct syntax for commands like 'find', 'du', and 'ls'. Validate command structure and paths. Invoke tool multiple times for accurate results. Examples: find '/absolute/path/*.pdf', du '/absolute/path'.

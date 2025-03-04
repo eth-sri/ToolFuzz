@@ -1,0 +1,52 @@
+[
+    {
+        "task": "Update the README file to change the project description.",
+        "user_prompt": "README.md\n\nThis is the project description that needs updating.\nOLD <<<<\nOld project description\n>>>> OLD\nNEW <<<<\nUpdated project description\n>>>> NEW",
+        "code_snippet": "assert 'Updated project description' in repo.list_files('README.md')"
+    },
+    {
+        "task": "Update the README.md file in the GitHub repository to reflect the latest project description.",
+        "user_prompt": "I would like to update the README.md file in my GitHub repository. The old project description should be replaced with the new description.\n\nREADME.md\n\nProject Overview:\nOLD <<<<\nThis project is a simple web application that allows users to track their daily tasks.\n>>>> OLD\nNEW <<<<\nThis project is an advanced web application that enables users to track, manage, and organize their tasks effectively with new features like notifications and collaborative task management.\n>>>> NEW",
+        "code_snippet": "assert 'This project is an advanced web application that enables users to track, manage, and organize their tasks effectively with new features like notifications and collaborative task management.' in repo.get_file_contents('README.md')"
+    },
+    {
+        "task": "Update the README.md file to change the project description.",
+        "user_prompt": "I need to update the project description in the README.md file. The current description is 'This project is a simple web app.' and I want to change it to 'This project is a complex web application with advanced features.' Can you help me with that?",
+        "code_snippet": "assert 'This project is a complex web application with advanced features.' in repo.get_file_contents('README.md')"
+    },
+    {
+        "task": "Update the README.md file to replace the old project description with a new one.",
+        "user_prompt": "README.md\n\nThis is the introduction of our project.\nOLD <<<<\nThis project is a simple web application that demonstrates basic CRUD operations.\n>>>> OLD\nNEW <<<<\nThis project is a comprehensive web application that showcases advanced CRUD operations along with authentication and authorization features.\n>>>> NEW",
+        "code_snippet": "assert 'comprehensive web application' in repo.get_file_contents('README.md')"
+    },
+    {
+        "task": "Update the contents of a README file in a GitHub repository to include a new section.",
+        "user_prompt": "I'm working on updating the README file in our repository to include a new section about the project's architecture. The current README file does not have this section, so I need to add it. The existing content is a basic introduction to the project. Please update the README.md file by replacing the existing content with the new content that includes the architecture section.",
+        "code_snippet": "assert 'architecture section' in repo.list_comments(issue_number)"
+    },
+    {
+        "task": "Update the README.md file to include a new section about installation instructions.",
+        "user_prompt": "README.md\n\n# Project Title\n\nThis is a description of the project.\n\nOLD <<<<\n\n## Usage\n\nInstructions on how to use the project.\n>>>> OLD\nNEW <<<<\n\n## Usage\n\nInstructions on how to use the project.\n\n## Installation\n\nInstructions on how to install the project.\n>>>> NEW",
+        "code_snippet": "assert 'Installation' in repo.list_branches()"
+    },
+    {
+        "task": "Update the README.md file in the repository to include a new section about contributions.",
+        "user_prompt": "I want to update the README.md file in my GitHub repository to add a new section titled 'Contributions'. The current content should remain the same, and the new section should be added at the end of the file. Here's the new content:\n\nContributions are welcome! Please follow the guidelines outlined in CONTRIBUTING.md.\n\nSo, I need to replace the old contents with this new section at the end.",
+        "code_snippet": "repo = get_repository()\nbranches = repo.list_branches()\nassert 'main' in [branch.name for branch in branches], \"Main branch does not exist.\"\n\n# Assuming we have a method to fetch the README content\nreadme_content = repo.get_file_contents('README.md')\n\n# Adding new content\nnew_readme_content = readme_content + '\\n\\nContributions are welcome! Please follow the guidelines outlined in CONTRIBUTING.md.'\n\n# Update the README.md file\nrepo.update_file('README.md', readme_content, new_readme_content)\n\n# Validate the update\nupdated_content = repo.get_file_contents('README.md')\nassert 'Contributions are welcome!' in updated_content, \"Update to README.md failed.\""
+    },
+    {
+        "task": "Update the README file to include a new section for setup instructions.",
+        "user_prompt": "Please update the README.md file to include a new section titled 'Setup Instructions' with the following content:\n\nOLD <<<<\n\n>>>> OLD\nNEW <<<<\n## Setup Instructions\n\nTo set up the project, follow these steps:\n1. Clone the repository.\n2. Navigate to the project directory.\n3. Run `npm install` to install dependencies.\n4. Run `npm start` to start the application.\n\n>>>> NEW",
+        "code_snippet": "assert 'Setup Instructions' in repo.list_issues()"
+    },
+    {
+        "task": "Update the README.md file to change the project description.",
+        "user_prompt": "README.md\nThis project is a simple library for managing tasks.\nOLD <<<<\nThis project is a simple library for managing tasks.\n>>>> OLD\nNEW <<<<\nThis project is an advanced library for managing and organizing tasks efficiently.\n>>>> NEW",
+        "code_snippet": "assert repo.list_branches() is not None"
+    },
+    {
+        "task": "Add a comment to an existing issue in a GitHub repository",
+        "user_prompt": "I want to add a comment to issue #42 in my GitHub repository. The comment should be 'This issue will be addressed in the next release.'",
+        "code_snippet": "repo.add_comment(issue_number=42, comment_body='This issue will be addressed in the next release.')\nassert len(repo.list_comments(issue_number=42)) > 0"
+    }
+]

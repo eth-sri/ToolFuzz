@@ -1,0 +1,1 @@
+Execute shell commands on Linux using full, absolute file paths. Supported commands include 'ls', 'cat', 'find', 'du', 'mv', 'cp', 'rm', and 'unzip'. Validate paths and command syntax. Example: {'commands': ['ls /absolute/path/to/directory']}. Commands can be run multiple times for validation.

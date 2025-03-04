@@ -1,0 +1,1 @@
+terminal: Execute valid shell commands on this Linux machine. Provide accurate paths and file names. Avoid spaces unless quoted. Ensure commands fit the correct syntax, and validate actions by checking file system state. Example: {'commands': 'rm 01_Projects/01_ProjectA/01_Code/utils.py'}. Commands can be invoked multiple times for validation.

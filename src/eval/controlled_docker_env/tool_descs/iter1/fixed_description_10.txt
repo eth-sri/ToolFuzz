@@ -1,0 +1,1 @@
+Execute valid shell commands on Linux by providing a list with full file paths and correct syntax. Avoid ambiguous language and validate inputs. Reuse tool to confirm file system changes.

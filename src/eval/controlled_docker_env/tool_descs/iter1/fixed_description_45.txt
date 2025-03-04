@@ -1,0 +1,1 @@
+Execute shell commands on Linux with absolute paths. Differentiate commands for files vs. directories and validate syntax. Use multiple invocations to check system state changes. Examples: 'ls -l /path/to/directory', 'cat /path/to/file'.

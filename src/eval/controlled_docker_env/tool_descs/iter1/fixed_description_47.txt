@@ -1,0 +1,1 @@
+Run shell commands on this Linux machine. Provide a list of valid shell commands with absolute paths. Ensure correct syntax and distinguish between files and directories. Validate the file system state before execution. Commands are deserialized using json.loads. Avoid assumptions about non-existent paths. Invoke the tool multiple times to confirm actions.

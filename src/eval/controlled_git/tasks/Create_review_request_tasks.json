@@ -1,0 +1,52 @@
+[
+    {
+        "task": "Create a review request on the open pull request that matches the current active branch.",
+        "user_prompt": "Please create a review request for the current active branch's open pull request for the user 'john_doe'.",
+        "code_snippet": "active_branch = [branch for branch in repo.list_branches() if branch['active']][0]\nprs = [pr for pr in repo.list_prs() if pr['head']['ref'] == active_branch['name']]\nassert len(prs) == 1\nassert 'Requested reviewers' in prs[0] and 'john_doe' in prs[0]['Requested reviewers']"
+    },
+    {
+        "task": "Create a review request for the current open pull request on the active branch for the user 'john_doe'.",
+        "user_prompt": "Please create a review request for the user 'john_doe' on the current open pull request that matches the active branch.",
+        "code_snippet": "active_branch = repo.list_branches()[0]\nopen_prs = repo.list_prs()\ncurrent_pr = next(pr for pr in open_prs if pr['branch'] == active_branch)\nassert current_pr is not None\n# After tool action to request review\nassert 'john_doe' in current_pr['review_requests']"
+    },
+    {
+        "task": "Create a review request for an open pull request on the active branch.",
+        "user_prompt": "Use the tool to create a review request for the open pull request on the current active branch, specifying the username 'john_doe' as the reviewer.",
+        "code_snippet": "active_branch = repo.list_branches()[0]\nprs = repo.list_prs()\nactive_pr = next(pr for pr in prs if pr['branch'] == active_branch)\nassert 'review_requests' in active_pr and 'john_doe' in active_pr['review_requests']"
+    },
+    {
+        "task": "Create a review request on an open pull request for a specific user.",
+        "user_prompt": "Please create a review request for the user 'johndoe' on the open pull request for the current active branch.",
+        "code_snippet": "current_branch = 'feature-branch'\nopen_prs = repo.list_prs()\nmatching_pr = next((pr for pr in open_prs if pr['branch'] == current_branch), None)\nassert matching_pr is not None, 'No open pull request matches the current active branch'\nreview_requested = 'johndoe' in matching_pr['review_requests']\nassert review_requested, f'Review request for user johndoe not found in PR {matching_pr['id']}'"
+    },
+    {
+        "task": "Create a review request for a pull request on the current active branch.",
+        "user_prompt": "Please create a review request on the open pull request that matches the current active branch. The username to be requested for review is 'johndoe'.",
+        "code_snippet": "active_branch = repo.list_branches()[0]  # Assume the first branch in the list is the active one\nopen_prs = repo.list_prs()\nmatched_pr = next(pr for pr in open_prs if pr['branch'] == active_branch)\nassert matched_pr is not None  # Ensure there is a PR for the active branch\n# Assuming review request is successfully created, validate by checking the PR details\nassert 'johndoe' in matched_pr['requested_reviewers']"
+    },
+    {
+        "task": "Create a review request on the open pull request for the current active branch.",
+        "user_prompt": "Please use the tool to create a review request on the open pull request for the current active branch. The username for the request is 'johndoe'.",
+        "code_snippet": "active_branch = repo.list_branches()[0]\nopen_prs = repo.list_prs()\nactive_pr = next(pr for pr in open_prs if pr.branch == active_branch)\nassert active_pr.review_requested == 'johndoe'"
+    },
+    {
+        "task": "Request a review from a specific user on the open pull request that matches the current active branch.",
+        "user_prompt": "Please create a review request for the current branch's open pull request from the user 'john-doe'.",
+        "code_snippet": "current_branch = repo.list_branches()[0]  # Assuming the current branch is the first one listed\nopen_prs = repo.list_prs()\nactive_pr = next((pr for pr in open_prs if pr['branch'] == current_branch), None)\nassert active_pr is not None, 'There should be an open PR for the current branch.'\n# Assuming that creating a review request would add a comment or change state\nreview_request_added = len(repo.list_comments(active_pr['number'])) > 0 or active_pr['review_requested']\nassert review_request_added, 'Review request should be added for the PR.'"
+    },
+    {
+        "task": "Request a review on the open pull request that matches the current active branch.",
+        "user_prompt": "Please use the tool to request a review from the user 'johndoe' on the open pull request that matches the current active branch.",
+        "code_snippet": "active_branch = repo.list_branches()[0]  # Assuming the first branch is the active branch\nopen_prs = repo.list_prs()\nmatching_pr = next((pr for pr in open_prs if pr['branch'] == active_branch), None)\nassert matching_pr is not None, 'No matching pull request found for the active branch.'\nassert 'review_requested' in matching_pr, 'Review request was not created successfully.'"
+    },
+    {
+        "task": "Create a review request on the open pull request that matches the current active branch.",
+        "user_prompt": "Please create a review request for the pull request associated with the active branch and specify 'john_doe' as the reviewer.",
+        "code_snippet": "active_branch = repo.list_branches()[0]  # Assuming the first branch is the active one\nopen_prs = repo.list_prs()\nmatching_pr = next((pr for pr in open_prs if pr['branch'] == active_branch), None)\nassert matching_pr is not None, 'No matching pull request found for the active branch'\nassert 'review_requested' in matching_pr, 'Review request was not created successfully'"
+    },
+    {
+        "task": "Create a review request on the open pull request that matches the current active branch.",
+        "user_prompt": "I want to request a code review from the user 'johnDoe' for the current active branch on my GitHub repository.",
+        "code_snippet": "active_branch = repo.list_branches()[0]  # Assuming the first branch is the current active one\nmatching_pr = next((pr for pr in repo.list_prs() if pr['head']['ref'] == active_branch), None)\nassert matching_pr is not None, 'No open pull request matches the current active branch'\n# Placeholder for the actual function call to create a review request\ntotal_reviews = len(matching_pr['requested_reviewers'])\n# Assuming function call here to request a review from 'johnDoe'\nassert len(matching_pr['requested_reviewers']) == total_reviews + 1, 'Review request was not created successfully'"
+    }
+]

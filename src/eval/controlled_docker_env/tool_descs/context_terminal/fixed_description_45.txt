@@ -1,0 +1,1 @@
+This tool executes specified shell commands on a Linux machine. Commands must be well-formed with explicit paths and filenames. Ensure paths are accurate and commands are syntactically correct. Validate paths before execution. Examples: 'mv dir1/file.py dir2/', 'ls dir/'. Tool can be invoked multiple times for validation.

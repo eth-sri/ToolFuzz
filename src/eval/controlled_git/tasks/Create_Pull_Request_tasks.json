@@ -1,0 +1,52 @@
+[
+    {
+        "task": "Create a new pull request to update the documentation",
+        "user_prompt": "Create a pull request titled 'Documentation Update' with the description 'Updated the API section to include new endpoints, closes #10, closes #15.'",
+        "code_snippet": "assert len(repo.list_prs()) == 1"
+    },
+    {
+        "task": "Create a new pull request to update the documentation.",
+        "user_prompt": "Please create a pull request titled 'Documentation Update' with the description 'Updated the API section to reflect recent changes, closes #10'.",
+        "code_snippet": "assert any(pr['title'] == 'Documentation Update' for pr in repo.list_prs())"
+    },
+    {
+        "task": "Create a pull request to update the documentation with new API endpoints.",
+        "user_prompt": "I need to create a new pull request in the repository to update the documentation with the new API endpoints. Please ensure that it references any relevant issues.",
+        "code_snippet": "repo.list_issues()\nassert len(repo.list_prs()) == 1"
+    },
+    {
+        "task": "Create a new pull request to update the documentation with new feature details.",
+        "user_prompt": "Update documentation with new feature details\n\nAdded details about the new feature implemented in the recent sprint, closes #12.",
+        "code_snippet": "assert len(repo.list_prs()) == 1"
+    },
+    {
+        "task": "Create a new pull request to add a feature for user authentication.",
+        "user_prompt": "Create a pull request titled 'Add user authentication feature' with the description 'Implement user login and registration functionalities, closes #12'.",
+        "code_snippet": "assert len(repo.list_prs()) == 1"
+    },
+    {
+        "task": "Create a new pull request to update the API documentation",
+        "user_prompt": "Please create a pull request with the title 'API Documentation Update' and the description 'Updated the API documentation to include recent changes in endpoints, closes #10'.",
+        "code_snippet": "assert 'API Documentation Update' in [pr['title'] for pr in repo.list_prs()]"
+    },
+    {
+        "task": "Create a new pull request to fix a bug in the login feature.",
+        "user_prompt": "I want to create a new pull request titled 'Fix login feature bug' with the description 'Resolved the issue causing login failures, closes #12'.",
+        "code_snippet": "assert 'Fix login feature bug' in [pr['title'] for pr in repo.list_prs()]"
+    },
+    {
+        "task": "Create a new pull request to update the documentation",
+        "user_prompt": "Please create a new pull request titled 'Documentation Update' with the description 'Improved API usage section, closes #12, closes #15.'",
+        "code_snippet": "assert len(repo.list_prs()) == 1"
+    },
+    {
+        "task": "Create a new pull request to update the documentation with new API usage examples.",
+        "user_prompt": "Please create a pull request titled 'Update API Documentation' with the description 'Added new usage examples for the latest API endpoints, closes #12.'",
+        "code_snippet": "assert len(repo.list_prs()) == 1"
+    },
+    {
+        "task": "Create a new pull request to update the API documentation.",
+        "user_prompt": "Create a pull request titled 'API Documentation Update' with the description 'Updated API endpoints section to reflect recent changes, closes #10'.",
+        "code_snippet": "assert len(repo.list_prs()) == 1"
+    }
+]

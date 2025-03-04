@@ -1,0 +1,1 @@
+Run validated shell commands on this Linux machine. Ensure correct syntax and context (file vs. directory). Use absolute paths and validate commands in a safe environment. This tool supports repeated invocation to assess the file system state.

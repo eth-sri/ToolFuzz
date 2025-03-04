@@ -1,0 +1,25 @@
+environments:
+- ground_truth_directory: 
+    ./ground_truths/setup_journalism_and_digital_media/journalism_and_digital_media_5
+  prompt_file: ./prompts/journalism_and_digital_media/prompt5.txt
+  setup_file: ./setups/setup_journalism_and_digital_media.sh
+- ground_truth_directory: 
+    ./ground_truths/setup_journalism_and_digital_media/journalism_and_digital_media_1
+  prompt_file: ./prompts/journalism_and_digital_media/prompt1.txt
+  setup_file: ./setups/setup_journalism_and_digital_media.sh
+- ground_truth_directory: 
+    ./ground_truths/setup_journalism_and_digital_media/journalism_and_digital_media_4
+  prompt_file: ./prompts/journalism_and_digital_media/prompt4.txt
+  setup_file: ./setups/setup_journalism_and_digital_media.sh
+- ground_truth_directory: 
+    ./ground_truths/setup_journalism_and_digital_media/journalism_and_digital_media_0
+  prompt_file: ./prompts/journalism_and_digital_media/prompt0.txt
+  setup_file: ./setups/setup_journalism_and_digital_media.sh
+- ground_truth_directory: 
+    ./ground_truths/setup_journalism_and_digital_media/journalism_and_digital_media_3
+  prompt_file: ./prompts/journalism_and_digital_media/prompt3.txt
+  setup_file: ./setups/setup_journalism_and_digital_media.sh
+- ground_truth_directory: 
+    ./ground_truths/setup_journalism_and_digital_media/journalism_and_digital_media_2
+  prompt_file: ./prompts/journalism_and_digital_media/prompt2.txt
+  setup_file: ./setups/setup_journalism_and_digital_media.sh

@@ -1,0 +1,37 @@
+├── 01_Recruitment
+│   ├── 01_Job_Postings
+│   │   ├── job_posting_001.docx
+│   │   └── job_posting_002.docx
+│   ├── 02_Applications
+│   │   ├── applicant_A_resume.pdf
+│   │   └── applicant_B_resume.pdf
+│   ├── 03_Interviews
+│   │   ├── interview_notes_applicant_A.docx
+│   │   └── interview_notes_applicant_B.docx
+│   └── 04_Offer_Letters
+│       ├── offer_letter_applicant_A.pdf
+│       └── offer_letter_applicant_B.pdf
+├── 02_Human_Resources
+│   ├── 01_Employee_Records
+│   │   ├── employee_A_record.pdf
+│   │   └── employee_B_record.pdf
+│   ├── 02_Payroll
+│   │   ├── payroll_2023.xlsx
+│   │   └── payroll_2024.xlsx
+│   ├── 03_Benefits
+│   │   ├── benefits_overview.pdf
+│   │   └── benefits_enrollment_form.docx
+│   └── 04_Training_and_Development
+│       ├── training_program_overview.pdf
+│       └── development_plan_template.docx
+├── 03_Policies_and_Procedures
+│   ├── company_policies.pdf
+│   └── HR_procedures.pdf
+├── 04_Reports
+│   ├── annual_HR_report_2023.pdf
+│   └── quarterly_HR_report_Q1_2024.pdf
+└── 05_Templates
+    ├── job_posting_template.docx
+    ├── interview_notes_template.docx
+    ├── offer_letter_template.docx
+    └── employee_record_template.docx

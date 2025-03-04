@@ -1,0 +1,58 @@
+├── 01_Research
+│   ├── 01_Papers
+│   │   ├── paper1.pdf
+│   │   └── paper2.pdf
+│   ├── 02_Books
+│   │   ├── book1.pdf
+│   │   └── book2.pdf
+│   └── 03_Articles
+│       ├── article1.pdf
+│       └── article2.pdf
+├── 02_Projects
+│   ├── 01_Project_A
+│   │   ├── 01_Data
+│   │   │   ├── raw_data.csv
+│   │   │   └── processed_data.csv
+│   │   ├── 02_Scripts
+│   │   │   ├── data_processing.py
+│   │   │   └── model_training.py
+│   │   └── 03_Results
+│   │       ├── model_output.txt
+│   │       └── visualization.png
+│   └── 02_Project_B
+│       ├── 01_Data
+│       │   ├── raw_data.csv
+│       │   └── processed_data.csv
+│       ├── 02_Scripts
+│       │   ├── data_processing.py
+│       │   └── model_training.py
+│       └── 03_Results
+│           ├── model_output.txt
+│           └── visualization.png
+├── 03_Teaching
+│   ├── 01_Lectures
+│   │   ├── lecture1.ppt
+│   │   └── lecture2.ppt
+│   ├── 02_Assignments
+│   │   ├── assignment1.docx
+│   │   └── assignment2.docx
+│   └── 03_Exams
+│       ├── exam1.docx
+│       └── exam2.docx
+├── 04_Publications
+│   ├── 01_Conference_Papers
+│   │   ├── conference_paper1.pdf
+│   │   └── conference_paper2.pdf
+│   └── 02_Journal_Articles
+│       ├── journal_article1.pdf
+│       └── journal_article2.pdf
+└── 05_Resources
+    ├── 01_Tools
+    │   ├── tool1.txt
+    │   └── tool2.txt
+    ├── 02_Datasets
+    │   ├── dataset1.csv
+    │   └── dataset2.csv
+    └── 03_Tutorials
+        ├── tutorial1.pdf
+        └── tutorial2.pdf

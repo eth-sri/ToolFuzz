@@ -1,0 +1,1 @@
+Run valid Linux shell commands ensuring paths are complete and arguments are correct. Use JSON format for multiple commands. Validate file existence and syntax before execution. Example: {'commands': ['ls /path/to/dir', 'find /path/to/dir -name "*.pdf"']}. Invoke multiple times for better validation.

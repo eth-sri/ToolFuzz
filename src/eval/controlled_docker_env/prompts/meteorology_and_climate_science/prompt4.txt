@@ -1,0 +1,1 @@
+Copy the code and data of climate model1 to the weather models folder

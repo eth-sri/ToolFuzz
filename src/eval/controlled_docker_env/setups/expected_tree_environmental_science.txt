@@ -1,0 +1,55 @@
+├── 01_Research
+│   ├── 01_Literature_Review
+│   │   ├── paper1.pdf
+│   │   └── paper2.pdf
+│   ├── 02_Data_Collection
+│   │   ├── field_data1.csv
+│   │   └── lab_data1.csv
+│   └── 03_Analysis
+│       ├── data_analysis1.ipynb
+│       └── data_analysis2.ipynb
+├── 02_Projects
+│   ├── 01_Project_A
+│   │   ├── 01_Reports
+│   │   │   ├── interim_report.docx
+│   │   │   └── final_report.docx
+│   │   ├── 02_Data
+│   │   │   ├── field_data.csv
+│   │   │   └── lab_data.csv
+│   │   └── 03_Presentations
+│   │       ├── project_overview.pptx
+│   │       └── project_results.pptx
+│   └── 02_Project_B
+│       ├── 01_Reports
+│       │   ├── interim_report.docx
+│       │   └── final_report.docx
+│       ├── 02_Data
+│       │   ├── field_data.csv
+│       │   └── lab_data.csv
+│       └── 03_Presentations
+│           ├── project_overview.pptx
+│           └── project_results.pptx
+├── 03_Publications
+│   ├── 01_Papers
+│   │   ├── paper1.docx
+│   │   └── paper2.docx
+│   └── 02_Conference_Proceedings
+│       ├── conference1.pdf
+│       └── conference2.pdf
+├── 04_Teaching
+│   ├── 01_Lecture_Notes
+│   │   ├── lecture1.docx
+│   │   └── lecture2.docx
+│   ├── 02_Assignments
+│   │   ├── assignment1.docx
+│   │   └── assignment2.docx
+│   └── 03_Exams
+│       ├── exam1.docx
+│       └── exam2.docx
+└── 05_Grants
+    ├── 01_Submitted
+    │   ├── grant1.pdf
+    │   └── grant2.pdf
+    └── 02_Awarded
+        ├── grant1.pdf
+        └── grant2.pdf

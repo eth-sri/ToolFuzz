@@ -1,0 +1,1 @@
+Delete the TM_Design_Sketch.jpg from the Design folder of Project_B in the Traffic_Management folder under 02_Projects

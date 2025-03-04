@@ -1,0 +1,1 @@
+Terminal: Run shell commands on Linux. Use relative paths without spaces or special characters. Commands should be simple, like 'ls dir/' or 'mv src dst'. Invoke multiple times for complex tasks. Validate syntax and output before execution.

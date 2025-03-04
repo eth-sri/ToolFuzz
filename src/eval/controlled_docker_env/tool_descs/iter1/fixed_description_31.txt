@@ -1,0 +1,1 @@
+Run validated shell commands on this Linux machine. Ensure all file paths are absolute and directories exist. Verify file states before operations. Commands: cp, mv, rm, stat, chmod, find, zip, ls. Invoke multiple times for validation. Example: 'cp /path/to/source /path/to/destination'.

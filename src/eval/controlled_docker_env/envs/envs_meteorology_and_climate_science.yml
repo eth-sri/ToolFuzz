@@ -1,0 +1,41 @@
+environments:
+- ground_truth_directory: 
+    ./ground_truths/setup_meteorology_and_climate_science/meteorology_and_climate_science_5
+  prompt_file: ./prompts/meteorology_and_climate_science/prompt5.txt
+  setup_file: ./setups/setup_meteorology_and_climate_science.sh
+- ground_truth_directory: 
+    ./ground_truths/setup_meteorology_and_climate_science/meteorology_and_climate_science_8
+  prompt_file: ./prompts/meteorology_and_climate_science/prompt8.txt
+  setup_file: ./setups/setup_meteorology_and_climate_science.sh
+- ground_truth_directory: 
+    ./ground_truths/setup_meteorology_and_climate_science/meteorology_and_climate_science_1
+  prompt_file: ./prompts/meteorology_and_climate_science/prompt1.txt
+  setup_file: ./setups/setup_meteorology_and_climate_science.sh
+- ground_truth_directory: 
+    ./ground_truths/setup_meteorology_and_climate_science/meteorology_and_climate_science_4
+  prompt_file: ./prompts/meteorology_and_climate_science/prompt4.txt
+  setup_file: ./setups/setup_meteorology_and_climate_science.sh
+- ground_truth_directory: 
+    ./ground_truths/setup_meteorology_and_climate_science/meteorology_and_climate_science_9
+  prompt_file: ./prompts/meteorology_and_climate_science/prompt9.txt
+  setup_file: ./setups/setup_meteorology_and_climate_science.sh
+- ground_truth_directory: 
+    ./ground_truths/setup_meteorology_and_climate_science/meteorology_and_climate_science_0
+  prompt_file: ./prompts/meteorology_and_climate_science/prompt0.txt
+  setup_file: ./setups/setup_meteorology_and_climate_science.sh
+- ground_truth_directory: 
+    ./ground_truths/setup_meteorology_and_climate_science/meteorology_and_climate_science_6
+  prompt_file: ./prompts/meteorology_and_climate_science/prompt6.txt
+  setup_file: ./setups/setup_meteorology_and_climate_science.sh
+- ground_truth_directory: 
+    ./ground_truths/setup_meteorology_and_climate_science/meteorology_and_climate_science_3
+  prompt_file: ./prompts/meteorology_and_climate_science/prompt3.txt
+  setup_file: ./setups/setup_meteorology_and_climate_science.sh
+- ground_truth_directory: 
+    ./ground_truths/setup_meteorology_and_climate_science/meteorology_and_climate_science_7
+  prompt_file: ./prompts/meteorology_and_climate_science/prompt7.txt
+  setup_file: ./setups/setup_meteorology_and_climate_science.sh
+- ground_truth_directory: 
+    ./ground_truths/setup_meteorology_and_climate_science/meteorology_and_climate_science_2
+  prompt_file: ./prompts/meteorology_and_climate_science/prompt2.txt
+  setup_file: ./setups/setup_meteorology_and_climate_science.sh

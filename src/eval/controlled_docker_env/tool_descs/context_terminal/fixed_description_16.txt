@@ -1,0 +1,1 @@
+Execute valid shell commands on this Linux machine. Input must be a JSON array of strings representing commands. Ensure paths exist and are correctly formatted, using underscores or quotes for spaces. Verify command syntax and file system state by invoking the tool multiple times. E.g., {'commands': ['mv source.txt target/']}

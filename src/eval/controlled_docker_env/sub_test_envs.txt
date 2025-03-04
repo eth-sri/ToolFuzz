@@ -1,0 +1,10 @@
+./envs/envs_meteorology_and_climate_science.yml
+./envs/envs_music_production_and_sound_engineering.yml
+./envs/envs_pharmaceuticals_and_drug_development.yml
+./envs/envs_psychology_and_neuroscience.yml
+./envs/envs_real_estate.yml
+./envs/envs_social_media_and_digital_marketing.yml
+./envs/envs_sports_science_and_analytics.yml
+./envs/envs_transportation_(autonomous_vehicles,_traffic_management).yml
+./envs/envs_video_game_development.yml
+./envs/envs_virtual_reality_(vr)_and_augmented_reality_(ar).yml

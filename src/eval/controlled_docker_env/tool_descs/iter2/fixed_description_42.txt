@@ -1,0 +1,1 @@
+Run shell commands with absolute paths on this Linux machine. Use fully qualified paths and avoid shorthand like '~'. Validate paths to ensure correct execution. Example: {'commands': 'ls /full/path/to/directory'}. The tool can be invoked multiple times for better validation of the file system state.

@@ -1,0 +1,84 @@
+├── archive
+│   ├── cases
+│   │   ├── archived_case_A_2021.zip
+│   │   └── archived_case_B_2021.zip
+│   ├── reports
+│   │   ├── archived_annual_report_2021.pdf
+│   │   └── archived_monthly_report_2021.pdf
+│   └── templates
+│       ├── old_contract_template.docx
+│       └── old_legal_notice_template.docx
+├── cases
+│   ├── case_A
+│   │   ├── 2023
+│   │   │   ├── court_documents
+│   │   │   │   ├── court_order.pdf
+│   │   │   │   └── court_transcript.pdf
+│   │   │   ├── legal_notices
+│   │   │   │   ├── notice_001.pdf
+│   │   │   │   └── notice_002.pdf
+│   │   │   ├── research
+│   │   │   │   ├── case_law.pdf
+│   │   │   │   └── legal_opinion.pdf
+│   │   │   └── contracts
+│   │   │       ├── contract_001.pdf
+│   │   │       └── contract_002.pdf
+│   │   └── 2024
+│   │       ├── court_documents
+│   │       │   ├── court_order.pdf
+│   │       │   └── court_transcript.pdf
+│   │       ├── legal_notices
+│   │       │   ├── notice_001.pdf
+│   │       │   └── notice_002.pdf
+│   │       ├── research
+│   │       │   ├── case_law.pdf
+│   │       │   └── legal_opinion.pdf
+│   │       └── contracts
+│   │           ├── contract_001.pdf
+│   │           └── contract_002.pdf
+│   └── case_B
+│       ├── 2023
+│       │   ├── court_documents
+│       │   │   ├── court_order.pdf
+│       │   │   └── court_transcript.pdf
+│       │   ├── legal_notices
+│       │   │   ├── notice_001.pdf
+│       │   │   └── notice_002.pdf
+│       │   ├── research
+│       │   │   ├── case_law.pdf
+│       │   │   └── legal_opinion.pdf
+│       │   └── contracts
+│       │       ├── contract_001.pdf
+│       │       └── contract_002.pdf
+│       └── 2024
+│           ├── court_documents
+│           │   ├── court_order.pdf
+│           │   └── court_transcript.pdf
+│           ├── legal_notices
+│           │   ├── notice_001.pdf
+│           │   └── notice_002.pdf
+│           ├── research
+│           │   ├── case_law.pdf
+│           │   └── legal_opinion.pdf
+│           └── contracts
+│               ├── contract_001.pdf
+│               └── contract_002.pdf
+├── reports
+│   ├── annual_reports
+│   │   └── annual_report_2023.pdf
+│   ├── monthly_reports
+│   │   ├── february_2023.pdf
+│   │   └── january_2023.pdf
+│   └── case_reports
+│       ├── case_A_report_2023.pdf
+│       └── case_B_report_2023.pdf
+└── templates
+   ├── contract_templates
+   │   ├── advanced_contract_template.docx
+   │   └── basic_contract_template.docx
+   ├── legal_notice_templates
+   │   ├── formal_notice_template.docx
+   │   └── informal_notice_template.docx
+   └── court_document_templates
+       ├── court_order_template.docx
+       └── court_transcript_template.docx

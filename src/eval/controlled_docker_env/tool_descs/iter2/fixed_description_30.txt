@@ -1,0 +1,1 @@
+Run shell commands on this Linux machine. Commands must include explicit file paths, filenames, and correct syntax. Avoid relative paths and ambiguous terms. Commands like 'find', 'mv', 'ls', and 'cat' require complete arguments. Validate file system changes by invoking the tool multiple times.

@@ -1,0 +1,6 @@
+./envs/envs_hospitality_and_tourism.yml
+./envs/envs_human_resources_and_recruitment.yml
+./envs/envs_journalism_and_digital_media.yml
+./envs/envs_law_and_legal_analytics.yml
+./envs/envs_logistics_and_supply_chain_management.yml
+./envs/envs_machine_learning.yml

@@ -1,0 +1,1 @@
+Execute shell commands on Linux. Use absolute paths for files/directories and specify full commands. Avoid ambiguous requests and provide explicit paths. Commands may be invoked multiple times to validate filesystem state. Example: 'du -sh /absolute/path/to/directory'.

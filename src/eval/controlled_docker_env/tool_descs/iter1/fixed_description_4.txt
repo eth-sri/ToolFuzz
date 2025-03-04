@@ -1,0 +1,1 @@
+Run valid shell commands on this Linux machine. Ensure commands are syntactically correct and paths are complete. Validate file types and existence before execution. Use json.loads for deserialization. Invoke multiple times to check file system state. Examples: 'cat /path/to/file.txt', 'ls /directory/path/'.

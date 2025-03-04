@@ -1,0 +1,1 @@
+Run shell commands with absolute paths and complete syntax. Avoid using shorthand or relative paths. Validate paths with 'ls' before executing. Examples: {'commands':'ls /full/path/to/directory'} or {'commands':'mv /full/path/source /full/path/destination'}. Invoke multiple times to check file system state.

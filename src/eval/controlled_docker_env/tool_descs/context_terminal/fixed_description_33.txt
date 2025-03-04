@@ -1,0 +1,1 @@
+Run shell commands on this Linux machine. Provide commands as a JSON string or array. Use absolute paths, quote paths with spaces, and validate paths exist. Example: {'commands': 'mv /path/to/source/file /path/to/destination/'}. Invoke multiple times if necessary.

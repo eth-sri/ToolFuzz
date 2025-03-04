@@ -1,0 +1,1 @@
+Execute precise shell commands on this Linux machine. Use exact paths; verify directory existence. Split complex tasks into steps. Validate results by re-invoking the tool as needed. Example: {'commands': ['ls exact/path/', 'cat exact/path/file.txt']}

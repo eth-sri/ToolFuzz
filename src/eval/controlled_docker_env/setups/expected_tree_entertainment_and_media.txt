@@ -1,0 +1,65 @@
+├── 01_PreProduction
+│   ├── 01_Script
+│   │   ├── Drafts
+│   │   │   └── script_draft_v1.txt
+│   │   └── Final
+│   │       └── final_script_v1.txt
+│   ├── 02_Storyboard
+│   │   └── storyboard_v1.jpg
+│   ├── 03_Casting
+│   │   ├── Auditions
+│   │   │   └── audition_clip_v1.mp4
+│   │   └── Final_Cast
+│   │       └── cast_list.txt
+│   └── 04_Location_Scouting
+│       └── location_photos
+│           └── location_photo_v1.jpg
+├── 02_Production
+│   ├── 01_Filming
+│   │   ├── Daily_Rushes
+│   │   │   └── daily_rush_v1.mp4
+│   │   └── Final_Scenes
+│   │       └── final_scene_v1.mp4
+│   ├── 02_Props
+│   │   └── prop_list.txt
+│   ├── 03_Costumes
+│   │   └── costume_designs
+│   │       └── costume_design_v1.jpg
+│   └── 04_Set_Design
+│       └── set_photos
+│           └── set_photo_v1.jpg
+├── 03_PostProduction
+│   ├── 01_Editing
+│   │   ├── Rough_Cut
+│   │   │   └── rough_cut_v1.mp4
+│   │   └── Final_Cut
+│   │       └── final_cut_v1.mp4
+│   ├── 02_Sound_Editing
+│   │   ├── Sound_Effects
+│   │   │   └── sound_effect_v1.wav
+│   │   └── Music
+│   │       └── background_music_v1.mp3
+│   ├── 03_Color_Grading
+│   │   └── color_grade_v1.dpx
+│   └── 04_VFX
+│       └── vfx_clip_v1.mov
+├── 04_Distribution
+│   ├── Marketing_Materials
+│   │   ├── Posters
+│   │   │   └── poster_v1.jpg
+│   │   └── Trailers
+│   │       └── trailer_v1.mp4
+│   └── Release_Formats
+│       ├── DVD
+│       │   └── dvd_cover_v1.jpg
+│       └── Streaming
+│           └── thumbnail_v1.jpg
+└── 05_Documents
+    ├── Budget
+    │   └── budget_plan.xlsx
+    ├── Production_Schedule
+    │   └── schedule.xlsx
+    ├── Contracts
+    │   └── actor_contract_v1.pdf
+    └── Meeting_Notes
+        └── meeting_notes_v1.txt

@@ -1,0 +1,19 @@
+environments:
+- ground_truth_directory: ./ground_truths/setup_machine_learning/machine_learning_5
+  prompt_file: ./prompts/machine_learning/prompt5.txt
+  setup_file: ./setups/setup_machine_learning.sh
+- ground_truth_directory: ./ground_truths/setup_machine_learning/machine_learning_1
+  prompt_file: ./prompts/machine_learning/prompt1.txt
+  setup_file: ./setups/setup_machine_learning.sh
+- ground_truth_directory: ./ground_truths/setup_machine_learning/machine_learning_4
+  prompt_file: ./prompts/machine_learning/prompt4.txt
+  setup_file: ./setups/setup_machine_learning.sh
+- ground_truth_directory: ./ground_truths/setup_machine_learning/machine_learning_0
+  prompt_file: ./prompts/machine_learning/prompt0.txt
+  setup_file: ./setups/setup_machine_learning.sh
+- ground_truth_directory: ./ground_truths/setup_machine_learning/machine_learning_3
+  prompt_file: ./prompts/machine_learning/prompt3.txt
+  setup_file: ./setups/setup_machine_learning.sh
+- ground_truth_directory: ./ground_truths/setup_machine_learning/machine_learning_2
+  prompt_file: ./prompts/machine_learning/prompt2.txt
+  setup_file: ./setups/setup_machine_learning.sh

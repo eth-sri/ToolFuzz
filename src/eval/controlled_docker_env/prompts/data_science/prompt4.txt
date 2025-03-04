@@ -1,0 +1,1 @@
+Copy the customer model training notebook to the model evaluation folder

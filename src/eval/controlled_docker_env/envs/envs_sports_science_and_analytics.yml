@@ -1,0 +1,29 @@
+environments:
+- ground_truth_directory: 
+    ./ground_truths/setup_sports_science_and_analytics/sports_science_and_analytics_5
+  prompt_file: ./prompts/sports_science_and_analytics/prompt5.txt
+  setup_file: ./setups/setup_sports_science_and_analytics.sh
+- ground_truth_directory: 
+    ./ground_truths/setup_sports_science_and_analytics/sports_science_and_analytics_1
+  prompt_file: ./prompts/sports_science_and_analytics/prompt1.txt
+  setup_file: ./setups/setup_sports_science_and_analytics.sh
+- ground_truth_directory: 
+    ./ground_truths/setup_sports_science_and_analytics/sports_science_and_analytics_4
+  prompt_file: ./prompts/sports_science_and_analytics/prompt4.txt
+  setup_file: ./setups/setup_sports_science_and_analytics.sh
+- ground_truth_directory: 
+    ./ground_truths/setup_sports_science_and_analytics/sports_science_and_analytics_0
+  prompt_file: ./prompts/sports_science_and_analytics/prompt0.txt
+  setup_file: ./setups/setup_sports_science_and_analytics.sh
+- ground_truth_directory: 
+    ./ground_truths/setup_sports_science_and_analytics/sports_science_and_analytics_6
+  prompt_file: ./prompts/sports_science_and_analytics/prompt6.txt
+  setup_file: ./setups/setup_sports_science_and_analytics.sh
+- ground_truth_directory: 
+    ./ground_truths/setup_sports_science_and_analytics/sports_science_and_analytics_3
+  prompt_file: ./prompts/sports_science_and_analytics/prompt3.txt
+  setup_file: ./setups/setup_sports_science_and_analytics.sh
+- ground_truth_directory: 
+    ./ground_truths/setup_sports_science_and_analytics/sports_science_and_analytics_2
+  prompt_file: ./prompts/sports_science_and_analytics/prompt2.txt
+  setup_file: ./setups/setup_sports_science_and_analytics.sh

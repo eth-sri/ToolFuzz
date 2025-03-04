@@ -1,0 +1,1 @@
+Run shell commands on this Linux machine. Use absolute file paths and ensure commands are contextually accurate. Verify paths exist before execution. Commands should be specific and can be executed multiple times to check results. Example: {'commands': 'ls /path/to/directory'}.

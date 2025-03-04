@@ -1,0 +1,47 @@
+[
+    {
+        "task": "Create a new README.md file in the repository with initial project documentation.",
+        "user_prompt": "Please create a new file called docs/README.md with the following contents:\n\n# Project Title\n\nThis is the initial documentation for the project.",
+        "code_snippet": "assert 'docs/README.md' in [file['path'] for file in repo.list_files()]"
+    },
+    {
+        "task": "Create a new file in the GitHub repository to add documentation for the new feature.",
+        "user_prompt": "Please create a file called docs/new_feature.md with the following contents: 'This document describes the new feature introduced in version 2.0. It includes setup instructions, usage examples, and troubleshooting tips.'",
+        "code_snippet": "assert 'new_feature.md' in [file['name'] for file in repo.list_files('docs')]"
+    },
+    {
+        "task": "Create a new configuration file in the GitHub repository with specific settings.",
+        "user_prompt": "config/settings.json\n{\n  \"setting1\": \"value1\",\n  \"setting2\": \"value2\",\n  \"setting3\": \"value3\"\n}",
+        "code_snippet": "assert 'settings.json' in [file['name'] for file in repo.list_files('config')]"
+    },
+    {
+        "task": "Create a new configuration file in the GitHub repository.",
+        "user_prompt": "Please create a new file named config/settings.json with the following contents: '{\"setting1\": \"value1\", \"setting2\": \"value2\"}'.",
+        "code_snippet": "assert 'config/settings.json' in [file.path for file in repo.list_files()]"
+    },
+    {
+        "task": "Create a new file in the GitHub repository with specific contents.",
+        "user_prompt": "Please create a file called 'docs/README.md' with the contents 'This is the README file for the project.'",
+        "code_snippet": "assert 'README.md' in [file['path'] for file in repo.list_files('docs')], 'README.md file was not created in the docs directory.'"
+    },
+    {
+        "task": "Create a new configuration file in the GitHub repository.",
+        "user_prompt": "config/settings.json\n{\n  \"setting1\": \"value1\",\n  \"setting2\": \"value2\"\n}",
+        "code_snippet": "assert 'config/settings.json' in [file.path for file in repo.list_files()]"
+    },
+    {
+        "task": "Create a new file in the GitHub repository",
+        "user_prompt": "I need to create a new file in my GitHub repository to keep track of the project's changelog. The file should be named docs/changelog.md and should contain the initial heading 'Changelog'.",
+        "code_snippet": "repo.create_file('docs/changelog.md', 'Initial commit with changelog header', '# Changelog')\nassert 'docs/changelog.md' in [file['path'] for file in repo.list_files()]"
+    },
+    {
+        "task": "Create a README file in the GitHub repository with initial project description.",
+        "user_prompt": "Create a README.md file with the content:\n\n# Project Title\n\nThis project is an example of how to use the GitHub API wrapper tool to create files in a repository.",
+        "code_snippet": "assert 'README.md' in [file['path'] for file in repo.list_files()], 'README.md file was not created successfully'"
+    },
+    {
+        "task": "Create a README file in the GitHub repository",
+        "user_prompt": "Create a README file in the repository with the following contents:\n\nREADME.md\n\n# Project Title\n\nThis is a brief description of the project.\n\n## Features\n\n- Feature 1\n- Feature 2\n- Feature 3",
+        "code_snippet": "assert 'README.md' in [file.path for file in repo.list_files()]"
+    }
+]

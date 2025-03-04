@@ -1,0 +1,1 @@
+Run shell commands on this Linux machine using absolute paths. Commands must be well-formed, with paths in quotes if containing spaces. Validate commands by ensuring paths exist and syntax is correct. Use multiple tool invocations to reflect filesystem state changes. Example: {'commands': 'ls -l /absolute/path/to/file'}. Avoid relative paths and malformed commands.

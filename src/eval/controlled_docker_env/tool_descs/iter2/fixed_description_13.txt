@@ -1,0 +1,1 @@
+terminal: Execute fully qualified shell commands on this Linux machine. Use absolute paths, specify files/folders explicitly, and avoid ambiguous phrases. Validate paths before execution. Commands can be invoked multiple times for comprehensive validation of the filesystem state. Examples: 'ls /path/to/directory', 'grep -r /path/to/file'.

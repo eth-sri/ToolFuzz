@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Tool Testing Report</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+</head>
+<body>
+<div class="container mt-5">
+    <h1 class="mb-4"><img src="./toolfuzz.png" class="img-fluid" style="max-height: 150px;">ToolFuzz - Correctness
+        Failure Report</h1>
+    <p><a href="{{ full_result_file }}" target="_blank">Raw results file.</a></p>
+    <div class="accordion" id="toolAccordion">
+        {% for tool, tool_results in test_results.items() %}
+        {% set tool_loop = loop %}
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="heading-{{ tool_loop.index }}">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapse-{{ tool_loop.index }}" aria-expanded="false"
+                        aria-controls="collapse-{{ tool_loop.index }}">
+                    {{ tool }}
+                </button>
+            </h2>
+            <div id="collapse-{{ loop.index }}" class="accordion-collapse collapse"
+                 aria-labelledby="heading-{{ loop.index }}" data-bs-parent="#toolAccordion">
+                <div class="accordion-body">
+                    <div class="accordion" id="accordion-{{ loop.index }}">
+                        {% for result in tool_results %}
+                        {% set result_loop = loop %}
+                        {% set highlight = 'text-danger' if not result.tool_arguments_inconsistency and not
+                        result.tool_output_inconsistency and result.individual_run_test_results |
+                        selectattr('unexpected_agent_output', 'lt', 5) | list | length > 0 else '' %}
+                        <div class="accordion-item">
+                            <h2 class="accordion-header"
+                                id="test-heading-{{ loop.index }}-{{ result_loop.index }}">
+                                <button class="accordion-button collapsed {{ highlight }}" type="button"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#test-collapse-{{ loop.index }}-{{ result_loop.index }}"
+                                        aria-expanded="false"
+                                        aria-controls="test-collapse-{{ loop.index }}-{{ result_loop.index }}">
+                                    {{ result.template_question }}
+                                </button>
+                            </h2>
+                            <div id="test-collapse-{{ loop.index }}-{{ result_loop.index }}"
+                                 class="accordion-collapse collapse"
+                                 aria-labelledby="test-heading-{{ loop.index }}-{{ result_loop.index }}"
+                                 data-bs-parent="#accordion-{{ loop.index }}">
+                                <div class="accordion-body">
+                                    <h5>LLM Output Expectation:</h5>
+                                    <p>{{ result.llm_output_expectation }}</p>
+                                    <h5>Individual Test Runs:</h5>
+                                    <p><strong>Tool output</strong>, <strong>Agent output</strong> and <strong>Agent
+                                        trace</strong> are truncated for brevity. The full contents are
+                                        available at:
+                                        <a href="./results.json" target="_blank">Raw results</a></p>
+                                    <div class="accordion"
+                                         id="run-results-{{ loop.index }}-{{ result_loop.index }}">
+                                        {% for test in result.individual_run_test_results %}
+                                        {% set test_loop = loop %}
+                                        {% set highlight = 'text-danger' if not result.tool_arguments_inconsistency and
+                                        not
+                                        result.tool_output_inconsistency and test.unexpected_agent_output < 5 else '' %}
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header"
+                                                id="run-heading-{{ loop.index }}-{{ result_loop.index }}-{{ test_loop.index }}">
+                                                <button class="accordion-button collapsed  {{ highlight }} d-flex"
+                                                        type="button"
+                                                        data-bs-toggle="collapse"
+                                                        data-bs-target="#run-collapse-{{ loop.index }}-{{ result_loop.index }}-{{ test_loop.index }}"
+                                                        aria-expanded="false"
+                                                        aria-controls="run-collapse-{{ loop.index }}-{{ result_loop.index }}-{{ test_loop.index }}">
+                                                    <span class="text-dark">
+                                                        {% if test.input_bucket == -1 %}
+                                                            <span class="badge bg-danger"
+                                                                  data-toggle="tooltip" data-placement="top"
+                                                                  title="No tool invocation was found: X">
+                                                            <i class="bi bi-box-arrow-in-right"></i>
+                                                            <i class="bi bi-x-lg"></i>
+                                                        </span>
+                                                        {% else %}
+                                                            <span class="badge bg-{{ test.input_bucket_color }}"
+                                                                  data-toggle="tooltip" data-placement="top"
+                                                                  title="The input group of this prompt is: {{ test.input_bucket }}">
+                                                            <i class="bi bi-box-arrow-in-right"></i> {{ test.input_bucket }}
+                                                            </span>
+                                                        {% endif %}
+                                                            </span>
+                                                    <span class="flex-grow-1 text-center">{{ test.prompt }}</span>
+                                                    <span class="text-dark">
+                                                            {% if test.output_bucket == -1 %}
+                                                                <span class="badge bg-danger"
+                                                                      data-toggle="tooltip" data-placement="top"
+                                                                      title="No tool invocation was found: X">
+                                                                <i class="bi bi-x-lg"></i>
+                                                                <i class="bi bi-box-arrow-right"></i>
+                                                            </span>
+                                                            {% else %}
+                                                                <span class="badge bg-{{ test.output_bucket_color }}"
+                                                                      data-toggle="tooltip" data-placement="top"
+                                                                      title="The output group of this prompt is: {{ test.input_bucket }}">
+                                                                {{ test.output_bucket }} <i
+                                                                        class="bi bi-box-arrow-right"></i>
+                                                                </span>
+                                                            {% endif %}
+                                                            </span>
+                                                </button>
+                                            </h2>
+                                            <div id="run-collapse-{{ loop.index }}-{{ result_loop.index }}-{{ test_loop.index }}"
+                                                 class="accordion-collapse collapse"
+                                                 aria-labelledby="run-heading-{{ loop.index }}-{{ result_loop.index }}-{{ test_loop.index }}"
+                                                 data-bs-parent="#run-results-{{ loop.index }}-{{ result_loop.index }}-{{ test_loop.index }}">
+                                                <div class="accordion-body">
+                                                    <ul class="list-group list-group-flush">
+                                                        <!-- Input Bucket -->
+                                                        <li class="list-group-item">
+                                                            {% if test.input_bucket == -1 %}
+                                                            <span class="badge bg-danger"
+                                                                  data-toggle="tooltip"
+                                                                  data-placement="top"
+                                                                  title="No tool invocation was found: X">
+                                                                                <i class="bi bi-box-arrow-in-right"></i> <i
+                                                                    class="bi bi-x-lg"></i>
+                                                                            </span>
+                                                            {% else %}
+                                                            <span class="badge bg-{{ test.input_bucket_color }}"
+                                                                  data-toggle="tooltip"
+                                                                  data-placement="top"
+                                                                  title="The input group of this prompt is: {{ test.input_bucket }}">
+                                                                                <i class="bi bi-box-arrow-in-right"></i> {{ test.input_bucket }}
+                                                                            </span>
+                                                            {% endif %}
+                                                            <strong class="ms-2">Input arguments for tool
+                                                                invocation:</strong> {{ test.tool_arguments }}
+                                                        </li>
+
+                                                        <!-- Output Bucket -->
+                                                        <li class="list-group-item">
+                                                            {% if test.output_bucket == -1 %}
+                                                            <span class="badge bg-danger"
+                                                                  data-toggle="tooltip"
+                                                                  data-placement="top"
+                                                                  title="No tool invocation was found: X">
+                                                                                <i class="bi bi-x-lg"></i> <i
+                                                                    class="bi bi-box-arrow-right"></i>
+                                                                            </span>
+                                                            {% else %}
+                                                            <span class="badge bg-{{ test.output_bucket_color }}"
+                                                                  data-toggle="tooltip"
+                                                                  data-placement="top"
+                                                                  title="The output group of this prompt is: {{ test.output_bucket }}">
+                                                                                {{ test.output_bucket }} <i
+                                                                    class="bi bi-box-arrow-right"></i>
+                                                                            </span>
+                                                            {% endif %}
+                                                            <strong class="ms-2">Tool Output:</strong>
+
+                                                            <pre id="toolOutputCollapse{{ loop.index }}-{{ result_loop.index }}-{{ test_loop.index }}"
+                                                                 class="json-preview bg-light p-2 border rounded"
+                                                                 data-collapsed="true"
+                                                                 style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">{{ test.tool_output | safe }}</pre>
+                                                            <button class="btn btn-link btn-sm"
+                                                                    type="button"
+                                                                    onclick="toggleJSON('toolOutputCollapse{{ loop.index }}-{{ result_loop.index }}-{{ test_loop.index }}', this)">
+                                                                Expand
+                                                            </button>
+                                                        </li>
+
+                                                        <!-- Agent Output -->
+                                                        <li class="list-group-item">
+                                                            <strong>Agent Output:</strong>
+
+                                                            <pre id="agentOutputCollapse{{ loop.index }}-{{ result_loop.index }}-{{ test_loop.index }}"
+                                                                 class="json-preview bg-light p-2 border rounded"
+                                                                 data-collapsed="true"
+                                                                 style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">{{ test.agent_output | safe }}</pre>
+                                                            <button class="btn btn-link btn-sm"
+                                                                    type="button"
+                                                                    onclick="toggleJSON('agentOutputCollapse{{ loop.index }}-{{ result_loop.index }}-{{ test_loop.index }}', this)">
+                                                                Expand
+                                                            </button>
+                                                        </li>
+
+                                                        <!-- Observed Tool Failure -->
+                                                        <li class="list-group-item">
+                                                            <strong>Observed Runtime Tool
+                                                                Failure:</strong> {{ test.tool_failure }}
+                                                        </li>
+
+                                                        <!-- LLM Oracle Score -->
+                                                        <li class="list-group-item">
+                                                            <strong>LLM Oracle relevancy
+                                                                score:</strong> {{ test.llm_agent_out_reason }}.
+                                                            {% set llm_eval = 'text-danger' if
+                                                            test.unexpected_agent_output < 5 else '' %}
+                                                            <strong class="{{ llm_eval }}">Score: {{
+                                                                test.unexpected_agent_output }}</strong>
+                                                        </li>
+
+                                                        <!-- Trace -->
+                                                        <li class="list-group-item">
+                                                            <strong>Trace:</strong>
+
+                                                            <pre id="traceCollapse{{ loop.index }}-{{ result_loop.index }}-{{ test_loop.index }}"
+                                                                 class="json-preview bg-light p-2 border rounded"
+                                                                 data-collapsed="true"
+                                                                 style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">{{ test.trace | safe }}</pre>
+                                                            <button class="btn btn-link btn-sm"
+                                                                    type="button"
+                                                                    onclick="toggleJSON('traceCollapse{{ loop.index }}-{{ result_loop.index }}-{{ test_loop.index }}', this)">
+                                                                Expand
+                                                            </button>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        {% endfor %}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+<script>
+    function toggleJSON(id, btn) {
+        let preTag = document.getElementById(id);
+        let isCollapsed = preTag.getAttribute("data-collapsed") === "true";
+
+        if (isCollapsed) {
+            preTag.style.whiteSpace = "pre-wrap";  // Expand to multiline
+            preTag.style.overflow = "visible";
+            btn.innerText = "Collapse";  // Change button text
+            preTag.setAttribute("data-collapsed", "false");
+        } else {
+            preTag.style.whiteSpace = "nowrap";  // Collapse to single line
+            preTag.style.overflow = "hidden";
+            btn.innerText = "Expand";  // Change button text
+            preTag.setAttribute("data-collapsed", "true");
+        }
+    }
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

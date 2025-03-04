@@ -1,0 +1,1 @@
+Execute shell commands on this Linux machine. Provide absolute paths and well-defined commands. Avoid relative paths and ambiguous terms. Validate path existence. Example: {'commands':['ls /full/path/to/directory']}. The tool can be invoked multiple times to check filesystem changes.

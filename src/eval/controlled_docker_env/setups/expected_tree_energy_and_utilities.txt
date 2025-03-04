@@ -1,0 +1,112 @@
+├── archive
+│   ├── projects
+│   │   ├── archived_project_A_2021.zip
+│   │   └── archived_project_B_2021.zip
+│   ├── reports
+│   │   ├── archived_annual_report_2021.pdf
+│   │   └── archived_monthly_report_2021.pdf
+│   └── templates
+│       ├── old_energy_audit_template.docx
+│       └── old_utility_plan_template.xlsx
+├── projects
+│   ├── project_A
+│   │   ├── 2023
+│   │   │   ├── energy_audit
+│   │   │   │   ├── energy_audit_report.pdf
+│   │   │   │   └── energy_audit_data.csv
+│   │   │   ├── utility_plan
+│   │   │   │   ├── utility_plan_report.pdf
+│   │   │   │   └── utility_plan_data.csv
+│   │   │   └── compliance
+│   │   │       ├── Q1
+│   │   │       │   ├── compliance_report.pdf
+│   │   │       │   └── compliance_data.csv
+│   │   │       ├── Q2
+│   │   │       │   ├── compliance_report.pdf
+│   │   │       │   └── compliance_data.csv
+│   │   │       ├── Q3
+│   │   │       │   ├── compliance_report.pdf
+│   │   │       │   └── compliance_data.csv
+│   │   │       └── Q4
+│   │   │           ├── compliance_report.pdf
+│   │   │           └── compliance_data.csv
+│   │   └── 2024
+│   │       ├── energy_audit
+│   │       │   ├── energy_audit_report.pdf
+│   │       │   └── energy_audit_data.csv
+│   │       ├── utility_plan
+│   │       │   ├── utility_plan_report.pdf
+│   │       │   └── utility_plan_data.csv
+│   │       └── compliance
+│   │           ├── Q1
+│   │           │   ├── compliance_report.pdf
+│   │           │   └── compliance_data.csv
+│   │           ├── Q2
+│   │           │   ├── compliance_report.pdf
+│   │           │   └── compliance_data.csv
+│   │           ├── Q3
+│   │           │   ├── compliance_report.pdf
+│   │           │   └── compliance_data.csv
+│   │           └── Q4
+│   │               ├── compliance_report.pdf
+│   │               └── compliance_data.csv
+│   └── project_B
+│       ├── 2023
+│       │   ├── energy_audit
+│       │   │   ├── energy_audit_report.pdf
+│       │   │   └── energy_audit_data.csv
+│       │   ├── utility_plan
+│       │   │   ├── utility_plan_report.pdf
+│       │   │   └── utility_plan_data.csv
+│       │   └── compliance
+│       │       ├── Q1
+│       │       │   ├── compliance_report.pdf
+│       │       │   └── compliance_data.csv
+│       │       ├── Q2
+│       │       │   ├── compliance_report.pdf
+│       │       │   └── compliance_data.csv
+│       │       ├── Q3
+│       │       │   ├── compliance_report.pdf
+│       │       │   └── compliance_data.csv
+│       │       └── Q4
+│       │           ├── compliance_report.pdf
+│       │           └── compliance_data.csv
+│       └── 2024
+│           ├── energy_audit
+│           │   ├── energy_audit_report.pdf
+│           │   └── energy_audit_data.csv
+│           ├── utility_plan
+│           │   ├── utility_plan_report.pdf
+│           │   └── utility_plan_data.csv
+│           └── compliance
+│               ├── Q1
+│               │   ├── compliance_report.pdf
+│               │   └── compliance_data.csv
+│               ├── Q2
+│               │   ├── compliance_report.pdf
+│               │   └── compliance_data.csv
+│               ├── Q3
+│               │   ├── compliance_report.pdf
+│               │   └── compliance_data.csv
+│               └── Q4
+│                   ├── compliance_report.pdf
+│                   └── compliance_data.csv
+├── reports
+│   ├── annual_reports
+│   │   └── annual_report_2023.pdf
+│   ├── monthly_reports
+│   │   ├── february_2023.pdf
+│   │   └── january_2023.pdf
+│   └── quarterly_reports
+│       ├── Q1_report_2023.pdf
+│       └── Q2_report_2023.pdf
+└── templates
+   ├── energy_audit_templates
+   │   ├── advanced_energy_audit_template.docx
+   │   └── basic_energy_audit_template.docx
+   ├── utility_plan_templates
+   │   ├── monthly_utility_plan_template.xlsx
+   │   └── weekly_utility_plan_template.xlsx
+   └── compliance_templates
+       ├── corporate_compliance_template.docx
+       └── standard_compliance_template.docx

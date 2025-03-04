@@ -1,0 +1,52 @@
+[
+    {
+        "task": "Add a comment to an issue regarding the security breach found in dependencies.",
+        "user_prompt": "Please add a comment to issue #1 with the following message: 'Thank you for reporting the security breach. We are currently investigating the issue and will update you as soon as we have more information.'",
+        "code_snippet": "repo.add_comment(issue_number=1, comment='Thank you for reporting the security breach. We are currently investigating the issue and will update you as soon as we have more information.'); assert len(repo.list_comments(1)) == 1"
+    },
+    {
+        "task": "Add a comment to the issue regarding the security breach in dependencies.",
+        "user_prompt": "Please add a comment to issue #1 acknowledging the security breach and informing that the team is working on a fix.",
+        "code_snippet": "repo.add_comment(issue_number=1, comment='Thank you for reporting this security breach. Our team is currently investigating and will work on a fix shortly.'); assert len(repo.list_comments(1)) > 0"
+    },
+    {
+        "task": "Add a comment to the issue regarding the security breach found in dependencies.",
+        "user_prompt": "Please add a comment to issue #1 acknowledging the security breach and stating that the issue will be addressed promptly.",
+        "code_snippet": "assert len(repo.list_comments(1)) == 1"
+    },
+    {
+        "task": "Add a comment to the issue #2 regarding the documentation request.",
+        "user_prompt": "Please add a comment to issue #2 acknowledging the request for documentation and stating that it will be prioritized in the next sprint.",
+        "code_snippet": "repo.list_comments(2).append('We acknowledge your request for documentation. It will be prioritized in the next sprint.'); assert len(repo.list_comments(2)) > 0"
+    },
+    {
+        "task": "Add a comment to the issue about the security breach in dependencies.",
+        "user_prompt": "Please add a comment to issue #1 acknowledging the security breach in the dependencies and stating that it will be addressed in the next update.",
+        "code_snippet": "repo.add_comment(issue_number=1, comment='Acknowledged the security breach. We are working on a fix that will be included in the next update.'); assert len(repo.list_comments(1)) > 0"
+    },
+    {
+        "task": "Add a comment to the issue regarding the security breach found in dependencies.",
+        "user_prompt": "Please add a comment to issue #1 stating that the security team is currently investigating the dependency breach and will provide an update soon.",
+        "code_snippet": "assert len(repo.list_comments(1)) > 0"
+    },
+    {
+        "task": "Add a comment to the existing issue #2 about the progress on documentation.",
+        "user_prompt": "Please fetch the details of issue #2 and add a comment stating that the documentation is currently being written and will be released by the end of the month.",
+        "code_snippet": "repo.add_comment(issue_number=2, comment='The documentation is currently being written and will be released by the end of the month.'); assert len(repo.list_comments(2)) > 0"
+    },
+    {
+        "task": "Add a comment to issue #2 requesting a documentation update.",
+        "user_prompt": "Please add a comment to issue number 2 requesting an update on the documentation release timeline.",
+        "code_snippet": "repo.list_comments(2).append('Could you please update us on when the documentation will be released?'); assert len(repo.list_comments(2)) == 1"
+    },
+    {
+        "task": "Add a comment to an issue about the security breach found in dependencies.",
+        "user_prompt": "Please add a comment to issue #1 acknowledging the security breach and state that the team is working on resolving it.",
+        "code_snippet": "repo.add_comment(issue_number=1, comment='Thank you for reporting the security breach. Our team is currently investigating the issue and will address it promptly.')\nassert len(repo.list_comments(1)) > 0"
+    },
+    {
+        "task": "Add a comment to issue #2 regarding the documentation request.",
+        "user_prompt": "Please add a comment to issue #2 stating that the documentation is currently under development and will be released in the next update.",
+        "code_snippet": "repo.add_comment(issue_number=2, comment='The documentation is currently under development and will be released in the next update.')\nassert len(repo.list_comments(2)) > 0"
+    }
+]

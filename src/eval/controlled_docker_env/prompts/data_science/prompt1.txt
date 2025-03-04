@@ -1,0 +1,1 @@
+Copy the cleaned transaction data to the data analysis folder

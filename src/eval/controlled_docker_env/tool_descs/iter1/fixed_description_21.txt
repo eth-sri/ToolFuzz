@@ -1,0 +1,1 @@
+Run valid shell commands on Linux. Specify absolute paths, differentiate files and directories, and use correct syntax. Validate paths exist before execution. Commands can be invoked multiple times for system validation. Examples: 'ls /path/to/dir', 'cat /path/to/file'.

@@ -1,0 +1,1 @@
+Run shell commands with absolute paths and explicit file operations on this Linux machine. Ensure directories exist and files are accessible. Use clear, descriptive prompts. Validate paths and permissions before execution. Commands can be invoked multiple times to verify the file system state.

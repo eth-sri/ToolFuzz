@@ -1,0 +1,65 @@
+├── 01_Projects
+│   ├── 01_Project_A
+│   │   ├── 01_Design
+│   │   │   ├── blueprints
+│   │   │   │   ├── blueprint_v1.pdf
+│   │   │   │   └── blueprint_v2.pdf
+│   │   │   ├── 3D_Models
+│   │   │   │   ├── model_v1.skp
+│   │   │   │   └── model_v2.skp
+│   │   │   └── Renderings
+│   │   │       ├── rendering_v1.jpg
+│   │   │       └── rendering_v2.jpg
+│   │   ├── 02_Construction
+│   │   │   ├── construction_schedule.xlsx
+│   │   │   ├── permits.pdf
+│   │   │   └── safety_reports
+│   │   │       ├── safety_report_jan.pdf
+│   │   │       └── safety_report_feb.pdf
+│   │   └── 03_Post_Construction
+│   │       ├── final_inspection.pdf
+│   │       └── project_photos
+│   │           ├── photo1.jpg
+│   │           └── photo2.jpg
+│   └── 02_Project_B
+│       ├── 01_Design
+│       │   ├── blueprints
+│       │   │   ├── blueprint_v1.pdf
+│       │   │   └── blueprint_v2.pdf
+│       │   ├── 3D_Models
+│       │   │   ├── model_v1.skp
+│       │   │   └── model_v2.skp
+│       │   └── Renderings
+│       │       ├── rendering_v1.jpg
+│       │       └── rendering_v2.jpg
+│       ├── 02_Construction
+│       │   ├── construction_schedule.xlsx
+│       │   ├── permits.pdf
+│       │   └── safety_reports
+│       │       ├── safety_report_jan.pdf
+│       │       └── safety_report_feb.pdf
+│       └── 03_Post_Construction
+│           ├── final_inspection.pdf
+│           └── project_photos
+│               ├── photo1.jpg
+│               └── photo2.jpg
+├── 02_Archives
+│   ├── old_projects
+│   │   ├── project_C.zip
+│   │   └── project_D.zip
+│   └── old_blueprints
+│       ├── blueprint_C.pdf
+│       └── blueprint_D.pdf
+├── 03_Templates
+│   ├── blueprint_template.dwg
+│   └── 3D_model_template.skp
+└── 04_Documents
+    ├── contracts
+    │   ├── contract_A.pdf
+    │   └── contract_B.pdf
+    ├── invoices
+    │   ├── invoice_A.pdf
+    │   └── invoice_B.pdf
+    └── meeting_notes
+        ├── meeting_notes_jan.docx
+        └── meeting_notes_feb.docx

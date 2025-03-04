@@ -1,0 +1,1 @@
+Terminal: Execute precise shell commands on this Linux machine. Use valid syntax and paths. Commands: ['rm <path>', 'mv <source> <destination>', 'grep -r <pattern> <directory>', 'ls <directory>', 'cat <file>']. Validate file paths and command structure. Invoke multiple times for filesystem state checks. E.g., 'rm 01_Projects/utils.py' or 'grep -r method 01_Projects/Code'.

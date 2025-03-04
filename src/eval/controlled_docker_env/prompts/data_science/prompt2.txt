@@ -1,0 +1,1 @@
+Delete the old customer model from the archive

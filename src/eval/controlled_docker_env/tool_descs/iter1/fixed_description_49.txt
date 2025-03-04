@@ -1,0 +1,1 @@
+Execute valid shell commands on Linux. Ensure commands have correct structure and valid paths. Use full paths for files and directories. Validate existence and avoid ambiguous inputs. Tool can be invoked multiple times for verifying file system states.

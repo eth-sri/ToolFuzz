@@ -1,0 +1,1 @@
+Copy the character model to the Assets folder

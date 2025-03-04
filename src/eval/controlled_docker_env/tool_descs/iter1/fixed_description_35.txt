@@ -1,0 +1,1 @@
+Run valid shell commands on this Linux machine. Ensure paths exist and commands are formatted correctly. Supported actions include file operations and directory listings. Validate file system state across invocations for consistency. Example: {'commands': ['ls /path/to/directory']}.

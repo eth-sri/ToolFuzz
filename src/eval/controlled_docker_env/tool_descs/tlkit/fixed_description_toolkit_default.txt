@@ -1,0 +1,7 @@
+copy_file:Create a copy of a file in a specified location
+file_delete:Delete a file
+file_search:Recursively search for files in a subdirectory that match the regex pattern
+move_file:Move or rename a file from one location to another
+read_file:Read file from disk
+write_file:Write file to disk
+list_directory:List files and directories in a specified folder

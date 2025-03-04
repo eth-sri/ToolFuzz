@@ -1,0 +1,91 @@
+├── 01_PreProduction
+│   ├── 01_Concepts
+│   │   ├── Logo_Designs
+│   │   │   ├── logo_sketch_v1.jpg
+│   │   │   └── logo_sketch_v2.jpg
+│   │   ├── Poster_Designs
+│   │   │   └── poster_sketch_v1.jpg
+│   │   └── Styleframes
+│   │       └── styleframe_concept.jpg
+│   ├── 02_Script
+│   │   ├── Drafts
+│   │   │   └── script_draft.txt
+│   │   └── Final
+│   │       └── final_script.txt
+│   ├── 03_Storyboards
+│   │   └── storyboard_scene1.jpg
+│   ├── 04_Animatic
+│   │   └── animatic_v1.mp4
+│   └── 05_References
+│       └── reference_image.jpg
+├── 02_Production
+│   ├── 01_Modeling
+│   │   ├── Characters
+│   │   │   └── character_model_v1.obj
+│   │   └── Environments
+│   │       └── environment_model_v1.obj
+│   ├── 02_Texturing
+│   │   ├── Characters
+│   │   │   └── character_texture_v1.png
+│   │   └── Environments
+│   │       └── environment_texture_v1.png
+│   ├── 03_Rigging
+│   │   ├── Characters
+│   │   │   └── character_rig_v1.blend
+│   │   └── Props
+│   │       └── prop_rig_v1.blend
+│   ├── 04_Animation
+│   │   ├── Blocking
+│   │   │   └── blocking_scene1_v1.mov
+│   │   ├── Final
+│   │   │   └── final_animation_scene1.mov
+│   │   └── Rough
+│   │       └── rough_animation_scene1_v1.mov
+│   ├── 05_Lighting
+│   │   └── lighting_setup_scene1.blend
+│   ├── 06_Effects
+│   │   └── effects_scene1_v1.blend
+│   └── 07_Rendering
+│       ├── Comps
+│       │   └── scene1_comp_v1.psd
+│       └── Render_Layers
+│           └── scene1_layer1.exr
+├── 03_PostProduction
+│   ├── 01_Compositing
+│   │   └── scene1_composite_v1.exr
+│   ├── 02_Color_Grading
+│   │   └── scene1_color_grade_v1.dpx
+│   ├── 03_Sound_Design
+│   │   ├── Foley
+│   │   │   └── footsteps_foley.wav
+│   │   └── Music
+│   │       └── background_music.mp3
+│   ├── 04_VFX
+│   │   └── scene1_vfx_v1.mov
+│   └── 05_Final_Output
+│       └── final_output.mp4
+├── 04_Assets
+│   ├── Backgrounds
+│   │   └── background_image.jpg
+│   ├── Characters
+│   │   └── character_asset.obj
+│   ├── Props
+│   │   └── prop_asset.obj
+│   └── Textures
+│       └── wood_texture.png
+├── 05_Documents
+│   ├── Budget
+│   │   └── budget_plan.xlsx
+│   ├── Deliverables
+│   │   └── deliverables_checklist.txt
+│   ├── Production_Schedule
+│   │   └── schedule.xlsx
+│   └── Project_Notes
+│       └── meeting_notes.txt
+└── 06_Renders
+    ├── Archive
+    │   └── scene1_old_render.mp4
+    ├── Final
+    │   └── scene1_final_render.mp4
+    └── Previews
+        └── scene1_preview.mp4

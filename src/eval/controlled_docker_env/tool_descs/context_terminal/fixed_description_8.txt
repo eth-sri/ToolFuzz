@@ -1,0 +1,1 @@
+Terminal: Execute shell commands on this Linux machine. Use precise, relative paths and correct command syntax. Validate paths and commands before execution. This tool can be invoked multiple times to verify file system state. Examples: 'rm path/to/file', 'ls directory', 'mv source destination'.

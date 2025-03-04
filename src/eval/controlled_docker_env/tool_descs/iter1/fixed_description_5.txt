@@ -1,0 +1,1 @@
+Run precise shell commands on Linux. Ensure paths are correct and distinguish files from directories. Commands must be shell-syntax compliant. Validate file/directory existence before executing. Example: {'commands': 'ls /path/to/directory'}. Run multiple times to assess file system state.

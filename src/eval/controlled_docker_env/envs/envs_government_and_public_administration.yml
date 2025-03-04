@@ -1,0 +1,21 @@
+environments:
+- ground_truth_directory: 
+    ./ground_truths/setup_government_and_public_administration/government_and_public_administration_1
+  prompt_file: ./prompts/government_and_public_administration/prompt1.txt
+  setup_file: ./setups/setup_government_and_public_administration.sh
+- ground_truth_directory: 
+    ./ground_truths/setup_government_and_public_administration/government_and_public_administration_4
+  prompt_file: ./prompts/government_and_public_administration/prompt4.txt
+  setup_file: ./setups/setup_government_and_public_administration.sh
+- ground_truth_directory: 
+    ./ground_truths/setup_government_and_public_administration/government_and_public_administration_0
+  prompt_file: ./prompts/government_and_public_administration/prompt0.txt
+  setup_file: ./setups/setup_government_and_public_administration.sh
+- ground_truth_directory: 
+    ./ground_truths/setup_government_and_public_administration/government_and_public_administration_3
+  prompt_file: ./prompts/government_and_public_administration/prompt3.txt
+  setup_file: ./setups/setup_government_and_public_administration.sh
+- ground_truth_directory: 
+    ./ground_truths/setup_government_and_public_administration/government_and_public_administration_2
+  prompt_file: ./prompts/government_and_public_administration/prompt2.txt
+  setup_file: ./setups/setup_government_and_public_administration.sh
